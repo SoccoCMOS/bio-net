@@ -65,11 +65,32 @@ for (i in p){
 
   
   densities[cpt]=graph.density(g)
-  edges[cpt]=len(graph.edgelist())
-  edges[cpt]=E(g)$number
+  nodes[cpt]=vcount(g)
+  edges[cpt]=ecount(g)
   
   cpt<-cpt+1
 }
 
 densities
 
+par(mfrow=c(2,2))
+plot(densities~p)
+plot(nodes~p)
+plot(edges~p)
+
+edges2 <- edges[2:length(edges)]-edges[1:(length(edges)-1)]
+plot(edges2~p[-197])
+
+##### Règle de décision sur le choix de p TODO ######
+p=0.5
+
+#########################################################
+
+SBM_adj_filt <- as.data.frame(ifelse(SBM_adj > p , 1, 0))
+
+condition <- as.data.frame(rowSums(SBM_adj_filt))
+condition$colSums <- colSums(SBM_adj_filt)
+condition$cond <- rowSums(condition)
+
+SBM_adj_filt <- SBM_adj_filt[condition$cond  > 0, condition$cond > 0]
+write.csv2(SBM_adj_filt,"filtered_sbm_adj_mat.csv")
