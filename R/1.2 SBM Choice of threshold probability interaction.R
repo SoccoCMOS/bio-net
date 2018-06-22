@@ -16,19 +16,21 @@
 
 # -----------------------------------------------------------------------------
 # LIBRARIES:
-library()
+library(igraph)
+library(reshape)
+library(ggplot2)
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Working directory
-setwd("C:/1. Mike/5. RH/1. Stagiaire/18_Labouyrie Maeva/v2/bio-net/Data")
+setwd("../data")
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # data load
 # -----------------------------------------------------------------------------
-SBM_Gauss_adj <- read.csv2("SBM_Gauss_adj.csv", h = T, sep =";")
-SBM_Bern_adj <- read.csv2("SBM_Bern_adj.csv", h = T, sep =";")
+
+SBM_adj0 <- read.csv2("adjgroups.csv", h = T, sep =";")
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
@@ -38,9 +40,36 @@ SBM_Bern_adj <- read.csv2("SBM_Bern_adj.csv", h = T, sep =";")
 
 
 # keeping interactions with p > 0.01
-SBM_edges <- melt(SBM_adj)
-SBM_edges <- SBM_edges[SBM_edges$value>0.01,]
-SBM_adj   <- dcast(SBM_edges, Var1~Var2, sum)
+p <- seq(0.005,0.995,by=0.005)
 
-#représentation + test stat?
+densities<-vector(mode="integer",length=length(p))
+edges<-vector(mode="integer",length=length(p))
+nodes<-vector(mode="integer",length=length(p))
+
+SBM_adj <- SBM_adj0[,-1]
+
+cpt=1
+for (i in p){
+  
+  SBM_adj_filt <- as.data.frame(ifelse(SBM_adj > i , 1, 0))
+  
+  condition <- as.data.frame(rowSums(SBM_adj_filt))
+  condition$colSums <- colSums(SBM_adj_filt)
+  condition$cond <- rowSums(condition)
+  
+  SBM_adj_filt <- SBM_adj_filt[condition$cond  > 0, condition$cond > 0]
+  
+  
+  # Creation du graphe
+  g<-graph.adjacency(as.matrix(SBM_adj_filt))
+
+  
+  densities[cpt]=graph.density(g)
+  edges[cpt]=len(graph.edgelist())
+  edges[cpt]=E(g)$number
+  
+  cpt<-cpt+1
+}
+
+densities
 
