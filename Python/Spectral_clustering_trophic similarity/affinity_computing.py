@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import binarize
 
-adjw=pd.read_csv("../data/adjacence_esp.csv",sep=";",decimal=".",index_col=0)
+adjw=pd.read_csv("../../data/adjacence_esp.csv",sep=";",decimal=".",index_col=0)
 
 adj=pd.DataFrame(data=binarize(adjw,threshold=0.0,copy=False),columns=list(adjw.columns))
 adj["esp"]=adjw.index
@@ -31,13 +31,13 @@ filt=filt.drop(isol,axis=0)
 Ri=cosine_similarity(filt,filt)
 dfi=pd.DataFrame(data=Ri,columns=filt.columns)
 
-dfi.to_csv("../data/in_simil.csv",sep=";",decimal=".")
+dfi.to_csv("../../data/in_simil.csv",sep=";",decimal=".")
 
 ## Predator/Consumer similarity
 Ro=cosine_similarity(filt.transpose(),filt.transpose())
 dfo=pd.DataFrame(data=Ro,columns=filt.columns)
 
-dfo.to_csv("../data/out_simil.csv",sep=";",decimal=".")
+dfo.to_csv("../../data/out_simil.csv",sep=";",decimal=".")
 
 df=(dfi+dfo)/2  ### Aggregating in/out trophic similarities => average trophic similarity 
 #df.to_csv("../data/simil.csv",sep=";",decimal=".")
@@ -47,4 +47,4 @@ for i in range(0,len(df)):
     df.iloc[i,i]=1
 
 
-df.to_csv("../data/simil_forced.csv",sep=";",decimal=".",index=True)
+df.to_csv("../../data/simil_forced.csv",sep=";",decimal=".",index=True)

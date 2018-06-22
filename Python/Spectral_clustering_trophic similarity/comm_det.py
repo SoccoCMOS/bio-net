@@ -6,7 +6,7 @@ from sklearn.cluster import SpectralClustering
 
 ### Read affinity matrix
 
-aff_mat=pd.read_csv("../data/simil_forced.csv",sep=";",decimal=".",index_col=0)
+aff_mat=pd.read_csv("../../data/simil_forced.csv",sep=";",decimal=".",index_col=0)
 
 n=15 ### Number of clusters
 
@@ -19,4 +19,4 @@ labels=spectral.fit_predict(aff_mat)
 data=[pd.Series(aff_mat.columns,name="SPEC"),pd.Series(labels,name="LABEL")]
 comm_assign=pd.concat(data,axis=1)
 
-comm_assign.to_csv("../data/"+str(n)+"_communities.csv",sep=";",decimal=".",index=False)
+comm_assign.to_csv("../../data/"+str(n)+"_communities.csv",sep=";",decimal=".",index=False)
