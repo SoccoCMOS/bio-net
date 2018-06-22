@@ -415,18 +415,18 @@ Pred4::Carabidae;Pred4::Chilopode;trophic
 Parasitic::Entomopath;Pred4::Chilopode;parasitic
 Parasitic::Entomopath;Pred4::Robertus;parasitic
 Lignotroph::Fungi;Resource::Decaying_wood;trophic
-Fungi::Saprotroph;Resource::Decaying_wood;trophic
+Saprotroph::Fungi;Resource::Decaying_wood;trophic
 Miners::Bacterie;Resource::Decaying_wood;trophic
-unknown::Bacterie;Resource::Decaying_wood;trophic
+Unknown::Bacterie;Resource::Decaying_wood;trophic
 Coprophage::Insect;Resource::Dung;trophic
 Coprotroph::Ascomycota;Resource::Dung;trophic
 Coprotroph::Basidiomycota;Resource::Dung;trophic
 Saprotoph::Zoopagales;Resource::Dung;trophic
 Decomposers::Bacterie;Resource::Dung;trophic
 Decomposers::Archae;Resource::Dung;trophic
-Fungi::Saprotroph;Resource::Dung;trophic
+Saprotroph::Fungi;Resource::Dung;trophic
 Opportunists::Bacterie;Resource::Dung;trophic
-unknown::Bacterie;Resource::Dung;trophic
+Unknown::Bacterie;Resource::Dung;trophic
 Non.selective::Forficulidae;Resource::Litter;trophic
 Saprofungivore::Collembole;Resource::Litter;trophic
 Saprophage::Diplopode;Resource::Litter;trophic
@@ -439,9 +439,9 @@ Saprotroph::Fungi;Resource::Litter;trophic
 Saprotroph::Multiclavula ;Resource::Litter;trophic
 Decomposers::Bacterie;Resource::Litter;trophic
 Decomposers::Archae;Resource::Litter;trophic
-Fungi::Saprotroph;Resource::Litter;trophic
+Saprotroph::Fungi;Resource::Litter;trophic
 Opportunists::Bacterie;Resource::Litter;trophic
-unknown::Bacterie;Resource::Litter;trophic
+Unknown::Bacterie;Resource::Litter;trophic
 Geophageous::Lumb;Resource::MOS;trophic
 Saprogeophageous::Lumb;Resource::MOS;trophic
 Saprotoph::Zoopagales;Resource::MOS;trophic
@@ -450,10 +450,10 @@ Saprotroph::Endogone.lactiflua;Resource::MOS;trophic
 Saprotroph::Chytridium;Resource::MOS;trophic
 Decomposers::Bacterie;Resource::MOS;trophic
 Decomposers::Archae;Resource::MOS;trophic
-Fungi::Saprotroph;Resource::MOS;trophic
+Saprotroph::Fungi;Resource::MOS;trophic
 Miners::Bacterie;Resource::MOS;trophic
 Opportunists::Bacterie;Resource::MOS;trophic
-unknown::Bacterie;Resource::MOS;trophic
+Unknown::Bacterie;Resource::MOS;trophic
 Pred3::Mesostigmata;Saprofungivore::Collembole;trophic
 Pred3::Pseudosc;Saprofungivore::Collembole;trophic
 Pred4::Chilopode;Saprofungivore::Collembole;trophic
@@ -484,10 +484,10 @@ Pred3::Mesostigmata;Saprophageous::Enchy;trophic
 Pred3::Pseudosc;Saprophageous::Enchy;trophic
 Pred4::Chilopode;Saprophageous::Enchy;trophic
 Pred4::Robertus;Saprophageous::Enchy;trophic
-Parasitic::Anoplophrya;Saprophageous::Lumb;parasitic
-Parasitic::Glossiphoniidae;Saprophageous::Lumb;parasitic
-Parasitic::Monocystis;Saprophageous::Lumb;parasitic
-Pred4::Chilopode;Saprophageous::Lumb;trophic
+Parasitic::Anoplophrya;Saprogeophageous::Lumb;parasitic
+Parasitic::Glossiphoniidae;Saprogeophageous::Lumb;parasitic
+Parasitic::Monocystis;Saprogeophageous::Lumb;parasitic
+Pred4::Chilopode;Saprogeophageous::Lumb;trophic
 Fungivorous::Astigmata;Saprotoph::Zoopagales;trophic
 Fungivorous::Insect;Saprotoph::Zoopagales;trophic
 Fungivorous::Nematode;Saprotoph::Zoopagales;trophic
@@ -564,14 +564,6 @@ Phytophage::Otiorhynchus ;Phototroph::Caryophyllaceae;trophic
 Parasitic::Phoma;Phototroph::Caryophyllaceae;trophic
 Parasitic::Itersonilia;Phototroph::Caryophyllaceae;trophic
 Parasitic::Chondrostereum;Phototroph::Caryophyllaceae;trophic
-Parasitic::Alternaria;NA;parasitic
-Parasitic::Cochlonema;NA;parasitic
-Parasitic::Coniobolus;NA;parasitic
-Parasitic::Malassezia;NA;parasitic
-Parasitic::Pythium;NA;parasitic
-Parasitic::Synchitrium;NA;parasitic
-Parasitic::Syncistis (parasite d'Aeschne … insecte…);NA;parasitic
-Phytophage::Aphis;NA;parasitic
 Saprotroph::Sistronema;Resource::Decaying_wood;trophic
 Saprotroph::Sistronema;Resource::Dung;trophic
 Saprotroph::Sistronema;Resource::Litter;trophic

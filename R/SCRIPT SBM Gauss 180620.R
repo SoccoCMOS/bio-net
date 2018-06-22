@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------
 # PROJECT:
-#    Linking soil foodweb and soil functions dynamics under
+#    BISE : Linking soil foodweb and soil functions dynamics under
 #    agricultural practices (des)intensification and different input levels
 # -----------------------------------------------------------------------------
 
@@ -32,70 +32,6 @@ library(dplyr)
 setwd("J:/PROJET RECONSTRUCTION DE RESEAUX/TEST MATRICE TUTEUR/Script 21062018")
 # -----------------------------------------------------------------------------
 
-# -----------------------------------------------------------------------------
-# data load
-# -----------------------------------------------------------------------------
-#Metabarcoding dataset
-metabar     <- read.csv("mb.csv", sep = ";", h = T) 
-fac         <- read.csv2("fac.csv", h = T, sep = ";")
-#edge list of expert based interactions
-el          <- read.csv("expert_edge_list.csv", sep = ";", h = T) #TG1, TG2 et type d'interaction : symbiotique, trophique, ou parasitique
-vertices    <-read.csv("expert_vertices.csv", sep = ";", h = T) 
-## other dataframes with species classification in trophic groups obtained by e.g. Esther
-spectClust  <- read.csv2("spectralClust.csv", h = T, sep = ";")
-# -----------------------------------------------------------------------------
-
-# -----------------------------------------------------------------------------
-# Modifications on metabarcoding dataframe
-# -----------------------------------------------------------------------------
-  # getting a dataframe with only taxa name, their expert-based trophic group and their µhabitat => expert_memb
-      mb <- metabar[,c("retained_tax", "codeFW", "µhab_surf", "µhab_subsurf", "µhab_soil")]
-      expert_memb <- mb[complete.cases(mb),]
-      expert_memb <- unique(expert_memb) 
-  # getting a dataframe with taxa presence/absence by sampling point  => metabar_bin
-      metabar_agg <- aggregate(metabar[, -c(1:17)], list(retained_tax = metabar$retained_tax), sum) # sum by taxon name
-      rownames(metabar_agg) <- metabar_agg$retained_tax
-      metabar_agg <- metabar_agg[, -1]
-      metabar_bin <- ifelse(metabar_agg == 0, 0, 1)
-# -----------------------------------------------------------------------------
-
-# -----------------------------------------------------------------------------
-# Building species adjacency matrix by filtering improbable interactions
-# -----------------------------------------------------------------------------
-    # building a "species x species" edge list from a "trophic group x trophic group" edge list
-    el2 <- merge(x = el, y = expert_memb, by.x = "TG2", by.y = "codeFW", all = TRUE)
-    el3 <- merge(x = el2, y = expert_memb, by.x = "TG1", by.y = "codeFW", suffixes = c("_TG2", "_TG1"))
-
-    #fitering by µhabitat
-    el3$prof_match   <- el3$µhab_surf_TG1 * el3$µhab_surf_TG2 + 
-                        el3$µhab_subsurf_TG1 * el3$µhab_subsurf_TG2+
-                        el3$µhab_soil_TG1 * el3$µhab_soil_TG2
-    el3$prof_proba   <- ifelse(el3$prof_match == 0, 0, 1)
-    
-    #assessing the probability of interaction under a neutral hypothesis
-    num              <- (metabar_bin %*% t(metabar_bin))
-    out              <- num/256
-    neutral          <- melt(out, value.name = "neutral_prob")
-    neutral$code     <- paste(neutral$Var1, neutral$Var2, sep = "_")
-    el3$code         <- paste(el3$retained_tax_TG1, el3$retained_tax_TG2, sep = "_")
-    el3              <- merge(el3, neutral, "code")
-    el3$proba        <- el3$prof_proba * el3$neutral_prob
-    el3              <- el3[!is.na(el3$proba),]
-
-    # bilding the species adjacency matrix without symbiotic interactions
-    el3               <- el3[el3$type != "symbiotic",]
-    spec_adj          <- dcast(data = el3, retained_tax_TG1~retained_tax_TG2, value.var = "proba", fun.aggregate = sum, drop = FALSE)
-    rownames(spec_adj)<- spec_adj[,1]
-    spec_adj          <- spec_adj[,-1]
-    
-    # deleting lines and columns for which there is no interactions
-    condition <- as.data.frame(rowSums(spec_adj))
-    condition$colSums <- colSums(spec_adj)
-    condition$cond <- rowSums(condition)
-    spec_adj <- spec_adj[condition$cond  > 0, condition$cond > 0]
-    spec_adj <- as.matrix(spec_adj)
-    write.csv(spec_adj, "adjacence_esp.csv")
-# -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Building trophic groups through Stochastic Block Modelling
@@ -157,7 +93,7 @@ spectClust  <- read.csv2("spectralClust.csv", h = T, sep = ";")
 # -----------------------------------------------------------------------------
 # SBM-groups metanetworks
 # -----------------------------------------------------------------------------
-#représentation du métaréseau
+#repr?sentation du m?tar?seau
 eg <- read.csv("edge.csv", h = T, sep = ";")
 eg2 <- merge(member1, eg[,1:2], "codeFW")
 eg3 <- round(aggregate(eg2$TL, list(class = eg2$class),  mean), 2)
@@ -186,13 +122,13 @@ plot.igraph(metag, layout = lay, vertex.label.font=2, vertex.size= 6,
     mb_class_t0 <- mb_class_t0[-1,]
     mb_class_t1 <- aggregate(mb_class_t0, by = list(point = paste(fac$Couples, fac$Echantillon, sep = "_")), FUN = sum)
     
-    #A l'échelle de la parcelle
+    #A l'?chelle de la parcelle
     mb_list_t <- split(mb_class_t1[,-1], with(mb_class_t1[,-1], 
                                               rep(c("A+", "B+", "B-", "A-", "C+", "C-", "E+", "E-", "D+", "D-", 
                                                     "G-", "G+", "F-", "F+", "H+", "H-"), each = 4)))
     mb_list <- lapply(mb_list_t, FUN = t)
     
-    #Création des réseaux à l'échelle du plot
+    #Cr?ation des r?seaux ? l'?chelle du plot
     mynetwork <- function(metabar){
       step1 <- ifelse(metabar>1,1,0)
       step2 <- step1[rowSums(step1)>0,]
@@ -201,7 +137,7 @@ plot.igraph(metag, layout = lay, vertex.label.font=2, vertex.size= 6,
     }
     ntwk_list <- lapply(mb_list, FUN = mynetwork)
     
-    #betadiversité des réseaux
+    #betadiversit? des r?seaux
     mybeta <- network_betadiversity(ntwk_list,  bf = B10)
     hist(mybeta$S)
     mybeta$S1 <- cut(mybeta$S, breaks = c(0.75,0.82, 0.9, 1),right = FALSE)
@@ -214,7 +150,7 @@ plot.igraph(metag, layout = lay, vertex.label.font=2, vertex.size= 6,
     
     
     
-    #Création des réseaux à l'échelle du point
+    #Cr?ation des r?seaux ? l'?chelle du point
     mb_list_t <- split(mb_class_t0, with(mb_class_t0, point))
     mb_list <- lapply(mb_list_t, FUN = t)
     mynetwork <- function(metabar){
@@ -225,7 +161,7 @@ plot.igraph(metag, layout = lay, vertex.label.font=2, vertex.size= 6,
     }
     ntwk_list <- lapply(mb_list, FUN = mynetwork)
     
-    #Calcul des indices de réseau pour chaque point
+    #Calcul des indices de r?seau pour chaque point
     mynetwork_indices <- function(g){
       density <- edge_density(g, loops = FALSE)
       ntwkdegree <- degree(g, mode = "total")
@@ -248,7 +184,7 @@ plot.igraph(metag, layout = lay, vertex.label.font=2, vertex.size= 6,
     mean_degree <- summarySE(data = ind, measurevar = "mean_degree", groupvars = "Plot", na.rm = T)
     
     
-    #Représentation des indices de réseau
+    #Repr?sentation des indices de r?seau
     ggplot(density, aes(x = Couples, y = density))+
       geom_point()+
       geom_errorbar(aes(ymin = density - se, ymax = density + se))+
@@ -273,7 +209,7 @@ plot.igraph(metag, layout = lay, vertex.label.font=2, vertex.size= 6,
     
     
     #######
-    # Fonctions microbiennes mesurées
+    # Fonctions microbiennes mesur?es
     #######
     funct <- read.csv(file = "functCN.csv", sep = ";")
     fun <- aggregate(funct[,-c(1:4)], list(funct$couple), mean)
