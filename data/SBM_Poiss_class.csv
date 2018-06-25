@@ -1,0 +1,1052 @@
+;retained_tax;class;fam;codeFW
+834;uncultured Acidobacterium sp.;1;Acidobacteriaceae;Miners::Bacterie
+835;uncultured Acidobacterium UA3;1;Acidobacteriaceae;Miners::Bacterie
+856;uncultured Candidatus Koribacter sp.;1;Acidobacteriaceae;Miners::Bacterie
+885;uncultured Edaphobacter sp.;1;Acidobacteriaceae;Miners::Bacterie
+1006;uncultured Terriglobus sp.;1;Acidobacteriaceae;Miners::Bacterie
+336;Gemmata;1;Gemmataceae;Miners::Bacterie
+337;Gemmata obscuriglobus;1;Gemmataceae;Miners::Bacterie
+900;uncultured Gemmata sp.;1;Gemmataceae;Miners::Bacterie
+1020;uncultured Zavarzinella sp.;1;Gemmataceae;Miners::Bacterie
+339;Gemmatimonas;1;Gemmatimonadaceae;Miners::Bacterie
+901;uncultured Gemmatimonas sp.;1;Gemmatimonadaceae;Miners::Bacterie
+989;uncultured Singulisphaera sp.;1;Isosphaeraceae;Miners::Bacterie
+607;Pirellula staleyi;1;Planctomycetaceae;Miners::Bacterie
+609;Planctomyces;1;Planctomycetaceae;Miners::Bacterie
+610;Planctomyces sp.;1;Planctomycetaceae;Miners::Bacterie
+964;uncultured Pirellula sp.;1;Planctomycetaceae;Miners::Bacterie
+965;uncultured Planctomyces sp.;1;Planctomycetaceae;Miners::Bacterie
+140;Candidatus Solibacter;1;Solibacteraceae;Miners::Bacterie
+141;Candidatus Solibacter usitatus;1;Solibacteraceae;Miners::Bacterie
+860;uncultured Candidatus Solibacter sp.;1;Solibacteraceae;Miners::Bacterie
+992;uncultured Solibacter sp.;1;Solibacteraceae;Miners::Bacterie
+798;Tepidisphaera mucosa;1;Tepidisphaeraceae;Miners::Bacterie
+886;uncultured Elusimicrobium sp.;1;Elusimicrobiaceae;Unknown::Bacterie
+898;uncultured Fusobacterium sp.;1;Fusobacteriaceae;Unknown::Bacterie
+507;Nitrospira;1;Nitrospiraceae;Unknown::Bacterie
+952;uncultured Nitrospira sp.;1;Nitrospiraceae;Unknown::Bacterie
+31;Alaimus;2;Alaimidae;Bacterivorous::Nematode
+502;Neobodo designis;2;Bodonidae;Bacterivorous::Protist
+65;Apusomonas proboscidea;2;Apusomonadidae;Pred1attach::Protist
+162;Cercomonas;2;Cercomonadidae;Pred1attach::Protist
+172;Cercomonas sp. ATCC 50367;2;Cercomonadidae;Pred1attach::Protist
+275;Eocercomonas;2;Cercomonadidae;Pred1attach::Protist
+276;Eocercomonas sp. HFCC 908;2;Cercomonadidae;Pred1attach::Protist
+277;Eocercomonas sp. HFCC 909;2;Cercomonadidae;Pred1attach::Protist
+553;Paracercomonas;2;Cercomonadidae;Pred1attach::Protist
+555;Paracercomonas compacta;2;Cercomonadidae;Pred1attach::Protist
+703;Rhogostoma;2;Chlamydophryidae;Pred1attach::Protist
+704;Rhogostoma schuessleri;2;Chlamydophryidae;Pred1attach::Protist
+286;Euglypha rotunda;2;Euglyphidae;Pred1attach::Protist
+106;Bodomorpha;2;Heteromitidae;Pred1attach::Protist
+372;Heteromita;2;Heteromitidae;Pred1attach::Protist
+612;Platyophrya bromelicola;2;Platyophryidae;Pred1attach::Protist
+822;Trinema enchelys;2;Trinematidae;Pred1attach::Protist
+15;Actinochloris sp. BCP-LG3VF20;3;Actinochloridaceae;Phototroph::Algae
+360;Hantzschia;3;Bacillariaceae;Phototroph::Algae
+361;Hantzschia amphioxys;3;Bacillariaceae;Phototroph::Algae
+509;Nitzschia;3;Bacillariaceae;Phototroph::Algae
+510;Nitzschia pusilla;3;Bacillariaceae;Phototroph::Algae
+649;Pseudo-nitzschia heimii;3;Bacillariaceae;Phototroph::Algae
+112;Botryochloris sp. SiM-2003;3;Botryochloridaceae;Phototroph::Algae
+189;Chlorellidium;3;Botryochloridaceae;Phototroph::Algae
+190;Chlorellidium tetrabotrys;3;Botryochloridaceae;Phototroph::Algae
+115;Bracteacoccus;3;Bracteacoccaceae;Phototroph::Algae
+150;Caulerpa cupressoides;3;Caulerpaceae;Phototroph::Algae
+127;Bumilleriopsis;3;Centritractaceae;Phototroph::Algae
+399;Jaagiella alpicola;3;Chaetophoraceae;Phototroph::Algae
+183;Chlamydomonas;3;Chlamydomonadaceae;Phototroph::Algae
+184;Chlamydomonas philotes;3;Chlamydomonadaceae;Phototroph::Algae
+185;Chlamydomonas reinhardtii;3;Chlamydomonadaceae;Phototroph::Algae
+187;Chlorella;3;Chlorellaceae;Phototroph::Algae
+188;Chlorella emersonii;3;Chlorellaceae;Phototroph::Algae
+478;Micractinium;3;Chlorellaceae;Phototroph::Algae
+501;Nannochloris sp. JL 4-6;3;Chlorellaceae;Phototroph::Algae
+646;Prototheca;3;Chlorellaceae;Phototroph::Algae
+191;Chlorococcum;3;Chlorococcaceae;Phototroph::Algae
+437;Luticola permuticopsis;3;Diadesmidaceae;Phototroph::Algae
+240;Dinobryon;3;Dinobryaceae;Phototroph::Algae
+284;Euduboscquella;3;Eudubosquellidae;Phototroph::Algae
+370;Heterococcus caespitosus;3;Heteropediaceae;Phototroph::Algae
+374;Hibberdia magna;3;Hibberdiaceae;Phototroph::Algae
+405;Klebsormidium;3;Klebsormidiaceae;Phototroph::Algae
+481;Mischococcus sphaerocephalus;3;Mischococcaceae;Phototroph::Algae
+299;Fistulifera;3;Naviculaceae;Phototroph::Algae
+454;Mayamaea;3;Naviculaceae;Phototroph::Algae
+455;Mayamaea sp. KAS1111;3;Naviculaceae;Phototroph::Algae
+533;Oikomonas sp. SA-2.1;3;Oikomonadaceae;Phototroph::Algae
+548;Palmellopsis sp. BCP-EM1VF1;3;Palmellaceae;Phototroph::Algae
+584;Pentapharsodinium tyrrhenicum;3;Peridiniaceae;Phototroph::Algae
+617;Pleurochloris meiringensis;3;Pleurochloridaceae;Phototroph::Algae
+656;Pseudopleurochloris antarctica;3;Pleurochloridaceae;Phototroph::Algae
+206;Coelastrella saipanensis;3;Scenedesmaceae;Phototroph::Algae
+231;Desmodesmus;3;Scenedesmaceae;Phototroph::Algae
+818;Tribonema;3;Tribonemataceae;Phototroph::Algae
+1027;Vaucheria terrestris;3;Vaucheriaceae;Phototroph::Algae
+1043;Xanthonema;3;Xanthonemataceae;Phototroph::Algae
+1044;Xanthonema bristolianum;3;Xanthonemataceae;Phototroph::Algae
+1045;Xanthonema sp. 735;3;Xanthonemataceae;Phototroph::Algae
+675;Resource::Dung;4;Resource::Dung;Resource::Dung
+676;Resource::Litter;4;Resource::Litter;Resource::Litter
+677;Resource::MOS;4;Resource::MOS;Resource::MOS
+529;Ochromonas;5;Chromulinaceae;Phytophage::Algae
+773;Spumella sp. CH3;5;Chromulinaceae;Phytophage::Algae
+443;Mallomonas;5;Mallomonadaceae;Phytophage::Algae
+563;Paraphysomonas;5;Paraphysomonadaceae;Phytophage::Algae
+564;Paraphysomonas sp. 22 JMS-2012;5;Paraphysomonadaceae;Phytophage::Algae
+212;Conopodium majus;6;Apiaceae;Phototroph::Apiaceae
+362;Helianthus annuus;6;Asteraceae;Phototroph::Asteraceae
+795;Taraxacum kok-saghyz;6;Asteraceae;Phototroph::Asteraceae
+734;Sinapis alba;6;Brassicaceae;Phototroph::Brassicaceae
+160;Cerastium arcticum;6;Caryophyllaceae;Phototroph::Caryophyllaceae
+777;Stellaria;6;Caryophyllaceae;Phototroph::Caryophyllaceae
+608;Pisum;6;Fabaceae;Phototroph::Fabaceae
+820;Trifolium;6;Fabaceae;Phototroph::Fabaceae
+1035;Vigna angularis;6;Fabaceae;Phototroph::Fabaceae
+136;Canavalia ensiformis;6;Fabaceae;Phototroph::non-legume
+721;Salvia nemorosa;6;Lamiaceae;Phototroph::non-legume
+1032;Veronica;6;Plantaginaceae;Phototroph::non-legume
+225;Dactylis glomerata;6;Poaceae;Phototroph::non-legume
+1;Abies;6;Pinaceae;Phototroph::Pinales
+601;Picea;6;Pinaceae;Phototroph::Pinales
+604;Pinus;6;Pinaceae;Phototroph::Pinales
+377;Holcus;6;Poaceae;Phototroph::Poaceae
+1050;Zea mays;6;Poaceae;Phototroph::Poaceae
+293;Fallopia multiflora;6;Polygonaceae;Phototroph::Polygonaceae
+622;Polygonum;6;Polygonaceae;Phototroph::Polygonaceae
+716;Rumex;6;Polygonaceae;Phototroph::Polygonaceae
+672;Ranunculus;6;Ranunculaceae;Phototroph::Ranunculales
+796;Taxus;6;Taxaceae;Phototroph::Taxaceae
+120;Bresslaua vorax;7;Colpodidae;Pred2attach::Protist
+289;Euplotes;7;Euplotidae;Pred2attach::Protist
+291;Euplotes qatarensis;7;Euplotidae;Pred2attach::Protist
+49;Anteholosticha;7;Holostichidae;Pred2attach::Protist
+50;Anteholosticha gracilis;7;Holostichidae;Pred2attach::Protist
+52;Anteholosticha rectangula;7;Holostichidae;Pred2attach::Protist
+614;Platyreta germanica;7;Leptophryidae;Pred2attach::Protist
+657;Pseudouroleptus sp. ALT-2014;7;Spirofilidae;Pred2attach::Protist
+354;Gonostomum namibiense;7;Trachelostylidae;Pred2attach::Protist
+148;Caudiholosticha sp. Zlv-2015;7;Urostylidae;Pred2attach::Protist
+149;Caudiholosticha sylvatica;7;Urostylidae;Pred2attach::Protist
+1024;Vampyrella pendula;7;Vampyrellidae;Pred2attach::Protist
+394;Isolaimium multistriatum;8;Isolaimiidae;Bacterivorous::Nematode
+288;Eumonhystera;8;Monhysteridae;Bacterivorous::Nematode
+551;Panagrolaimus sp. PS443;8;Panagrolaimidae;Bacterivorous::Nematode
+526;Obertrumia georgiana;8;Nassulidae;Bacterivorous::Protist
+244;Discolaimus cf. major HHBM-2007a;8;Qudsianematidae;Non.selective::Nematode
+87;Bardeliella pulchra;8;Bardeliellidae;Pred1attach::Protist
+165;Cercomonas celer;8;Cercomonadidae;Pred1attach::Protist
+558;Paracercomonas sp. HFCC 913;8;Cercomonadidae;Pred1attach::Protist
+570;Paulinella;8;Paulinellidae;Pred1attach::Protist
+215;Corythion dubium;8;Trinematidae;Pred1attach::Protist
+819;Trichocerca rattus;8;Trichocercidae;Pred1free::Protist
+32;Alicorhagia;9;Alicorhagiidae;Non.selective::Endeostigmata
+426;Liochthonius sp. AD1300;9;Brachychthoniidae;Saprophage::Oribate
+603;Pilogalumna rosauraruizae;9;Galumnidae;Saprophage::Oribate
+797;Tectocepheus;9;Tectocepheidae;Saprophage::Oribate
+5;Achaeta bifollicula;9;Enchytraeidae;Saprophageous::Enchy
+6;Achaeta cf. bohemica PDW-2010;9;Enchytraeidae;Saprophageous::Enchy
+261;Enchytraeus;9;Enchytraeidae;Saprophageous::Enchy
+262;Enchytraeus albidus;9;Enchytraeidae;Saprophageous::Enchy
+263;Enchytraeus buchholzi;9;Enchytraeidae;Saprophageous::Enchy
+264;Enchytraeus christenseni;9;Enchytraeidae;Saprophageous::Enchy
+265;Enchytraeus lacteus;9;Enchytraeidae;Saprophageous::Enchy
+316;Fridericia;9;Enchytraeidae;Saprophageous::Enchy
+318;Fridericia christeri;9;Enchytraeidae;Saprophageous::Enchy
+320;Fridericia galba;9;Enchytraeidae;Saprophageous::Enchy
+326;Fridericia sylvatica;9;Enchytraeidae;Saprophageous::Enchy
+445;Marionina cf. minutissima PDW-2010;9;Enchytraeidae;Saprophageous::Enchy
+447;Marionina filiformis;9;Enchytraeidae;Saprophageous::Enchy
+213;Cordyceps cylindrica;10;Cordycipitaceae;Parasitic::Entomopath
+214;Cordyceps memorabilis;10;Cordycipitaceae;Parasitic::Entomopath
+833;uncultured Aciditerrimonas sp.;11;Acidimicrobiaceae;Decomposers::Bacterie
+890;uncultured Ferrithrix sp.;11;Acidimicrobiaceae;Decomposers::Bacterie
+845;uncultured Anaeromyxobacter sp.;11;Anaeromyxobacteraceae;Decomposers::Bacterie
+782;Stigmatella;11;Archangiaceae;Decomposers::Bacterie
+870;uncultured Cystobacter sp.;11;Archangiaceae;Decomposers::Bacterie
+85;Bacillus;11;Bacillaceae;Decomposers::Bacterie
+847;uncultured Bacillus sp.;11;Bacillaceae;Decomposers::Bacterie
+116;Bradyrhizobium;11;Bradyrhizobiaceae;Decomposers::Bacterie
+117;Bradyrhizobium sp. Shinshu-th2;11;Bradyrhizobiaceae;Decomposers::Bacterie
+669;Ralstonia solanacearum;11;Burkholderiaceae;Decomposers::Bacterie
+853;uncultured Burkholderia sp.;11;Burkholderiaceae;Decomposers::Bacterie
+868;uncultured Cupriavidus sp.;11;Burkholderiaceae;Decomposers::Bacterie
+855;uncultured Caldilinea sp.;11;Caldilineaceae;Decomposers::Bacterie
+151;Caulobacter;11;Caulobacteraceae;Decomposers::Bacterie
+591;Phenylobacterium;11;Caulobacteraceae;Decomposers::Bacterie
+963;uncultured Phenylobacterium sp.;11;Caulobacteraceae;Decomposers::Bacterie
+1018;uncultured Woodsholea sp.;11;Caulobacteraceae;Decomposers::Bacterie
+801;Terrimonas;11;Chitinophagaceae;Decomposers::Bacterie
+862;uncultured Chitinophaga sp.;11;Chitinophagaceae;Decomposers::Bacterie
+891;uncultured Ferruginibacter sp.;11;Chitinophagaceae;Decomposers::Bacterie
+947;uncultured Niastella sp.;11;Chitinophagaceae;Decomposers::Bacterie
+1007;uncultured Terrimonas sp.;11;Chitinophagaceae;Decomposers::Bacterie
+863;uncultured Chloroflexus sp.;11;Chloroflexaceae;Decomposers::Bacterie
+195;Chthoniobacter flavus;11;Chthoniobacteraceae;Decomposers::Bacterie
+577;Pelomonas sp. CR2;11;Comamonadaceae;Decomposers::Bacterie
+837;uncultured Acidovorax sp.;11;Comamonadaceae;Decomposers::Bacterie
+1026;Variovorax;11;Comamonadaceae;Decomposers::Bacterie
+211;Conexibacter;11;Conexibacteraceae;Decomposers::Bacterie
+866;uncultured Conexibacter sp.;11;Conexibacteraceae;Decomposers::Bacterie
+955;uncultured Ohtaekwangia sp.;11;Cytophagaceae;Decomposers::Bacterie
+961;uncultured Pelobacter sp.;11;Desulfuromonadaceae;Decomposers::Bacterie
+302;Flavobacterium;11;Flavobacteriaceae;Decomposers::Bacterie
+897;uncultured Frankia sp.;11;Frankiaceae;Decomposers::Bacterie
+899;uncultured Gaiella sp.;11;Gaiellaceae;Decomposers::Bacterie
+903;uncultured Geobacter sp.;11;Geobacteraceae;Decomposers::Bacterie
+100;Blastococcus;11;Geodermatophilaceae;Decomposers::Bacterie
+1013;uncultured Thiobacillus sp.;11;Hydrogenophilaceae;Decomposers::Bacterie
+233;Devosia;11;Hyphomicrobiaceae;Decomposers::Bacterie
+234;Devosia sp. P-37;11;Hyphomicrobiaceae;Decomposers::Bacterie
+699;Rhodomicrobium;11;Hyphomicrobiaceae;Decomposers::Bacterie
+959;uncultured Pedomicrobium sp.;11;Hyphomicrobiaceae;Decomposers::Bacterie
+981;uncultured Rhodoplanes sp.;11;Hyphomicrobiaceae;Decomposers::Bacterie
+914;uncultured Iamia sp.;11;Iamiaceae;Decomposers::Bacterie
+906;uncultured Haliangium sp.;11;Kofleriaceae;Decomposers::Bacterie
+921;uncultured Kofleria sp.;11;Kofleriaceae;Decomposers::Bacterie
+939;uncultured Methylosinus sp.;11;Methylocystaceae;Decomposers::Bacterie
+975;uncultured Rhizomicrobium sp.;11;Micropepsaceae;Decomposers::Bacterie
+493;Mycobacterium;11;Mycobacteriaceae;Decomposers::Bacterie
+951;uncultured Nitrosospira sp.;11;Nitrosomonadaceae;Decomposers::Bacterie
+512;Nocardioides;11;Nocardioidaceae;Decomposers::Bacterie
+537;Opitutus;11;Opitutaceae;Decomposers::Bacterie
+468;Mesorhizobium;11;Phyllobacteriaceae;Decomposers::Bacterie
+542;Oricola cellulosilytica;11;Phyllobacteriaceae;Decomposers::Bacterie
+854;uncultured Byssovorax sp.;11;Polyangiaceae;Decomposers::Bacterie
+973;uncultured Pseudonocardia sp.;11;Pseudonocardiaceae;Decomposers::Bacterie
+681;Rhizobium;11;Rhizobiaceae;Decomposers::Bacterie
+974;uncultured Rhizobium sp.;11;Rhizobiaceae;Decomposers::Bacterie
+984;uncultured Roseiflexus sp.;11;Roseiflexaceae;Decomposers::Bacterie
+985;uncultured Rubrobacter sp.;11;Rubrobacteraceae;Decomposers::Bacterie
+741;Solirubrobacter;11;Solirubrobacteraceae;Decomposers::Bacterie
+993;uncultured Solirubrobacter sp.;11;Solirubrobacteraceae;Decomposers::Bacterie
+488;Mucilaginibacter;11;Sphingobacteriaceae;Decomposers::Bacterie
+753;Sphingomonas;11;Sphingomonadaceae;Decomposers::Bacterie
+997;uncultured Sphingomonas sp.;11;Sphingomonadaceae;Decomposers::Bacterie
+785;Streptomyces;11;Streptomycetaceae;Decomposers::Bacterie
+1005;uncultured Syntrophus sp.;11;Syntrophaceae;Decomposers::Bacterie
+1011;uncultured Thermoleophilum sp.;11;Thermoleophilaceae;Decomposers::Bacterie
+960;uncultured Pedosphaera sp.;11;Verrucomicrobia subdivision 3;Decomposers::Bacterie
+969;uncultured Prosthecobacter sp.;11;Verrucomicrobiaceae;Decomposers::Bacterie
+971;uncultured Pseudolabrys sp.;11;Xanthobacteraceae;Decomposers::Bacterie
+949;uncultured Nitrosococcus sp.;11;Chromatiaceae;Opportunists::Bacterie
+924;uncultured Legionella sp.;11;Legionellaceae;Opportunists::Bacterie
+652;Pseudomonas;11;Pseudomonadaceae;Opportunists::Bacterie
+972;uncultured Pseudomonas sp.;11;Pseudomonadaceae;Opportunists::Bacterie
+1001;uncultured Steroidobacter sp.;11;Sinobacteraceae;Opportunists::Bacterie
+846;uncultured Arenimonas sp.;11;Xanthomonadaceae;Opportunists::Bacterie
+1019;uncultured Xanthomonas sp.;11;Xanthomonadaceae;Opportunists::Bacterie
+771;Spumella lacusvadosi;12;Chromulinaceae;Phytophage::Algae
+279;Epipyxis pulchra;12;Dinobryaceae;Phytophage::Algae
+163;Cercomonas alexieffi;12;Cercomonadidae;Pred1attach::Protist
+166;Cercomonas fastiga;12;Cercomonadidae;Pred1attach::Protist
+170;Cercomonas radiata;12;Cercomonadidae;Pred1attach::Protist
+207;Colpoda;12;Colpodidae;Pred1attach::Protist
+287;Euglypha tuberculata;12;Euglyphidae;Pred1attach::Protist
+613;Platyophrya vorax;12;Platyophryidae;Pred1attach::Protist
+749;Sphenoderia;12;Sphenoderiidae;Pred1attach::Protist
+748;Sphaeroeca volvox;12;Salpingoecidae;Pred1free::Protist
+466;Mesodorylaimus cf. nigritulus AV-2005;13;Dorylaimidae;Non.selective::Nematode
+257;Ecumenicus;13;Qudsianematidae;Non.selective::Nematode
+638;Prodorylaimus sp. HHBM-2007a;13;Qudsianematidae;Non.selective::Nematode
+824;Tripyla;13;Tripylidae;Non.selective::Nematode
+472;Methanomassiliicoccus sp. 138;14;Methanomassiliicoccaceae;Decomposers::Archae
+473;Methanomassiliicoccus sp. 142;14;Methanomassiliicoccaceae;Decomposers::Archae
+859;uncultured Candidatus Nitrosopumilus sp.;14;Nitrosopumilaceae;Decomposers::Archae
+138;Candidatus Nitrosocosmicus;14;Nitrososphaeraceae;Decomposers::Archae
+506;Nitrososphaera;14;Nitrososphaeraceae;Decomposers::Archae
+950;uncultured Nitrososphaera sp.;14;Nitrososphaeraceae;Decomposers::Archae
+650;Pseudochilodonopsis sp. 3 WS-2013;15;Chilodonellidae;Algivorous::Protist
+142;Capsellina sp. ATCC 50039;15;Chlamydophryidae;Algivorous::Protist
+541;Orciraptor agilis;15;Viridiraptoridae;Algivorous::Protist
+674;Resource::Decaying_wood;16;Resource::Decaying_wood;Resource::Decaying_wood
+111;Bos taurus;17;Bovidae;Mammifere
+199;Cladosporium;17;Cladosporiaceae;Parasitic::Cladosporium
+200;Cladosporium sp. CB-20;17;Cladosporiaceae;Parasitic::Cladosporium
+397;Itersonilia pannonica;17;Mrakiaceae;Parasitic::Itersonilia
+398;Itersonilia perplexans;17;Mrakiaceae;Parasitic::Itersonilia
+598;Phoma herbarum;17;Didymellaceae;Parasitic::Phoma
+665;Pythium;17;Pythiaceae;Parasitic::Pythium
+690;Rhizophydium;17;Rhizophydiaceae;Parasitic::Rhizophydium
+363;Helicotylenchus;17;Hoplolaimidae;Parasitic_p::Nematode
+364;Helicotylenchus varicaudatus;17;Hoplolaimidae;Parasitic_p::Nematode
+711;Rotylenchulus borealis;17;Hoplolaimidae;Parasitic_p::Nematode
+430;Longidorus;17;Longidoridae;Parasitic_p::Nematode
+461;Meloidogyne naasi;17;Meloidogynidae;Parasitic_p::Nematode
+42;Amplimerlinius;17;Merliniidae;Parasitic_p::Nematode
+43;Amplimerlinius icarus;17;Merliniidae;Parasitic_p::Nematode
+462;Merlinius brevidens;17;Merliniidae;Parasitic_p::Nematode
+463;Merlinius cf. microdorus TSH-2005;17;Merliniidae;Parasitic_p::Nematode
+464;Merlinius joctus;17;Merliniidae;Parasitic_p::Nematode
+631;Pratylenchoides ritteri;17;Merliniidae;Parasitic_p::Nematode
+632;Pratylenchus;17;Pratylenchidae;Parasitic_p::Nematode
+829;Tylenchus arcuatus;17;Tylenchidae;Parasitic_p::Nematode
+565;Paratylenchus;17;Tylenchulidae;Parasitic_p::Nematode
+566;Paratylenchus cf. neoamblicephalus;17;Tylenchulidae;Parasitic_p::Nematode
+567;Paratylenchus microdorus;17;Tylenchulidae;Parasitic_p::Nematode
+568;Paratylenchus similis;17;Tylenchulidae;Parasitic_p::Nematode
+54;Aphanomyces;17;Saprolegniaceae;Pathogen::Aphanomyces
+667;Pythium rostratifingens;17;Pythiaceae;Pathogen::Pythium
+20;Acyrthosiphon pisum;17;Aphididae;Phytophage::Acyrthosiphon
+28;Agriotes;17;Elateridae;Phytophage::Elateridae
+503;Neopsilenchus magnidens;17;Tylenchidae;Phytophage::Nematode
+832;uncultured Acidisphaera sp.;18;Acetobacteraceae;Decomposers::Bacterie
+450;Martelella endophytica;18;Aurantimonadaceae;Decomposers::Bacterie
+849;uncultured Bdellovibrio sp.;18;Bdellovibrionaceae;Decomposers::Bacterie
+118;Bradyrhizobium sp. URHC0015;18;Bradyrhizobiaceae;Decomposers::Bacterie
+1025;Variibacter gotjawalensis;18;Bradyrhizobiaceae;Decomposers::Bacterie
+495;Mycoplana sp. HP12Q;18;Brucellaceae;Decomposers::Bacterie
+528;Ochrobactrum anthropi;18;Brucellaceae;Decomposers::Bacterie
+147;Catenulispora graminis;18;Catenulisporaceae;Decomposers::Bacterie
+122;Brevundimonas;18;Caulobacteraceae;Decomposers::Bacterie
+593;Phenylobacterium sp. B6.10-61;18;Caulobacteraceae;Decomposers::Bacterie
+180;Chitinophaga oryziterrae;18;Chitinophagaceae;Decomposers::Bacterie
+294;Ferruginibacter;18;Chitinophagaceae;Decomposers::Bacterie
+802;Terrimonas arctica;18;Chitinophagaceae;Decomposers::Bacterie
+204;Clostridium;18;Clostridiaceae;Decomposers::Bacterie
+229;Delftia;18;Comamonadaceae;Decomposers::Bacterie
+578;Pelomonas sp. K89;18;Comamonadaceae;Decomposers::Bacterie
+310;Fluviicola sp. YS 1.2.4;18;Crocinitomicaceae;Decomposers::Bacterie
+867;uncultured Crocinitomix sp.;18;Crocinitomicaceae;Decomposers::Bacterie
+896;uncultured Fluviicola sp.;18;Crocinitomicaceae;Decomposers::Bacterie
+858;uncultured Candidatus Nephrothrix sp.;18;Cytophagaceae;Decomposers::Bacterie
+230;Demequina sp. CMS382;18;Demequinaceae;Decomposers::Bacterie
+232;Desulfuromonas;18;Desulfuromonadaceae;Decomposers::Bacterie
+931;uncultured Malonomonas sp.;18;Desulfuromonadaceae;Decomposers::Bacterie
+194;Chryseobacterium;18;Flavobacteriaceae;Decomposers::Bacterie
+306;Flavobacterium sp. PDD-32b-56;18;Flavobacteriaceae;Decomposers::Bacterie
+402;Jatrophihabitans;18;Frankiaceae;Decomposers::Bacterie
+902;uncultured Geoalkalibacter sp.;18;Geobacteraceae;Decomposers::Bacterie
+343;Geodermatophilus;18;Geodermatophilaceae;Decomposers::Bacterie
+344;Geodermatophilus sp. Z2R53;18;Geodermatophilaceae;Decomposers::Bacterie
+979;uncultured Rhodomicrobium sp.;18;Hyphomicrobiaceae;Decomposers::Bacterie
+543;Oryzihumus;18;Intrasporangiaceae;Decomposers::Bacterie
+47;Angustibacter luteus;18;Kineosporiaceae;Decomposers::Bacterie
+404;Kineosporia;18;Kineosporiaceae;Decomposers::Bacterie
+920;uncultured Kineosporia sp.;18;Kineosporiaceae;Decomposers::Bacterie
+480;Microvirga;18;Methylobacteriaceae;Decomposers::Bacterie
+476;Methylosinus sporium;18;Methylocystaceae;Decomposers::Bacterie
+203;Clavibacter;18;Microbacteriaceae;Decomposers::Bacterie
+328;Frigoribacterium sp. B1-25c-3;18;Microbacteriaceae;Decomposers::Bacterie
+416;Leifsonia;18;Microbacteriaceae;Decomposers::Bacterie
+941;uncultured Micromonospora sp.;18;Micromonosporaceae;Decomposers::Bacterie
+500;Nakamurella sp. A24MTO;18;Nakamurellaceae;Decomposers::Bacterie
+977;uncultured Rhodococcus sp.;18;Nocardiaceae;Decomposers::Bacterie
+24;Aeromicrobium sp. HJX17;18;Nocardioidaceae;Decomposers::Bacterie
+513;Nocardioides sp.;18;Nocardioidaceae;Decomposers::Bacterie
+159;Cephaloticoccus;18;Opitutaceae;Decomposers::Bacterie
+401;Janthinobacterium;18;Oxalobacteraceae;Decomposers::Bacterie
+910;uncultured Herminiimonas sp.;18;Oxalobacteraceae;Decomposers::Bacterie
+1021;Undibacterium;18;Oxalobacteraceae;Decomposers::Bacterie
+546;Paenibacillus;18;Paenibacillaceae;Decomposers::Bacterie
+948;uncultured Nitratireductor sp.;18;Phyllobacteriaceae;Decomposers::Bacterie
+940;uncultured Microlunatus sp.;18;Propionibacteriaceae;Decomposers::Bacterie
+345;Georgfuchsia toluolica;18;Rhodocyclaceae;Decomposers::Bacterie
+250;Dongia;18;Rhodospirillaceae;Decomposers::Bacterie
+442;Magnetospirillum;18;Rhodospirillaceae;Decomposers::Bacterie
+710;Roseiarcus fermentans;18;Roseiarcaceae;Decomposers::Bacterie
+490;Mucilaginibacter sp. UA-VH0703;18;Sphingobacteriaceae;Decomposers::Bacterie
+750;Sphingobacterium;18;Sphingobacteriaceae;Decomposers::Bacterie
+751;Sphingobacterium sp. P-7;18;Sphingobacteriaceae;Decomposers::Bacterie
+958;uncultured Pedobacter sp.;18;Sphingobacteriaceae;Decomposers::Bacterie
+522;Novosphingobium;18;Sphingomonadaceae;Decomposers::Bacterie
+754;Sphingomonas changbaiensis;18;Sphingomonadaceae;Decomposers::Bacterie
+760;Sphingomonas sp. ML1;18;Sphingomonadaceae;Decomposers::Bacterie
+762;Sphingomonas sp. THG-DN7.10;18;Sphingomonadaceae;Decomposers::Bacterie
+763;Sphingorhabdus;18;Sphingomonadaceae;Decomposers::Bacterie
+786;Streptomyces abietis;18;Streptomycetaceae;Decomposers::Bacterie
+519;Nonomuraea;18;Streptosporangiaceae;Decomposers::Bacterie
+1009;uncultured Thermoanaerobacter sp.;18;Thermoanaerobacteraceae;Decomposers::Bacterie
+800;Terracidiphilus gabretensis;18;Acidobacteriaceae;Miners::Bacterie
+338;Gemmata sp. Fl1-1;18;Gemmataceae;Miners::Bacterie
+378;Holophaga sp. oral clone CA002;18;Holophagaceae;Miners::Bacterie
+415;Legionella lytica;18;Legionellaceae;Opportunists::Bacterie
+884;uncultured Dyella sp.;18;Rhodanobacteraceae;Opportunists::Bacterie
+436;Luteimonas aestuarii;18;Xanthomonadaceae;Opportunists::Bacterie
+930;uncultured Lysobacter sp.;18;Xanthomonadaceae;Opportunists::Bacterie
+1016;uncultured Turneriella sp.;18;Leptospiraceae;Unknown::Bacterie
+508;Nitrospira marina;18;Nitrospiraceae;Unknown::Bacterie
+11;Acrobeles sp.;19;Cephalobidae;Bacterivorous::Nematode
+283;Eucephalobus striatus;19;Cephalobidae;Bacterivorous::Nematode
+92;Bastiania;19;Oxystominidae;Bacterivorous::Nematode
+93;Bastiania gracilis;19;Oxystominidae;Bacterivorous::Nematode
+467;Mesorhabditis sp. 334Meso1;19;Rhabditidae;Bacterivorous::Nematode
+679;Rhabdolaimus;19;Rhabdolaimidae;Bacterivorous::Nematode
+164;Cercomonas braziliensis;19;Cercomonadidae;Pred1attach::Protist
+171;Cercomonas rapida;19;Cercomonadidae;Pred1attach::Protist
+285;Euglypha;19;Euglyphidae;Pred1attach::Protist
+654;Pseudoplatynematum denticulatum;19;Cinetochilidae;Pred1free::Protist
+422;Leptopharynx bromelicola;19;Microthoracidae;Pred1free::Protist
+639;Prorodon;19;Prorodontidae;Pred1free::Protist
+205;Codosiga;19;Salpingoecidae;Pred1free::Protist
+805;Tetrahymena;19;Tetrahymenidae;Pred1free::Protist
+642;Protaspis obliqua;19;Thaumatomastigidae;Pred1free::Protist
+658;Pseudovorticella punctata;19;Vorticellidae;Pred1free::Protist
+659;Pseudovorticella sp. 5 PS-2016;19;Vorticellidae;Pred1free::Protist
+1037;Vorticella sp. PPS-2011b;19;Vorticellidae;Pred1free::Protist
+78;Ascobolus;20;Ascobolaceae;Coprotroph::Ascomycota
+178;Cheilymenia stercorea;20;Pyronemataceae;Coprotroph::Ascomycota
+268;Endogone;20;Endogonaceae;Saprotroph::Endogone
+580;Penicillium;20;Aspergillaceae;Saprotroph::Fungi
+581;Penicillium sp. D01;20;Aspergillaceae;Saprotroph::Fungi
+241;Dioszegia;20;Bulleribasidiaceae;Saprotroph::Fungi
+77;Articulospora proliferata;20;Helotiaceae;Saprotroph::Fungi
+379;Holwaya mucida;20;Helotiaceae;Saprotroph::Fungi
+486;Mortierella;20;Mortierellaceae;Saprotroph::Fungi
+487;Mortierella sp. MS-6;20;Mortierellaceae;Saprotroph::Fungi
+114;Brachyphoris oviparasitica;20;Orbiliaceae;Saprotroph::Fungi
+723;Sclerostagonospora sp. CBS 118142;20;Phaeosphaeriaceae;Saprotroph::Fungi
+691;Rhizophydium patellarium;20;Rhizophydiaceae;Saprotroph::Fungi
+132;Camarophyllus;20;Tricholomataceae;Saprotroph::Fungi
+492;Multiclavula mucida;20;Clavulinaceae;Saprotroph::Multiclavula 
+662;Pungentus;21;Nordiidae;Non.selective::Nematode
+663;Pungentus sp. PDL-2005;21;Nordiidae;Non.selective::Nematode
+719;Saccobolus dilutellus;22;Ascobolaceae;Coprotroph::Ascomycota
+810;Thecotheus holmskjoldii;22;Ascobolaceae;Coprotroph::Ascomycota
+393;Iodophanus carneus;22;Pezizaceae;Coprotroph::Ascomycota
+109;Bolbitius vitellinus;22;Bolbitiaceae;Coprotroph::Basidiomycota
+550;Panaeolus;22;Bolbitiaceae;Coprotroph::Basidiomycota
+217;Cryphonectria parasitica;22;Cryphonectriaceae;Lignotroph::Fungi
+358;Guepiniopsis buccina;22;Dacrymycetaceae;Lignotroph::Fungi
+98;Bisporella citrina;22;Helotiaceae;Lignotroph::Fungi
+387;Hymenochaetopsis olivacea;22;Hymenochaetaceae;Lignotroph::Fungi
+538;Orbicula parietina;22;Pyronemataceae;Lignotroph::Fungi
+732;Serpula incrassata;22;Serpulaceae;Lignotroph::Fungi
+410;Kuzuhaea moniliformis;22;Piptocephalidaceae;Saprotoph::Zoopagales
+605;Piptocephalis graefenhanii;22;Piptocephalidaceae;Saprotoph::Zoopagales
+789;Syncephalis depressa;22;Piptocephalidaceae;Saprotoph::Zoopagales
+270;Endogone sp. OSC T14506;22;Endogonaceae;Saprotroph::Endogone
+271;Endogone sp. W5994;22;Endogonaceae;Saprotroph::Endogone
+68;Archaeorhizomyces borealis;22;Archaeorhizomycetaceae;Saprotroph::Fungi
+582;Penicillium sp. SDI-2014f;22;Aspergillaceae;Saprotroph::Fungi
+145;Catenaria;22;Catenariaceae;Saprotroph::Fungi
+671;Ramariopsis kunzei;22;Clavariaceae;Saprotroph::Fungi
+583;Peniophorella praetermissa;22;Corticiaceae;Saprotroph::Fungi
+218;Cryptococcus amylolentus;22;Cryptococcaceae;Saprotroph::Fungi
+1048;Yarrowia lipolytica;22;Dipodascaceae;Saprotroph::Fungi
+1049;Yarrowia sp. 25L;22;Dipodascaceae;Saprotroph::Fungi
+267;Endochytrium sp. JEL 324;22;Endochytriaceae;Saprotroph::Fungi
+335;Geastrum saccatum;22;Geastraceae;Saprotroph::Fungi
+388;Hymenoscyphus repandus;22;Helotiaceae;Saprotroph::Fungi
+636;Proceropycnis pinicola;22;Hoehnelomycetaceae;Saprotroph::Fungi
+390;Hyphodiscus hymeniophilus;22;Hyaloscyphaceae;Saprotroph::Fungi
+193;Chromosera;22;Hygrophoraceae;Saprotroph::Fungi
+385;Hygrocybe;22;Hygrophoraceae;Saprotroph::Fungi
+386;Hygrocybe reidii;22;Hygrophoraceae;Saprotroph::Fungi
+80;Asterostroma andinum;22;Lachnocladiaceae;Saprotroph::Fungi
+133;Campanella subdendrophora;22;Marasmiaceae;Saprotroph::Fungi
+83;Auxarthron;22;Onygenaceae;Saprotroph::Fungi
+539;Orbilia sp. HOB-2016am;22;Orbiliaceae;Saprotroph::Fungi
+113;Boudiera acanthospora;22;Pezizaceae;Saprotroph::Fungi
+618;Pluteus petasatus;22;Pluteaceae;Saprotroph::Fungi
+619;Pluteus phlebophorus;22;Pluteaceae;Saprotroph::Fungi
+661;Pterula echo;22;Pterulaceae;Saprotroph::Fungi
+460;Melastiza contorta;22;Pyronemataceae;Saprotroph::Fungi
+779;Stephensia shanorii;22;Pyronemataceae;Saprotroph::Fungi
+668;Pyxidiophora arvernensis;22;Pyxidiophoraceae;Saprotroph::Fungi
+688;Rhizophlyctis harderi;22;Rhizophlyctidaceae;Saprotroph::Fungi
+693;Rhizophydium sp. JEL136;22;Rhizophydiaceae;Saprotroph::Fungi
+694;Rhizophydium sp. UGA-F16;22;Rhizophydiaceae;Saprotroph::Fungi
+718;Saccharomyces cerevisiae;22;Saccharomycetaceae;Saprotroph::Fungi
+216;Craterocolla cerasi;22;Sebacinaceae;Saprotroph::Fungi
+746;Sphaerobolus stellatus;22;Sphaerobolaceae;Saprotroph::Fungi
+767;Spizellomyces punctatus;22;Spizellomycetaceae;Saprotroph::Fungi
+633;Preussia;22;Sporormiaceae;Saprotroph::Fungi
+794;Talaromyces;22;Trichocomaceae;Saprotroph::Fungi
+627;Porpoloma sp. 2 MSG-2014;22;Tricholomataceae;Saprotroph::Fungi
+736;Sistotrema;22;Corticiaceae;Saprotroph::Sistronema
+700;Rhodopila globiformis;23;Acetobacteraceae;Decomposers::Bacterie
+836;uncultured Acidothermus sp.;23;Acidothermaceae;Decomposers::Bacterie
+982;uncultured Rhodopseudomonas sp.;23;Bradyrhizobiaceae;Decomposers::Bacterie
+146;Catenulispora;23;Catenulisporaceae;Decomposers::Bacterie
+179;Chitinophaga;23;Chitinophagaceae;Decomposers::Bacterie
+182;Chitinophaga sp. BN130233;23;Chitinophagaceae;Decomposers::Bacterie
+295;Ferruginibacter paludis;23;Chitinophagaceae;Decomposers::Bacterie
+300;Flavisolibacter;23;Chitinophagaceae;Decomposers::Bacterie
+549;Panacibacter ginsenosidivorans;23;Chitinophagaceae;Decomposers::Bacterie
+726;Sediminibacterium;23;Chitinophagaceae;Decomposers::Bacterie
+727;Sediminibacterium aquarii;23;Chitinophagaceae;Decomposers::Bacterie
+893;uncultured Flavisolibacter sp.;23;Chitinophagaceae;Decomposers::Bacterie
+698;Rhodoferax;23;Comamonadaceae;Decomposers::Bacterie
+912;uncultured Hydrogenophaga sp.;23;Comamonadaceae;Decomposers::Bacterie
+895;uncultured Flexibacter sp.;23;Cytophagaceae;Decomposers::Bacterie
+887;uncultured Erythrobacter sp.;23;Erythrobacteraceae;Decomposers::Bacterie
+305;Flavobacterium sp. HL-17;23;Flavobacteriaceae;Decomposers::Bacterie
+307;Flavobacterium sp. R-38392;23;Flavobacteriaceae;Decomposers::Bacterie
+333;Gaiella;23;Gaiellaceae;Decomposers::Bacterie
+905;uncultured Geothermobacter sp.;23;Geobacteraceae;Decomposers::Bacterie
+392;Hyphomicrobium;23;Hyphomicrobiaceae;Decomposers::Bacterie
+720;Salinibacterium sp. CC13L1;23;Microbacteriaceae;Decomposers::Bacterie
+990;uncultured Sinomonas sp.;23;Micrococcaceae;Decomposers::Bacterie
+841;uncultured Actinoplanes sp.;23;Micromonosporaceae;Decomposers::Bacterie
+684;Rhizomicrobium;23;Micropepsaceae;Decomposers::Bacterie
+857;uncultured Candidatus Microthrix sp.;23;Microthrixaceae;Decomposers::Bacterie
+945;uncultured Mycobacterium sp.;23;Mycobacteriaceae;Decomposers::Bacterie
+511;Nocardia;23;Nocardiaceae;Decomposers::Bacterie
+25;Aeromicrobium sp. RODSPM17;23;Nocardioidaceae;Decomposers::Bacterie
+516;Nocardioides sp. SSRB28-7;23;Nocardioidaceae;Decomposers::Bacterie
+932;uncultured Marmoricola sp.;23;Nocardioidaceae;Decomposers::Bacterie
+252;Duganella;23;Oxalobacteraceae;Decomposers::Bacterie
+253;Duganella sp. 2M1lan;23;Oxalobacteraceae;Decomposers::Bacterie
+367;Herbaspirillum;23;Oxalobacteraceae;Decomposers::Bacterie
+933;uncultured Massilia sp.;23;Oxalobacteraceae;Decomposers::Bacterie
+84;Azospirillum sp. T2-YC6788;23;Rhodospirillaceae;Decomposers::Bacterie
+228;Dechlorospirillum sp. SN1;23;Rhodospirillaceae;Decomposers::Bacterie
+883;uncultured Dongia sp.;23;Rhodospirillaceae;Decomposers::Bacterie
+991;uncultured Skermanella sp.;23;Rhodospirillaceae;Decomposers::Bacterie
+983;uncultured Rhodothermus sp.;23;Rhodothermaceae;Decomposers::Bacterie
+944;uncultured Mucilaginibacter sp.;23;Sphingobacteriaceae;Decomposers::Bacterie
+752;Sphingobium olei;23;Sphingomonadaceae;Decomposers::Bacterie
+755;Sphingomonas fennica;23;Sphingomonadaceae;Decomposers::Bacterie
+756;Sphingomonas sp. 52NP12;23;Sphingomonadaceae;Decomposers::Bacterie
+954;uncultured Novosphingobium sp.;23;Sphingomonadaceae;Decomposers::Bacterie
+1010;uncultured Thermoflavimicrobium sp.;23;Thermoactinomycetaceae;Decomposers::Bacterie
+838;uncultured Actinoallomurus sp.;23;Thermomonosporaceae;Decomposers::Bacterie
+156;Cellvibrio;23;Cellvibrionaceae;Opportunists::Bacterie
+1015;uncultured Thiorhodospira sp.;23;Ectothiorhodospiraceae;Opportunists::Bacterie
+715;Rudaea sp. URHD0100;23;Rhodanobacteraceae;Opportunists::Bacterie
+780;Steroidobacter;23;Sinobacteraceae;Opportunists::Bacterie
+830;Tyrophagus;24;Acaridae;Fungivorous::Astigmata
+375;Histiostoma feroniarum;24;Histiostomatidae;Fungivorous::Astigmata
+192;Choleva angustata;24;Leiodidae;Fungivorous::Insect
+429;Lonchoptera lutea;24;Lonchopteridae;Fungivorous::Insect
+246;Ditylenchus dipsaci;24;Anguinidae;Fungivorous::Nematode
+729;Seinura demani;24;Aphelenchidae;Fungivorous::Nematode
+55;Aphelenchoides;24;Aphelenchoididae;Fungivorous::Nematode
+56;Aphelenchoides sp. 2137;24;Aphelenchoididae;Fungivorous::Nematode
+496;Mykophagophrys terricola;24;Grossglockneriidae;Fungivorous::Protist
+313;Forficula;24;Forficulidae;Non.selective::Forficulidae
+314;Forficula auricularia;24;Forficulidae;Non.selective::Forficulidae
+315;Forficula sp. NC-1995;24;Forficulidae;Non.selective::Forficulidae
+1022;Uropoda orbicularis;24;Uropodidae;Non.selective::Uropoda
+198;Chytridium polysiphoniae;24;Chytridiaceae;Parasitic::Polysiphoniae
+692;Rhizophydium planktonicum;24;Rhizophydiaceae;Parasitic::Rhizophydium_p
+419;Lepidocyrtus sp. 1 FZ-2013;24;Entomobryidae;Saprofungivore::Collembole
+730;Seira barnardi;24;Entomobryidae;Saprofungivore::Collembole
+1041;Willowsia nigromaculata;24;Entomobryidae;Saprofungivore::Collembole
+161;Ceratophysella sp. FZ-2014;24;Hypogastruridae;Saprofungivore::Collembole
+311;Folsomia candida;24;Isotomidae;Saprofungivore::Collembole
+312;Folsomia quadrioculata;24;Isotomidae;Saprofungivore::Collembole
+739;Sminthurinus bimaculatus;24;Katiannidae;Saprofungivore::Collembole
+457;Megalothorax sp. EA040003-cs17;24;Neelidae;Saprofungivore::Collembole
+458;Megalothorax sp. EA040004-cs23;24;Neelidae;Saprofungivore::Collembole
+459;Megalothorax sp. EA040008-cs9;24;Neelidae;Saprofungivore::Collembole
+807;Tetrodontophora bielanensis;24;Onychiuridae;Saprofungivore::Collembole
+738;Sminthurides aquaticus;24;Sminthurididae;Saprofungivore::Collembole
+1000;uncultured Stella sp.;25;Acetobacteraceae;Decomposers::Bacterie
+926;uncultured Levilinea sp.;25;Anaerolineaceae;Decomposers::Bacterie
+45;Anaeromyxobacter;25;Anaeromyxobacteraceae;Decomposers::Bacterie
+848;uncultured Bacteroides sp.;25;Bacteroidaceae;Decomposers::Bacterie
+95;Bdellovibrio exovorus;25;Bdellovibrionaceae;Decomposers::Bacterie
+129;Burkholderia cepacia;25;Burkholderiaceae;Decomposers::Bacterie
+569;Paucimonas lemoignei;25;Burkholderiaceae;Decomposers::Bacterie
+592;Phenylobacterium lituiforme;25;Caulobacteraceae;Decomposers::Bacterie
+803;Terrimonas sp. URHE0054;25;Chitinophagaceae;Decomposers::Bacterie
+224;Cytophaga hutchinsonii;25;Cytophagaceae;Decomposers::Bacterie
+255;Dyadobacter;25;Cytophagaceae;Decomposers::Bacterie
+878;uncultured Desulfotalea sp.;25;Desulfobulbaceae;Decomposers::Bacterie
+626;Porphyrobacter;25;Erythrobacteraceae;Decomposers::Bacterie
+341;Geobacter anodireducens;25;Geobacteraceae;Decomposers::Bacterie
+21;Adhaeribacter;25;Hymenobacteraceae;Decomposers::Bacterie
+66;Aquihabitans daechungensis;25;Iamiaceae;Decomposers::Bacterie
+918;uncultured Janibacter sp.;25;Intrasporangiaceae;Decomposers::Bacterie
+919;uncultured Kineococcus sp.;25;Kineosporiaceae;Decomposers::Bacterie
+475;Methylobacterium;25;Methylobacteriaceae;Decomposers::Bacterie
+942;uncultured Microvirga sp.;25;Methylobacteriaceae;Decomposers::Bacterie
+477;Methylosinus trichosporium;25;Methylocystaceae;Decomposers::Bacterie
+935;uncultured Methylobacillus sp.;25;Methylophilaceae;Decomposers::Bacterie
+30;Agromyces;25;Microbacteriaceae;Decomposers::Bacterie
+417;Leifsonia sp. A5AGK;25;Microbacteriaceae;Decomposers::Bacterie
+18;Actinoplanes;25;Micromonosporaceae;Decomposers::Bacterie
+226;Dactylosporangium;25;Micromonosporaceae;Decomposers::Bacterie
+494;Mycobacterium sp. PSY065;25;Mycobacteriaceae;Decomposers::Bacterie
+406;Kribbella;25;Nocardioidaceae;Decomposers::Bacterie
+407;Kribbella sp. enrichment culture clone VanCtr42;25;Nocardioidaceae;Decomposers::Bacterie
+254;Duganella sp. JPPB B33;25;Oxalobacteraceae;Decomposers::Bacterie
+957;uncultured Pasteuria sp.;25;Pasteuriaceae;Decomposers::Bacterie
+962;uncultured Phaselicystis sp.;25;Phaselicystidaceae;Decomposers::Bacterie
+600;Phyllobacterium;25;Phyllobacteriaceae;Decomposers::Bacterie
+44;Amycolatopsis tolypomycina;25;Pseudonocardiaceae;Decomposers::Bacterie
+925;uncultured Lentzea sp.;25;Pseudonocardiaceae;Decomposers::Bacterie
+976;uncultured Rhodobium sp.;25;Rhodobiaceae;Decomposers::Bacterie
+875;uncultured Denitratisoma sp.;25;Rhodocyclaceae;Decomposers::Bacterie
+968;uncultured Propionivibrio sp.;25;Rhodocyclaceae;Decomposers::Bacterie
+1002;uncultured Sterolibacterium sp.;25;Rhodocyclaceae;Decomposers::Bacterie
+995;uncultured Sphaerobacter sp.;25;Sphaerobacteraceae;Decomposers::Bacterie
+758;Sphingomonas sp. DB-II-12;25;Sphingomonadaceae;Decomposers::Bacterie
+996;uncultured Sphingobium sp.;25;Sphingomonadaceae;Decomposers::Bacterie
+787;Streptomyces sp. PanSC6;25;Streptomycetaceae;Decomposers::Bacterie
+788;Streptosporangium;25;Streptosporangiaceae;Decomposers::Bacterie
+880;uncultured Desulfovirga sp.;25;Syntrophobacteraceae;Decomposers::Bacterie
+411;Labrys;25;Xanthobacteraceae;Decomposers::Bacterie
+137;Candidatus Koribacter versatilis;25;Acidobacteriaceae;Miners::Bacterie
+911;uncultured Holophaga sp.;25;Holophagaceae;Miners::Bacterie
+917;uncultured Isosphaera sp.;25;Isosphaeraceae;Miners::Bacterie
+599;Phycisphaera mikurensis;25;Phycisphaeraceae;Miners::Bacterie
+1014;uncultured Thiohalospira sp.;25;Ectothiorhodospiraceae;Opportunists::Bacterie
+414;Legionella;25;Legionellaceae;Opportunists::Bacterie
+74;Arenimonas daechungensis;25;Xanthomonadaceae;Opportunists::Bacterie
+278;Eosentomon sp. FNSA-2002;26;Eosentomidae;Fungivorous::Insect
+57;Aphelenchus;26;Aphelenchidae;Fungivorous::Nematode
+58;Aphelenchus avenae;26;Aphelenchidae;Fungivorous::Nematode
+648;Pseudaphelenchus;26;Aphelenchoididae;Fungivorous::Nematode
+828;Tylencholaimus sp. PDL-2005;26;Tylencholaimidae;Fungivorous::Nematode
+396;Isotomiella minor;26;Isotomidae;Saprofungivore::Collembole
+804;Tetracanthella sp. YB-2012;26;Isotomidae;Saprofungivore::Collembole
+1033;Vertagopus sp. YB-2012;26;Isotomidae;Saprofungivore::Collembole
+327;Friesea grisea;26;Neanuridae;Saprofungivore::Collembole
+620;Podura aquatica;26;Poduridae;Saprofungivore::Collembole
+740;Sminthurus viridis;26;Sminthuridae;Saprofungivore::Collembole
+123;Bryometopus pseudochilodon;27;Bryometopidae;Pred2attach::Protist
+124;Bryometopus sphagni;27;Bryometopidae;Pred2attach::Protist
+290;Euplotes balteatus;27;Euplotidae;Pred2attach::Protist
+292;Euplotes trisulcatus;27;Euplotidae;Pred2attach::Protist
+51;Anteholosticha monilata;27;Holostichidae;Pred2attach::Protist
+355;Gonostomum sp. JS-2012;27;Trachelostylidae;Pred2attach::Protist
+356;Gonostomum strenuum;27;Trachelostylidae;Pred2attach::Protist
+1023;Urostyla grandis;27;Urostylidae;Pred2attach::Protist
+330;Fuscheria;27;Acropisthiidae;Pred2free::Protist
+331;Fuscheria sp. VBOEF-2011;27;Acropisthiidae;Pred2free::Protist
+365;Hemiamphisiella terricola;27;Amphisiellidae;Pred2free::Protist
+239;Dileptus sp.;27;Dileptidae;Pred2free::Protist
+482;Monilicaryon monilatum;27;Dileptidae;Pred2free::Protist
+280;Epispathidium sp. RV-2015;27;Spathidiidae;Pred2free::Protist
+745;Spathidium simplinucleatum;27;Spathidiidae;Pred2free::Protist
+637;Prodesmodora circulata;28;Microlaimidae;Bacterivorous::Nematode
+615;Plectus;28;Plectidae;Bacterivorous::Nematode
+634;Prismatolaimus;28;Prismatolaimidae;Bacterivorous::Nematode
+105;Bodo;28;Bodonidae;Bacterivorous::Protist
+174;Cercomonas vacuolata;28;Cercomonadidae;Pred1attach::Protist
+556;Paracercomonas filosa;28;Cercomonadidae;Pred1attach::Protist
+557;Paracercomonas paralaciniaegerens;28;Cercomonadidae;Pred1attach::Protist
+256;Echinamoeba exundans;28;Echinamoebidae;Pred1attach::Protist
+107;Bodomorpha sp. HFCC56;28;Heteromitidae;Pred1attach::Protist
+108;Bodomorpha sp. HFCC57;28;Heteromitidae;Pred1attach::Protist
+373;Heterophrys sp. Oxford1;28;Heterophryidae;Pred1attach::Protist
+451;Maryna ovata;28;Marynidae;Pred1attach::Protist
+413;Lamproderma sp. SAPA:100012;28;Stemonitidae;Pred1attach::Protist
+809;Thaumatomonas;28;Thaumatomastigidae;Pred1attach::Protist
+821;Trinema;28;Trinematidae;Pred1attach::Protist
+22;Adineta vaga;28;Adinetidae;Pred1free::Protist
+520;Notholca acuminata;28;Brachionidae;Pred1free::Protist
+641;Protaspis;28;Thaumatomastigidae;Pred1free::Protist
+1036;Vorticella campanula;28;Vorticellidae;Pred1free::Protist
+770;Spumella;29;Chromulinaceae;Phototroph::Algae
+772;Spumella sp. 37G;29;Chromulinaceae;Phytophage::Algae
+774;Spumella sp. SpiG;29;Chromulinaceae;Phytophage::Algae
+775;Spumella vulgaris;29;Chromulinaceae;Phytophage::Algae
+628;Poterioochromonas;29;Ochromonadaceae;Phytophage::Algae
+629;Poterioochromonas malhamensis;29;Ochromonadaceae;Phytophage::Algae
+64;Aporcelaimellus sp. 2010_050;30;Aporcelaimidae;Pred3::Nematode
+12;Acrobeloides;31;Cephalobidae;Bacterivorous::Nematode
+158;Cephalobus persegnis;31;Cephalobidae;Bacterivorous::Nematode
+420;Leptomyxa reticulata;31;Leptomyxidae;Bacterivorous::Protist
+421;Leptomyxa sp. AS-2016b;31;Leptomyxidae;Bacterivorous::Protist
+33;Allovahlkampfia;31;Vahlkampfiidae;Bacterivorous::Protist
+173;Cercomonas sp. HFCC 905;31;Cercomonadidae;Pred1attach::Protist
+559;Paracercomonas sp. HFCC 918;31;Cercomonadidae;Pred1attach::Protist
+208;Colpoda inflata;31;Colpodidae;Pred1attach::Protist
+651;Pseudocyrtolophosis alpestris;31;Cyrtolophosididae;Pred1attach::Protist
+717;Saccamoeba;31;Hartmannellidae;Pred1attach::Protist
+1031;Vermamoeba vermiformis;31;Hartmannellidae;Pred1attach::Protist
+121;Bresslauides discoideus;31;Hausmanniellidae;Pred1attach::Protist
+585;Peregrinia clavideferens;31;Thaumatomastigidae;Pred1attach::Protist
+97;Bicosoeca petiolata;31;Bicosoecidae;Pred1free::Protist
+103;Blepharisma;31;Blepharismidae;Pred1free::Protist
+643;Protocyclidium sinica;31;Cyclidiidae;Pred1free::Protist
+465;Meseres corlissi;31;Halteriidae;Pred1free::Protist
+747;Sphaeroeca;31;Salpingoecidae;Pred1free::Protist
+380;Homalogastra setosa;31;Uronematidae;Pred1free::Protist
+1051;Zoothamnium;31;Zoothamniidae;Pred1free::Protist
+16;Actinocrinis puniceicyclus;32;Actinospicaceae;Decomposers::Bacterie
+86;Bacteriovorax sp. PNEc1;32;Bacteriovoracaceae;Decomposers::Bacterie
+936;uncultured Methylocapsa sp.;32;Beijerinckiaceae;Decomposers::Bacterie
+670;Ralstonia sp. JOS55-1;32;Burkholderiaceae;Decomposers::Bacterie
+152;Caulobacter fusiformis;32;Caulobacteraceae;Decomposers::Bacterie
+595;Phenylobacterium sp. URHA0004;32;Caulobacteraceae;Decomposers::Bacterie
+861;uncultured Caulobacter sp.;32;Caulobacteraceae;Decomposers::Bacterie
+181;Chitinophaga pinensis;32;Chitinophagaceae;Decomposers::Bacterie
+505;Niastella;32;Chitinophagaceae;Decomposers::Bacterie
+1008;uncultured Thermaerobacter sp.;32;Clostridiales Family XVII. Incertae Sedis;Decomposers::Bacterie
+130;Caenimonas sp. TSX9-5;32;Comamonadaceae;Decomposers::Bacterie
+236;Diaphorobacter sp. NPG-14;32;Comamonadaceae;Decomposers::Bacterie
+865;uncultured Comamonas sp.;32;Comamonadaceae;Decomposers::Bacterie
+978;uncultured Rhodoferax sp.;32;Comamonadaceae;Decomposers::Bacterie
+309;Fluviicola;32;Crocinitomicaceae;Decomposers::Bacterie
+297;Fibrella sp.;32;Cytophagaceae;Decomposers::Bacterie
+874;uncultured Demequina sp.;32;Demequinaceae;Decomposers::Bacterie
+881;uncultured Desulfuromonas sp.;32;Desulfuromonadaceae;Decomposers::Bacterie
+36;Altererythrobacter buctense;32;Erythrobacteraceae;Decomposers::Bacterie
+37;Altererythrobacter sp. 100921-2;32;Erythrobacteraceae;Decomposers::Bacterie
+843;uncultured Altererythrobacter sp.;32;Erythrobacteraceae;Decomposers::Bacterie
+101;Blastococcus sp. URHB0062;32;Geodermatophilaceae;Decomposers::Bacterie
+102;Blastococcus sp. URHD0003;32;Geodermatophilaceae;Decomposers::Bacterie
+625;Pontibacter sp. LX8;32;Hymenobacteraceae;Decomposers::Bacterie
+574;Pedomicrobium;32;Hyphomicrobiaceae;Decomposers::Bacterie
+701;Rhodoplanes;32;Hyphomicrobiaceae;Decomposers::Bacterie
+851;uncultured Blastochloris sp.;32;Hyphomicrobiaceae;Decomposers::Bacterie
+408;Ktedonobacter sp. enrichment culture clone CTBE CDB1001H01;32;Ktedonobacteraceae;Decomposers::Bacterie
+922;uncultured Ktedonobacter sp.;32;Ktedonobacteraceae;Decomposers::Bacterie
+938;uncultured Methylophilus sp.;32;Methylophilaceae;Decomposers::Bacterie
+381;Humibacter sp. Po15c;32;Microbacteriaceae;Decomposers::Bacterie
+76;Arthrobacter;32;Micrococcaceae;Decomposers::Bacterie
+144;Catellatospora sp. KC-EP-S6;32;Micromonosporaceae;Decomposers::Bacterie
+839;uncultured Actinocatenispora sp.;32;Micromonosporaceae;Decomposers::Bacterie
+946;uncultured Nannocystis sp.;32;Nannocystaceae;Decomposers::Bacterie
+697;Rhodococcus;32;Nocardiaceae;Decomposers::Bacterie
+23;Aeromicrobium panaciterrae;32;Nocardioidaceae;Decomposers::Bacterie
+515;Nocardioides sp. RW28;32;Nocardioidaceae;Decomposers::Bacterie
+909;uncultured Herbaspirillum sp.;32;Oxalobacteraceae;Decomposers::Bacterie
+986;uncultured Saccharibacillus sp.;32;Paenibacillaceae;Decomposers::Bacterie
+409;Kutzneria;32;Pseudonocardiaceae;Decomposers::Bacterie
+227;Dechloromonas;32;Rhodocyclaceae;Decomposers::Bacterie
+904;uncultured Georgfuchsia sp.;32;Rhodocyclaceae;Decomposers::Bacterie
+251;Dongia sp. CB 286422;32;Rhodospirillaceae;Decomposers::Bacterie
+908;uncultured Haliscomenobacter sp.;32;Saprospiraceae;Decomposers::Bacterie
+489;Mucilaginibacter sp. HME7565;32;Sphingobacteriaceae;Decomposers::Bacterie
+572;Pedobacter luteus;32;Sphingobacteriaceae;Decomposers::Bacterie
+573;Pedobacter sp. FGR-05;32;Sphingobacteriaceae;Decomposers::Bacterie
+742;Solitalea;32;Sphingobacteriaceae;Decomposers::Bacterie
+759;Sphingomonas sp. LP105;32;Sphingomonadaceae;Decomposers::Bacterie
+768;Sporichthya;32;Sporichthyaceae;Decomposers::Bacterie
+1004;uncultured Syntrophobacter sp.;32;Syntrophobacteraceae;Decomposers::Bacterie
+575;Pedosphaera parvula;32;Verrucomicrobia subdivision 3;Decomposers::Bacterie
+1017;uncultured Verrucomicrobium sp.;32;Verrucomicrobiaceae;Decomposers::Bacterie
+8;Acidobacterium;32;Acidobacteriaceae;Miners::Bacterie
+258;Edaphobacter;32;Acidobacteriaceae;Miners::Bacterie
+357;Granulicella paludicola;32;Acidobacteriaceae;Miners::Bacterie
+527;Occallatibacter riparius;32;Acidobacteriaceae;Miners::Bacterie
+346;Geothrix;32;Holophagaceae;Miners::Bacterie
+735;Singulisphaera rosea;32;Isosphaeraceae;Miners::Bacterie
+606;Pirellula sp.;32;Planctomycetaceae;Miners::Bacterie
+707;Rickettsiella;32;Coxiellaceae;Opportunists::Bacterie
+907;uncultured Haliea sp.;32;Halieaceae;Opportunists::Bacterie
+249;Dokdonella ginsengisoli;32;Rhodanobacteraceae;Opportunists::Bacterie
+695;Rhodanobacter;32;Rhodanobacteraceae;Opportunists::Bacterie
+75;Arenimonas sp. HMF3017;32;Xanthomonadaceae;Opportunists::Bacterie
+438;Lysobacter sp. MS6Y-8-7;32;Xanthomonadaceae;Opportunists::Bacterie
+440;Lysobacter sp. YS-37;32;Xanthomonadaceae;Opportunists::Bacterie
+915;uncultured Ignavibacterium sp.;32;Ignavibacteriaceae;Unknown::Bacterie
+765;Spirochaeta;32;Spirochaetaceae;Unknown::Bacterie
+530;Ochromonas sp. CCMP2761;33;Chromulinaceae;Phytophage::Algae
+630;Poterioochromonas stipitata;33;Ochromonadaceae;Phytophage::Algae
+167;Cercomonas media;33;Cercomonadidae;Pred1attach::Protist
+168;Cercomonas parambigua;33;Cercomonadidae;Pred1attach::Protist
+169;Cercomonas parincurva;33;Cercomonadidae;Pred1attach::Protist
+453;Massisteria marina;33;Cercomonadidae;Pred1attach::Protist
+554;Paracercomonas astra;33;Cercomonadidae;Pred1attach::Protist
+705;Rhogostoma sp. CCAP 1966/4;33;Chlamydophryidae;Pred1attach::Protist
+209;Colpoda sp. MD-2011;33;Colpodidae;Pred1attach::Protist
+210;Colpoda sp. PRA-118;33;Colpodidae;Pred1attach::Protist
+518;Nolandella;33;Hartmannellidae;Pred1attach::Protist
+611;Platyophrya;33;Platyophryidae;Pred1attach::Protist
+808;Thaumatomastix;33;Thaumatomastigidae;Pred1attach::Protist
+823;Trinema lineare;33;Trinematidae;Pred1attach::Protist
+104;Blepharisma hyalinum;33;Blepharismidae;Pred1free::Protist
+655;Pseudoplatyophrya nana;34;Grossglockneriidae;Fungivorous::Protist
+850;uncultured Bellilinea sp.;35;Anaerolineaceae;Decomposers::Bacterie
+128;Burkholderia;35;Burkholderiaceae;Decomposers::Bacterie
+153;Caulobacter profundus;35;Caulobacteraceae;Decomposers::Bacterie
+594;Phenylobacterium sp. enrichment culture clone LplF-80;35;Caulobacteraceae;Decomposers::Bacterie
+296;Ferruginibacter sp. WF24;35;Chitinophagaceae;Decomposers::Bacterie
+308;Flavosolibacter sp. HU1-JC5;35;Chitinophagaceae;Decomposers::Bacterie
+728;Segetibacter;35;Chitinophagaceae;Decomposers::Bacterie
+988;uncultured Segetibacter sp.;35;Chitinophagaceae;Decomposers::Bacterie
+384;Hydrogenophaga;35;Comamonadaceae;Decomposers::Bacterie
+260;Emticicia sp. KJ033;35;Cytophagaceae;Decomposers::Bacterie
+35;Altererythrobacter;35;Erythrobacteraceae;Decomposers::Bacterie
+303;Flavobacterium hydatis;35;Flavobacteriaceae;Decomposers::Bacterie
+304;Flavobacterium sp. BF134;35;Flavobacteriaceae;Decomposers::Bacterie
+624;Pontibacter;35;Hymenobacteraceae;Decomposers::Bacterie
+673;Rathayibacter;35;Microbacteriaceae;Decomposers::Bacterie
+19;Actinoplanes sp. IR51-RC111;35;Micromonosporaceae;Decomposers::Bacterie
+27;Aggregicoccus edonensis;35;Myxococcaceae;Decomposers::Bacterie
+514;Nocardioides sp. MSL 24;35;Nocardioidaceae;Decomposers::Bacterie
+844;uncultured Aminobacter sp.;35;Phyllobacteriaceae;Decomposers::Bacterie
+722;Sanguibacter;35;Sanguibacteraceae;Decomposers::Bacterie
+994;uncultured Solitalea sp.;35;Sphingobacteriaceae;Decomposers::Bacterie
+757;Sphingomonas sp. C0503;35;Sphingomonadaceae;Decomposers::Bacterie
+761;Sphingomonas sp. NCCP-1295;35;Sphingomonadaceae;Decomposers::Bacterie
+764;Sphingosinicella sp. YJ22;35;Sphingomonadaceae;Decomposers::Bacterie
+998;uncultured Sphingosinicella sp.;35;Sphingomonadaceae;Decomposers::Bacterie
+17;Actinomadura sp. 1g12710;35;Thermomonosporaceae;Decomposers::Bacterie
+9;Acidobacterium sp. pan6;35;Acidobacteriaceae;Miners::Bacterie
+259;Edaphobacter dinghuensis;35;Acidobacteriaceae;Miners::Bacterie
+980;uncultured Rhodopirellula sp.;35;Planctomycetaceae;Miners::Bacterie
+10;Acinetobacter;35;Moraxellaceae;Opportunists::Bacterie
+586;Perlucidibaca;35;Moraxellaceae;Opportunists::Bacterie
+696;Rhodanobacter sp. D47;35;Rhodanobacteraceae;Opportunists::Bacterie
+383;Hydrocarboniphaga;35;Sinobacteraceae;Opportunists::Bacterie
+439;Lysobacter sp. RHLT3-4;35;Xanthomonadaceae;Opportunists::Bacterie
+778;Stenotrophomonas;35;Xanthomonadaceae;Opportunists::Bacterie
+811;Thermomonas;35;Xanthomonadaceae;Opportunists::Bacterie
+892;uncultured Fibrobacter sp.;35;Fibrobacteraceae;Unknown::Bacterie
+534;Oligoflexus tunisiensis;35;Oligoflexaceae;Unknown::Bacterie
+46;Anatonchus tridentatus;36;Anatonchidae;Pred3::Nematode
+243;Diplogasteroides magnus;36;Diplogasteroididae;Pred3::Nematode
+201;Clarkus;36;Mononchidae;Pred3::Nematode
+525;Nygolaimus cf. brachyuris JH-2004;36;Nygolaimidae;Pred3::Nematode
+532;Odontolaimus;36;Oxystominidae;Pred3::Nematode
+273;Entomobrya sp. 9644 FZ-2013;37;Entomobryidae;Saprofungivore::Collembole
+418;Lepidocyrtus paradoxus;37;Entomobryidae;Saprofungivore::Collembole
+540;Orchesella villosa;37;Entomobryidae;Saprofungivore::Collembole
+395;Isotoma viridis;37;Isotomidae;Saprofungivore::Collembole
+456;Megalothorax;37;Neelidae;Saprofungivore::Collembole
+640;Protaphorura armata;37;Onychiuridae;Saprofungivore::Collembole
+827;Tullbergia yosii;37;Tullbergiidae;Saprofungivore::Collembole
+79;Ascobolus stercorarius;38;Ascobolaceae;Coprotroph::Ascomycota
+814;Trechispora farinacea;38;Hydnodontaceae;Lignotroph::Fungi
+647;Psathyrella sp. D16;38;Psathyrellaceae;Lignotroph::Fungi
+790;Syncephalis fuscata;38;Piptocephalidaceae;Saprotoph::Zoopagales
+269;Endogone lactiflua;38;Endogonaceae;Saprotroph::Endogone.lactiflua
+13;Acrospermum;38;Acrospermaceae;Saprotroph::Fungi
+14;Acrospermum gramineum;38;Acrospermaceae;Saprotroph::Fungi
+67;Archaeorhizomyces;38;Archaeorhizomycetaceae;Saprotroph::Fungi
+69;Archaeorhizomyces finlayi;38;Archaeorhizomycetaceae;Saprotroph::Fungi
+90;Basidiobolus;38;Basidiobolaceae;Saprotroph::Fungi
+783;Stilbocrea macrostoma;38;Bionectriaceae;Saprotroph::Fungi
+242;Dioszegia crocea;38;Bulleribasidiaceae;Saprotroph::Fungi
+176;Chaetosphaeria ciliata;38;Chaetosphaeriaceae;Saprotroph::Fungi
+376;Hodophilus hymenocephalus;38;Clavariaceae;Saprotroph::Fungi
+664;Pyrenochaeta sp. GMG_PPb7;38;Cucurbitariaceae;Saprotroph::Fungi
+2;Absidia glauca;38;Cunninghamellaceae;Saprotroph::Fungi
+351;Gongronella;38;Cunninghamellaceae;Saprotroph::Fungi
+352;Gongronella butleri;38;Cunninghamellaceae;Saprotroph::Fungi
+359;Halteromyces radiatus;38;Cunninghamellaceae;Saprotroph::Fungi
+222;Cyphellophora sessilis;38;Cyphellophoraceae;Saprotroph::Fungi
+237;Dictyosporium;38;Dictyosporiaceae;Saprotroph::Fungi
+298;Filobasidium stepposum;38;Filobasidiaceae;Saprotroph::Fungi
+552;Panorbis viscosus;38;Halosphaeriaceae;Saprotroph::Fungi
+725;Scytinostroma;38;Lachnocladiaceae;Saprotroph::Fungi
+245;Dissophora decumbens;38;Mortierellaceae;Saprotroph::Fungi
+491;Mucor;38;Mucoraceae;Saprotroph::Fungi
+382;Hyalorbilia sp. HOB-2016a;38;Orbiliaceae;Saprotroph::Fungi
+590;Phaeosphaeria;38;Phaeosphaeriaceae;Saprotroph::Fungi
+689;Rhizophlyctis rosea;38;Rhizophlyctidaceae;Saprotroph::Fungi
+766;Spizellomyces;38;Spizellomycetaceae;Saprotroph::Fungi
+769;Sporobolomyces;38;Sporidiobolaceae;Saprotroph::Fungi
+597;Pholiota squarrosa;38;Strophariaceae;Saprotroph::Fungi
+62;Apiotrichum;38;Trichosporonaceae;Saprotroph::Fungi
+63;Apiotrichum porosum;38;Trichosporonaceae;Saprotroph::Fungi
+826;Tubeufia helicomyces;38;Tubeufiaceae;Saprotroph::Fungi
+157;Cenarchaeum symbiosum;39;Cenarchaeaceae;Decomposers::Archae
+474;Methanomassiliicoccus sp. P27;39;Methanomassiliicoccaceae;Decomposers::Archae
+139;Candidatus Nitrososphaera gargensis;39;Nitrososphaeraceae;Decomposers::Archae
+869;uncultured Curvibacter sp.;39;Comamonadaceae;Decomposers::Bacterie
+776;Staphylococcus;39;Staphylococcaceae;Decomposers::Bacterie
+784;Streptacidiphilus alcalitolerans;39;Streptomycetaceae;Decomposers::Bacterie
+714;Rudaea cellulosilytica;39;Rhodanobacteraceae;Opportunists::Bacterie
+470;Metarhizium anisopliae;40;Clavicipitaceae;Parasitic::Entomopath
+666;Pythium monospermum;40;Pythiaceae;Pathogen::Pythium_m
+53;Anystis;40;Anystidae;Pred3::Mesostigmata
+99;Blaberolaelaps sp. APGD-2010;40;Laelapidae;Pred3::Mesostigmata
+1028;Veigaia;40;Veigaiidae;Pred3::Mesostigmata
+1029;Veigaia nemorensis;40;Veigaiidae;Pred3::Mesostigmata
+1030;Veigaia sp. 2 APGD-2010;40;Veigaiidae;Pred3::Mesostigmata
+40;Amphileptus sp. ZY-2014b;41;Amphileptidae;Pred2free::Protist
+238;Dileptus microstoma;41;Dileptidae;Pred2free::Protist
+504;Neourostylopsis;41;Holostichidae;Pred2free::Protist
+596;Phialina salinarum;41;Lacrymariidae;Pred2free::Protist
+72;Arcuospathidium namibiense;41;Spathidiidae;Pred2free::Protist
+219;Cultellothrix coemeterii;41;Spathidiidae;Pred2free::Protist
+220;Cultellothrix lionotiformis;41;Spathidiidae;Pred2free::Protist
+281;Epispathidium terricola;41;Spathidiidae;Pred2free::Protist
+282;Epistylis;42;Epistylidae;Pred1free::Protist
+412;Lacrymaria marina;42;Lacrymariidae;Pred1free::Protist
+545;Oxytricha;42;Oxytrichidae;Pred1free::Protist
+793;Tachysoma pellionellum;42;Oxytrichidae;Pred1free::Protist
+484;Monosiga ovata;42;Salpingoecidae;Pred1free::Protist
+733;Siluania monomastiga;42;Siluaniidae;Pred1free::Protist
+235;Diaphanoeca spiralifurca;42;Stephanoecidae;Pred1free::Protist
+1034;Vexillifera;42;Vexilliferidae;Pred1free::Protist
+1038;Vorticellides;42;Vorticellidae;Pred1free::Protist
+524;Nuclearia;43;Nucleariidae;Pred2attach::Protist
+353;Gonostomum;43;Trachelostylidae;Pred2attach::Protist
+38;Ambispora fennica;44;Ambisporaceae;ACM::Glomeromyc
+70;Archaeospora sp. PODO7.3;44;Archaeosporaceae;ACM::Glomeromyc
+71;Archaeospora trappei;44;Archaeosporaceae;ACM::Glomeromyc
+547;Palaeospora spainiae;44;Archaeosporaceae;ACM::Glomeromyc
+202;Claroideoglomus claroideum;44;Claroideoglomeraceae;ACM::Glomeromyc
+247;Diversispora;44;Diversisporaceae;ACM::Glomeromyc
+248;Diversispora varaderana;44;Diversisporaceae;ACM::Glomeromyc
+175;Cetraspora nodosa;44;Gigasporaceae;ACM::Glomeromyc
+724;Scutellospora alterata;44;Gigasporaceae;ACM::Glomeromyc
+329;Funneliformis mosseae;44;Glomeraceae;ACM::Glomeromyc
+348;Glomus;44;Glomeraceae;ACM::Glomeromyc
+349;Glomus invermaium;44;Glomeraceae;ACM::Glomeromyc
+350;Glomus sp. 9 SUN-2011;44;Glomeraceae;ACM::Glomeromyc
+686;Rhizophagus;44;Glomeraceae;ACM::Glomeromyc
+687;Rhizophagus intraradices;44;Glomeraceae;ACM::Glomeromyc
+731;Septoglomus;44;Glomeraceae;ACM::Glomeromyc
+561;Paraglomus;44;Paraglomeraceae;ACM::Glomeromyc
+562;Paraglomus brasilianum;44;Paraglomeraceae;ACM::Glomeromyc
+41;Amphimallon solstitiale;44;Scarabaeidae;Coprophage::Insect
+61;Aphodius johnsoni;44;Scarabaeidae;Coprophage::Insect
+389;Hyphochytrium catenoides;44;Hyphochytriaceae;Hyperparasitoid::Hyphochytrium
+1042;Woronina pythii;44;Plasmodiophoridae;Hyperparasitoid::Woronina
+781;Stigmalychus sp. AD1318;44;Alicorhagiidae;Non.selective::Endeostigmata
+792;Tachyporus hypnorum;44;Staphylinidae;Non.selective::Forficulidae
+497;Myrmica scabrinodis;44;Formicidae;Non.selective::Myrmica
+485;Moraxella osloensis;44;Moraxellaceae;Opportunists::Bacterie
+48;Anoplophrya marylandensis;44;Anoplophryidae;Parasitic::Anoplophrya
+59;Aphidius ervi;44;Braconidae;Parasitic::Aphidius
+223;Cystobasidium;44;Cystobasidiaceae;Parasitic::Cystobasidium
+469;Metarhizium;44;Clavicipitaceae;Parasitic::Entomopath
+96;Beauveria;44;Cordycipitaceae;Parasitic::Entomopath
+274;Entyloma ficariae;44;Entylomataceae;Parasitic::Entyloma
+332;Gaeumannomyces graminis;44;Magnaporthaceae;Parasitic::Gaeumannomyces
+347;Gliricola sp. 274;44;Gyropidae;Parasitic::Gliricola
+423;Leptosphaeria biglobosa;44;Leptosphaeriaceae;Parasitic::Leptosphaeria
+441;Magnaporthe;44;Magnaporthaceae;Parasitic::Magnaporthe
+483;Monocystis agilis;44;Monocystidae;Parasitic::Monocystis
+535;Olpidium bornovanus;44;Olpidiaceae;Parasitic::Olpidium
+536;Olpidium brassicae;44;Olpidiaceae;Parasitic::Olpidium
+644;Protomyces;44;Protomycetaceae;Parasitic::Protomyces
+682;Rhizoctonia solani;44;Ceratobasidiaceae;Parasitic::Rhizoctonia_s
+1040;Waitea circinata;44;Ceratobasidiaceae;Parasitic::Rhizoctonia_z
+683;Rhizoglyphus;44;Acaridae;Parasitic::Rhizoglyphus
+709;Romanomermis sichuanensis;44;Mermithidae;Parasitic::Romanomermis
+791;Synchytrium;44;Synchytriaceae;Parasitic::Synchytrium
+806;Tetranychus urticae;44;Tetranychidae;Parasitic::Tetranychus
+368;Herpetomonas;44;Trypanosomatidae;Parasitic::Trypanosomatidae
+825;Trypanosoma;44;Trypanosomatidae;Parasitic::Trypanosomatidae
+424;Limonomyces roseipellis;44;Corticiaceae;Parasitic:Limonomyces
+371;Heterodera;44;Heteroderidae;Parasitic_p::Nematode
+712;Rotylenchulus reniformis;44;Hoplolaimidae;Parasitic_p::Nematode
+713;Rotylenchus vitis;44;Hoplolaimidae;Parasitic_p::Nematode
+431;Longidorus raskii;44;Longidoridae;Parasitic_p::Nematode
+432;Longidorus vinearum;44;Longidoridae;Parasitic_p::Nematode
+1046;Xiphinema;44;Longidoridae;Parasitic_p::Nematode
+1047;Xiphinema diversicaudatum;44;Longidoridae;Parasitic_p::Nematode
+623;Polymyxa graminis;44;Plasmodiophoridae;Pathogen::Polymyxa
+7;Achillea millefolium;44;Asteraceae;Phototroph::Asteraceae
+143;Cardamine;44;Brassicaceae;Phototroph::Brassicaceae
+34;Alnus;44;Betulaceae;Phototroph::Fagales
+131;Calluna vulgaris;44;Ericaceae;Phototroph::non-legume
+589;Phacelia tanacetifolia;44;Hydrophyllaceae;Phototroph::non-legume
+403;Juncus;44;Juncaceae;Phototroph::non-legume
+425;Linum;44;Linaceae;Phototroph::non-legume
+369;Hesperelaea palmeri;44;Oleaceae;Phototroph::non-legume
+154;Cedrus;44;Pinaceae;Phototroph::Pinales
+602;Picea abies;44;Pinaceae;Phototroph::Pinales
+744;Sorghum;44;Poaceae;Phototroph::Poaceae
+587;Persicaria;44;Polygonaceae;Phototroph::Polygonaceae
+680;Rheum;44;Polygonaceae;Phototroph::Polygonaceae
+60;Aphis;44;Aphididae;Phytophage::Aphis
+82;Aulacorthum solani;44;Aphididae;Phytophage::Aulacorthum
+88;Barynotus moerens;44;Curculionidae;Phytophage::Barynotus
+89;Barynotus obscurus;44;Curculionidae;Phytophage::Barynotus
+29;Agriotes sordidus;44;Elateridae;Phytophage::Elateridae
+81;Athous;44;Elateridae;Phytophage::Elateridae
+498;Myzus persicae;44;Aphididae;Phytophage::Myzus
+91;Basiria;44;Tylenchidae;Phytophage::Nematode
+110;Boleodorus volutus;44;Tylenchidae;Phytophage::Nematode
+517;Noctua pronuba;44;Noctuidae;Phytophage::Noctua
+544;Otiorhynchus armadillo;44;Curculionidae;Phytophage::Otiorhynchus 
+579;Pemphigus;44;Pemphigidae;Phytophage::Pemphigus
+706;Rhopalosiphum padi;44;Aphididae;Phytophage::Rhopalosiphum
+737;Sitona lineatus;44;Curculionidae;Phytophage::Sitona
+196;Chthonius;44;Chthoniidae;Pred3::Pseudosc
+197;Chthonius sp. 2 JM-2008;44;Chthoniidae;Pred3::Pseudosc
+521;Notiophilus rufipes;44;Carabidae;Pred4::Carabidae
+815;Trechus;44;Carabidae;Pred4::Carabidae
+816;Trechus obtusus;44;Carabidae;Pred4::Carabidae
+817;Trechus quadristriatus;44;Carabidae;Pred4::Carabidae
+427;Lithobius forficatus;44;Lithobiidae;Pred4::Chilopode
+428;Lithobius variegatus;44;Lithobiidae;Pred4::Chilopode
+708;Robertus neglectus;44;Theridiidae;Pred4::Robertus
+272;Entomobrya multifasciata;44;Entomobryidae;Saprofungivore::Collembole
+434;Lumbricus centralis;44;Lumbricidae;Saprogeophageous::Lumb
+435;Lumbricus friendi;44;Lumbricidae;Saprogeophageous::Lumb
+221;Cylindroiulus caeruleocinctus;44;Julidae;Saprophage::Diplopode
+621;Polydesmus coriaceus;44;Polydesmidae;Saprophage::Diplopode
+134;Campodea;44;Campodeidae;Saprophage::Diploure
+135;Campodea fragilis;44;Campodeidae;Saprophage::Diploure
+119;Bradysia subrufescens;44;Sciaridae;Saprophage::Diptere
+588;Peyerimhoffia alpina;44;Sciaridae;Saprophage::Diptere
+812;Tipula abdominalis;44;Tipulidae;Saprophage::Diptere
+813;Tipula cockerelliana;44;Tipulidae;Saprophage::Diptere
+645;Protoribates hakonensis;44;Protoribatidae;Saprophage::Oribate
+3;Achaeta;44;Enchytraeidae;Saprophageous::Enchy
+4;Achaeta affinis;44;Enchytraeidae;Saprophageous::Enchy
+125;Buchholzia fallax;44;Enchytraeidae;Saprophageous::Enchy
+177;Chamaedrilus aff. glandulosus A SM-2014;44;Enchytraeidae;Saprophageous::Enchy
+266;Enchytraeus norvegicus;44;Enchytraeidae;Saprophageous::Enchy
+317;Fridericia bisetosa;44;Enchytraeidae;Saprophageous::Enchy
+319;Fridericia connata;44;Enchytraeidae;Saprophageous::Enchy
+321;Fridericia isseli;44;Enchytraeidae;Saprophageous::Enchy
+322;Fridericia magna;44;Enchytraeidae;Saprophageous::Enchy
+323;Fridericia paroniana;44;Enchytraeidae;Saprophageous::Enchy
+324;Fridericia ratzeli;44;Enchytraeidae;Saprophageous::Enchy
+325;Fridericia sohlenii;44;Enchytraeidae;Saprophageous::Enchy
+366;Henlea;44;Enchytraeidae;Saprophageous::Enchy
+444;Marionina;44;Enchytraeidae;Saprophageous::Enchy
+446;Marionina clavata;44;Enchytraeidae;Saprophageous::Enchy
+448;Marionina sublitoralis;44;Enchytraeidae;Saprophageous::Enchy
+126;Bullera;44;Bulleraceae;Saprotroph::Fungi
+391;Hyphodontia rimosissima;44;Corticiaceae;Saprotroph::Fungi
+660;Psora;44;Psoraceae;Saprotroph::Fungi
+39;Amphidelus cf. pusillus 9 Mile 3-17 LP-02;45;Alaimidae;Bacterivorous::Nematode
+616;Plectus aquatilis;45;Plectidae;Bacterivorous::Nematode
+635;Prismatolaimus cf. dolichurus JH-2004;45;Prismatolaimidae;Bacterivorous::Nematode
+678;Rhabditis;45;Rhabditidae;Bacterivorous::Nematode
+471;Metateratocephalus;45;Teratocephalidae;Bacterivorous::Nematode
+799;Teratocephalus terrestris;45;Teratocephalidae;Bacterivorous::Nematode
+531;Ochromonas vasocystis;46;Chromulinaceae;Phytophage::Algae
+186;Chlamydomyxa labyrinthuloides;46;Myxochloridaceae;Phytophage::Algae
+831;uncultured Acidimicrobium sp.;47;Acidimicrobiaceae;Decomposers::Bacterie
+889;uncultured Ferrimicrobium sp.;47;Acidimicrobiaceae;Decomposers::Bacterie
+916;uncultured Ilumatobacter sp.;47;Acidimicrobiaceae;Decomposers::Bacterie
+840;uncultured Actinomyces sp.;47;Actinomycetaceae;Decomposers::Bacterie
+876;uncultured Derxia sp.;47;Alcaligenaceae;Decomposers::Bacterie
+928;uncultured Longilinea sp.;47;Anaerolineaceae;Decomposers::Bacterie
+94;Bdellovibrio;47;Bdellovibrionaceae;Decomposers::Bacterie
+937;uncultured Methylocella sp.;47;Beijerinckiaceae;Decomposers::Bacterie
+852;uncultured Bradyrhizobium sp.;47;Bradyrhizobiaceae;Decomposers::Bacterie
+155;Cellulomonas;47;Cellulomonadaceae;Decomposers::Bacterie
+301;Flavisolibacter rigui;47;Chitinophagaceae;Decomposers::Bacterie
+560;Parafilimonas terrae;47;Chitinophagaceae;Decomposers::Bacterie
+923;uncultured Lacibacter sp.;47;Chitinophagaceae;Decomposers::Bacterie
+966;uncultured Polaromonas sp.;47;Comamonadaceae;Decomposers::Bacterie
+927;uncultured Lishizhenia sp.;47;Crocinitomicaceae;Decomposers::Bacterie
+871;uncultured Cytophaga sp.;47;Cytophagaceae;Decomposers::Bacterie
+873;uncultured Dehalococcoides sp.;47;Dehalococcoidaceae;Decomposers::Bacterie
+879;uncultured Desulfovibrio sp.;47;Desulfovibrionaceae;Decomposers::Bacterie
+576;Pelobacter;47;Desulfuromonadaceae;Decomposers::Bacterie
+894;uncultured Flavobacterium sp.;47;Flavobacteriaceae;Decomposers::Bacterie
+334;Gaiella occulta;47;Gaiellaceae;Decomposers::Bacterie
+340;Geobacter;47;Geobacteraceae;Decomposers::Bacterie
+342;Geobacter sp. enrichment culture clone VanCtr1;47;Geobacteraceae;Decomposers::Bacterie
+842;uncultured Adhaeribacter sp.;47;Hymenobacteraceae;Decomposers::Bacterie
+702;Rhodoplanes sp. Z2-YC6860;47;Hyphomicrobiaceae;Decomposers::Bacterie
+913;uncultured Hyphomicrobium sp.;47;Hyphomicrobiaceae;Decomposers::Bacterie
+970;uncultured Prosthecomicrobium sp.;47;Hyphomicrobiaceae;Decomposers::Bacterie
+400;Janibacter;47;Intrasporangiaceae;Decomposers::Bacterie
+479;Microbacterium;47;Microbacteriaceae;Decomposers::Bacterie
+433;Luedemannella sp. 119-1-07;47;Micromonosporaceae;Decomposers::Bacterie
+872;uncultured Dactylosporangium sp.;47;Micromonosporaceae;Decomposers::Bacterie
+685;Rhizomicrobium sp. URHE0053;47;Micropepsaceae;Decomposers::Bacterie
+499;Nakamurella;47;Nakamurellaceae;Decomposers::Bacterie
+449;Marmoricola;47;Nocardioidaceae;Decomposers::Bacterie
+953;uncultured Nocardioides sp.;47;Nocardioidaceae;Decomposers::Bacterie
+956;uncultured Opitutus sp.;47;Opitutaceae;Decomposers::Bacterie
+452;Massilia;47;Oxalobacteraceae;Decomposers::Bacterie
+877;uncultured Desulfitobacterium sp.;47;Peptococcaceae;Decomposers::Bacterie
+934;uncultured Mesorhizobium sp.;47;Phyllobacteriaceae;Decomposers::Bacterie
+26;Aetherobacter;47;Polyangiaceae;Decomposers::Bacterie
+743;Sorangium cellulosum;47;Polyangiaceae;Decomposers::Bacterie
+864;uncultured Chondromyces sp.;47;Polyangiaceae;Decomposers::Bacterie
+967;uncultured Polyangium sp.;47;Polyangiaceae;Decomposers::Bacterie
+653;Pseudonocardia;47;Pseudonocardiaceae;Decomposers::Bacterie
+888;uncultured Ferribacterium sp.;47;Rhodocyclaceae;Decomposers::Bacterie
+571;Pedobacter;47;Sphingobacteriaceae;Decomposers::Bacterie
+523;Novosphingobium sp.;47;Sphingomonadaceae;Decomposers::Bacterie
+999;uncultured Sporichthya sp.;47;Sporichthyaceae;Decomposers::Bacterie
+1003;uncultured Streptomyces sp.;47;Streptomycetaceae;Decomposers::Bacterie
+943;uncultured Moorella sp.;47;Thermoanaerobacteraceae;Decomposers::Bacterie
+929;uncultured Luteolibacter sp.;47;Verrucomicrobiaceae;Decomposers::Bacterie
+1039;Vulgatibacter incomptus;47;Vulgatibacteraceae;Decomposers::Bacterie
+987;uncultured Saccharophagus sp.;47;Cellvibrionaceae;Opportunists::Bacterie
+882;uncultured Dokdonella sp.;47;Rhodanobacteraceae;Opportunists::Bacterie
+73;Arenimonas;47;Xanthomonadaceae;Opportunists::Bacterie
+1012;uncultured Thermomonas sp.;47;Xanthomonadaceae;Opportunists::Bacterie

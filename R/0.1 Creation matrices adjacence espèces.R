@@ -6,7 +6,7 @@
 
 # -----------------------------------------------------------------------------
 # STEP:
-#    0.1   Generating species x species adjacency matrices
+#    0.1   Generating species x species adjacency matrices (binary, weighted by proba & count)
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
@@ -19,30 +19,45 @@
 library(reshape2)
 # -----------------------------------------------------------------------------
 
+##### Params ####
 
-setwd("C:/1. Mike/5. RH/1. Stagiaire/18_Labouyrie Maeva/v2/bio-net/Data")
+filt_type_inter=c("symbiotic")
+#################
+
+setwd("../data")
 
 # -----------------------------------------------------------------------------
 # data load
 # -----------------------------------------------------------------------------
 #Metabarcoding dataset
-metabar     <- read.csv("mb.csv", sep = ";", h = T) 
+metabar     <- read.csv("input/metabar.csv", sep = ";", h = T) 
+dim(metabar)
 #edge list of expert based interactions
-el          <- read.csv("expert_edge_list.csv", sep = ";", h = T)
+el          <- read.csv("input/expert_edge_list.csv", sep = ";", h = T)   ##Expert edges
+el         <- el[!(el$type %in% filt_type_inter),]  ### Filter specific types of interactions
+dim(el)
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Modifications on metabarcoding dataframe
 # -----------------------------------------------------------------------------
-# getting a dataframe with only taxa name, their expert-based trophic group and their Âµhabitat => expert_memb
-mb <- metabar[,c("retained_tax", "codeFW", "Âµhab_surf", "Âµhab_subsurf", "Âµhab_soil")]
-expert_memb <- mb[complete.cases(mb),]
-expert_memb <- unique(expert_memb) 
+# getting a dataframe with only taxa name, their expert-based trophic group and their µhabitat => expert_memb
+mb <- metabar[,c("retained_tax", "codeFW", "µhab_surf", "µhab_subsurf", "µhab_soil")]
+expert_memb <- mb[complete.cases(mb),] ##Expert groupings, remove NAN
+expert_memb <- unique(expert_memb)  ##Keep unique values
+
+full_taxa <- unique(expert_memb$retained_tax) ### Full list of retained taxa
+length(full_taxa)
+
+polyv_taxa <- expert_memb$retained_tax[which(duplicated(expert_memb$retained_tax))]
+print(list(polyv_taxa))
+length(polyv_taxa)
+
 # getting a dataframe with taxa presence/absence by sampling point  => metabar_bin
-metabar_agg <- aggregate(metabar[, -c(1:17)], list(retained_tax = metabar$retained_tax), sum) # sum by taxon name
+metabar_agg <- aggregate(metabar[, -c(1:17)], list(retained_tax = metabar$retained_tax), sum, na.rm=TRUE) # sum by taxon name
 rownames(metabar_agg) <- metabar_agg$retained_tax
 metabar_agg <- metabar_agg[, -1]
-metabar_bin <- ifelse(metabar_agg == 0, 0, 1)
+metabar_bin <- ifelse(metabar_agg == 0, 0, 1) ### => Presence/Absence of retained taxa per plot (BISExy)
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
@@ -52,48 +67,56 @@ metabar_bin <- ifelse(metabar_agg == 0, 0, 1)
 el2 <- merge(x = el, y = expert_memb, by.x = "TG2", by.y = "codeFW", all = FALSE)
 el3 <- merge(x = el2, y = expert_memb, by.x = "TG1", by.y = "codeFW", suffixes = c("_TG2", "_TG1"))
 
-#fitering by Âµhabitat
-el3$prof_match   <- el3$Âµhab_surf_TG1 * el3$Âµhab_surf_TG2 + 
-  el3$Âµhab_subsurf_TG1 * el3$Âµhab_subsurf_TG2+
-  el3$Âµhab_soil_TG1 * el3$Âµhab_soil_TG2
-el3$prof_proba   <- ifelse(el3$prof_match == 0, 0, 1)
-el4               <- el3[el3$type != "symbiotic",]
-spec_adj_bin      <- dcast(data = el4, retained_tax_TG1~retained_tax_TG2, value.var = "prof_proba", fill = 0, fun.aggregate = sum, drop = F)
-rownames(spec_adj_bin)<- spec_adj_bin[,1]
-spec_adj_bin <- spec_adj_bin[,-1]
+#### Number of species after merge = Species that have targeted (non fitlered) interactions
+interac_taxa <- union(el3$retained_tax_TG1,el3$retained_tax_TG2)
+unknown<-setdiff(full_taxa,interac_taxa) ### Species with no background knowledge on interaction behavior or species only involved in filtered interaction types as of expert knowledge
+length(interac_taxa)
+length(unknown)
+####
+
+#fitering by µhabitat
+el3$prof_match   <- el3$µhab_surf_TG1 * el3$µhab_surf_TG2 + ##Co-occurrence at the surface level
+  el3$µhab_subsurf_TG1 * el3$µhab_subsurf_TG2+ ### OR co-occurrence at the subsurface level
+  el3$µhab_soil_TG1 * el3$µhab_soil_TG2   ### OR co-occurrence at the soil level
+
+el3$interac   <- ifelse(el3$prof_match == 0, 0, 1) ### Interac is true if co-occurrence match in at least one µhabitat, false else.
+
+spec_adj      <- dcast(data = el3, retained_tax_TG1~retained_tax_TG2, value.var = "interac", fill = 0, fun.aggregate = sum, drop = F) ### spec_adj_bin= adjacency matrix for taxa-taxa interactions
+rownames(spec_adj)<- spec_adj[,1] ## Index rows by taxa name
+spec_adj_sq <- spec_adj[,-1] ## Remove first column => obtain a square adjacency matrix
 
 # deleting lines and columns for which there is no interactions
-condition <- as.data.frame(rowSums(spec_adj_bin))
-condition$colSums <- colSums(spec_adj_bin)
+condition <- as.data.frame(rowSums(spec_adj_sq))
+condition$colSums <- colSums(spec_adj_sq)
 condition$cond <- rowSums(condition)
-spec_adj_bin <- spec_adj_bin[condition$cond  > 0, condition$cond > 0]
-spec_adj_bin <- as.matrix(spec_adj_bin)
-write.csv2(spec_adj_bin, "adjacence_esp_bin.csv")
+spec_adj_bin <- as.matrix(spec_adj_sq[condition$cond  > 0, condition$cond > 0])
+dim(spec_adj_bin)
+others<-setdiff(interac_taxa,rownames(spec_adj_bin))  ### Other taxa filtered by µhabitat
+others
+length(others)
 
 # -----------------------------------------------------------------------------
 # Building a weighted species adjacency matrix 
 # -----------------------------------------------------------------------------
 #assessing the probability of interaction under a neutral hypothesis
-num              <- (metabar_bin %*% t(metabar_bin))
-out              <- num/256
-neutral          <- melt(out, value.name = "neutral_prob")
-neutral$code     <- paste(neutral$Var1, neutral$Var2, sep = "_")
-el3$code         <- paste(el3$retained_tax_TG1, el3$retained_tax_TG2, sep = "_")
-el3              <- merge(el3, neutral, "code")
-el3$proba        <- el3$prof_proba * el3$neutral_prob
-el3              <- el3[!is.na(el3$proba),]
+mbf              <- as.matrix(subset(metabar_bin, rownames(metabar_bin) %in% rownames(spec_adj_bin)))
+cooccur              <- mbf %*% t(mbf) ### Co-occurrence counts within plots between every pair of species
+out              <- cooccur/256 ### Probability of co-occurrence = counts of plots of cooccurrence / number of plots in total
 
-# bilding the species adjacency matrix without symbiotic interactions
-el3                        <- el3[el3$type != "symbiotic",]
-spec_adj_weighted          <- dcast(data = el3, retained_tax_TG1~retained_tax_TG2, value.var = "proba", fun.aggregate = sum, drop = FALSE)
-rownames(spec_adj_weighted)<- spec_adj_weighted[,1]
-spec_adj_weighted          <- spec_adj_weighted[,-1]
+dim(out)
 
-# deleting lines and columns for which there is no interactions
-condition <- as.data.frame(rowSums(spec_adj_weighted))
-condition$colSums <- colSums(spec_adj_weighted)
-condition$cond <- rowSums(condition)
-spec_adj_weighted <- spec_adj_weighted[condition$cond  > 0, condition$cond > 0]
-spec_adj_weighted <- as.matrix(spec_adj_weighted)
+spec_adj_weighted         <- out*spec_adj_bin  ### Weighted interaction matrix (following neutral hypothesis,  weight=co-occurrence probability)
+spec_adj_count            <- cooccur*spec_adj_bin  ### Replace co-occurrence probability by count
+dim(spec_adj_weighted)
+dim(spec_adj_count)
+dim(cooccur)
+
+#### Save adjacency matrices ###
+write.csv2(metabar_bin,"metabar_bin.csv")
+write.csv2(mbf,"filtered_metabar.csv")
+write.csv2(t(mbf),"transpose_filtered_metabar.csv")
+write.csv2(cooccur,"cooccurrence_proba.csv")
+write.csv2(spec_adj_bin, "adjacence_esp_bin.csv")
 write.csv2(spec_adj_weighted, "adjacence_esp_weighted.csv")
+write.csv2(spec_adj_count, "adjacence_esp_count.csv")
 # -----------------------------------------------------------------------------
