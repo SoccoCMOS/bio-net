@@ -30,7 +30,7 @@ low="genus"
 
 #################
 
-#setwd("../data")
+setwd("../data/input")
 
 mb_raw=read.csv2(input,sep=";",h=T)
 
@@ -57,6 +57,8 @@ if (!((highctr %in% colnames(mb_raw))&(highctr %in% colnames(mb_raw)))){
   ### Construction of retained taxa ###
   retained<-vector(mode="character",length=nrow(target_cols))
   
+  todrop<-list()
+  
   for (i in 1:nrow(target_cols)){
     notna=which(!is.na(target_cols[i,]))
     if (length(notna)>0) {
@@ -64,11 +66,20 @@ if (!((highctr %in% colnames(mb_raw))&(highctr %in% colnames(mb_raw)))){
     }
     else{
       retained[i] <-NA
+      todrop <- append(todrop,i)
     }
   }
   
+  ### Filtered taxa 
+  #removed<-mb_raw[unlist(todrop),]
+  mb<-mb_raw[-unlist(todrop),]
+  ret<-retained[-unlist(todrop)]
+  
   ### Add to original matrix
-  mb_raw$ret_taxa=retained
+  mb$ret_taxa=ret
+  
+  ### Check for conflicting codeFW
+  tocheck <- mb[,c("ret_taxa","codeFW")]
   
   ### Save to output file
   file_out=paste(high,low,input,sep="_")  
