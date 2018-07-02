@@ -69,20 +69,21 @@ eg_nb_node <- gorder(expg) #number of nodes or vertices
 # A partir de la matrice d'adjacence des "31" groupes
 
 #Lecture fichier SBM comportant la matrice d'adjacence entre groupes à un threshold de ??
-matadjSBM <- read.csv("Q_30_groups.csv", dec=",", sep=";", header=T, row.names = 1)
+matadjSBM <- read.csv("../filtered_sbm_adj_mat.csv", dec=",", sep=";", header=T, row.names = 1)
 colnames(matadjSBM) <- rownames(matadjSBM)
 matadjSBM <- as.matrix(matadjSBM)
 
 
 # keeping interactions with p > 0.01 ### SCRIPT P-THRESHOLD
-p=0.01
-SBM_edges_in <- melt(matadjSBM)
-SBM_edges_in$value<-ifelse(SBM_edges_in$value>p,1,0)
+# p=0.01
+# SBM_edges_in <- melt(matadjSBM)
+# SBM_edges_in$value<-ifelse(SBM_edges_in$value>p,1,0)
+# 
+# SBM_edges <- subset(SBM_edges_in, SBM_edges_in$value==1)
+# 
+# SBM_adj_bin   <- as.matrix(dcast(SBM_edges_in, Var1~Var2, fill=0)[,-1]) 
 
-SBM_edges <- subset(SBM_edges_in, SBM_edges_in$value==1)
-
-SBM_adj_bin   <- as.matrix(dcast(SBM_edges_in, Var1~Var2, fill=0)[,-1]) 
-
+SBM_adj_bin <- matadjSBM
 reseau_sbm <- graph.adjacency(SBM_adj_bin, mode = "directed", weighted = NULL, diag = FALSE)
 
 sbm_connectivity <- edge_density(reseau_sbm, loops = FALSE) #linkage density
@@ -96,7 +97,7 @@ sbm_nb_edge <- gsize(reseau_sbm) #number of edges
 sbm_nb_node <- gorder(reseau_sbm) #number of nodes or vertices
 
 #reseau_SBM <- simplify(reseau_SBM, remove.multiple = F, remove.loops = T)
-plot(reseau_SBM, edge.arrow.size=.2, edge.curved =.1,
+plot(reseau_sbm, edge.arrow.size=.2, edge.curved =.1,
      vertex.size = 3, vertex.label=NA)
 
 
@@ -135,17 +136,17 @@ mynetwork <- function(mat){
 }
 
 
-ntwk_list <- lapply(mb_list, FUN = mynetwork)
+ntwk_list_plot <- lapply(mb_list, FUN = mynetwork)
 
 #betadiversit? des r?seaux
-mybeta <- network_betadiversity(ntwk_list,  bf = B11)
+mybeta <- network_betadiversity(ntwk_list_plot,  bf = B11)
 hist(mybeta$S)
 mybeta$S1 <- cut(mybeta$S, breaks = c(0.75,0.82, 0.9, 1),right = FALSE)
 ggplot(data = mybeta, aes(x=i, y=j)) + 
   geom_tile(aes( fill = ST), colour = "white")#+
 #scale_fill_brewer(palette = "PRGn")
 
-network_betaplot(ntwk_list[[1]], ntwk_list[[12]]) ### Vert première parcelle (réseau) exclusivement, bleu 2ème parcelle, gris les deux
+network_betaplot(ntwk_list_plot[[1]], ntwk_list_plot[[12]]) ### Vert première parcelle (réseau) exclusivement, bleu 2ème parcelle, gris les deux
 # -----------------------------------------------------------------------------
 
 
@@ -153,29 +154,27 @@ network_betaplot(ntwk_list[[1]], ntwk_list[[12]]) ### Vert première parcelle (ré
 #Cr?ation des r?seaux ? l'?chelle du point
 mb_list_t <- split(mb_class_t1, with(mb_class_t1, point))
 mb_list_point <- lapply(mb_list_t, FUN = t)
-# mynetwork <- function(metabar){
-#   step1 <- ifelse(metabar>1,1,0)
-#   step2 <- rownames(step1)[step1[,1]>0]
-#   interactions <- el5[el5$Var1 %in% step2 & el5$Var2 %in% step2,]
-#   g <- graph_from_data_frame(interactions, directed = TRUE)
-# }
 ntwk_list_point <- lapply(mb_list_point, FUN = mynetwork)
 
-#Calcul des indices de r?seau pour chaque point
+#Calcul des indices de r?seau pour chaque point+plot
 mynetwork_indices <- function(g){
-  density <- edge_density(g, loops = FALSE)
+  connectivity <- edge_density(g, loops = FALSE)
   ntwkdegree <- degree(g, mode = "total")
   meandegree<- mean(ntwkdegree)
-  nb_edge <- nrow(interactions)
-  nb_node <- length(step2)
-  obj <- list(density = density, meandegree = meandegree, nb_edge = nb_edge, nb_node = nb_node)
+  nb_edge <- ecount(g)
+  nb_node <- vcount(g)
+  density <- nb_edge/nb_node
+  obj <- list(density= density, connectivity = connectivity, meandegree = meandegree, nb_edge = nb_edge, nb_node = nb_node)
   return(obj)
 }
-ntwk_indic <- lapply(ntwk_list, FUN = mynetwork_indices)
-indices <- data.frame(matrix(unlist(ntwk_indic, use.names = TRUE), nrow=64, byrow=T))
-colnames(indices) <- c("density", "mean_degree", "nb_edge", "nb_node")
-indices$LECA_id <- point
-indices$Plot <- rep(plot, each = 4)
+
+ntwk_indic_point <- lapply(ntwk_list_point, FUN = mynetwork_indices)
+ntwk_indic_plot <- lapply(ntwk_list, FUN = mynetwork_indices)
+
+indices_point <- data.frame(matrix(unlist(ntwk_indic_point, use.names = TRUE), nrow=64, byrow=T))
+colnames(indices_point) <- c("density","connectivity", "mean_degree", "nb_edge", "nb_node")
+indices_point$LECA_id <- point
+indices_point$Plot <- rep(plot, each = 4)
 fac <- read.csv("fac.csv", h = T, sep = ";")
 ind <- merge(indices, fac,  "LECA_id")
 density <- summarySE(data = ind, measurevar = "density", groupvars = "Couples", na.rm = T)

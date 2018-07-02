@@ -24,16 +24,16 @@ library(reshape2)
 filt_type_inter=c("symbiotic")
 #################
 
-setwd("../data")
+setwd("../data/input/taxo_metabar")
 
 # -----------------------------------------------------------------------------
 # data load
 # -----------------------------------------------------------------------------
 #Metabarcoding dataset
-metabar     <- read.csv("input/metabar.csv", sep = ";", h = T) 
+metabar     <- read.csv("family_family_metabar_raw.csv", sep = ";", h = T, row.names=1) 
 dim(metabar)
 #edge list of expert based interactions
-el          <- read.csv("input/expert_edge_list.csv", sep = ";", h = T)   ##Expert edges
+el          <- read.csv("../expert_edge_list.csv", sep = ";", h = T)   ##Expert edges
 el         <- el[!(el$type %in% filt_type_inter),]  ### Filter specific types of interactions
 dim(el)
 # -----------------------------------------------------------------------------
@@ -54,7 +54,7 @@ print(list(polyv_taxa))
 length(polyv_taxa)
 
 # getting a dataframe with taxa presence/absence by sampling point  => metabar_bin
-metabar_agg <- aggregate(metabar[, -c(1:17)], list(retained_tax = metabar$retained_tax), sum, na.rm=TRUE) # sum by taxon name
+metabar_agg <- aggregate(metabar[, -c(1:16,273)], list(retained_tax = metabar$retained_tax), sum, na.rm=TRUE) # sum by taxon name
 rownames(metabar_agg) <- metabar_agg$retained_tax
 metabar_agg <- metabar_agg[, -1]
 metabar_bin <- ifelse(metabar_agg == 0, 0, 1) ### => Presence/Absence of retained taxa per plot (BISExy)
@@ -112,11 +112,11 @@ dim(spec_adj_count)
 dim(cooccur)
 
 #### Save adjacency matrices ###
-write.csv2(metabar_bin,"metabar_bin.csv")
-write.csv2(mbf,"filtered_metabar.csv")
-write.csv2(t(mbf),"transpose_filtered_metabar.csv")
-write.csv2(cooccur,"cooccurrence_proba.csv")
-write.csv2(spec_adj_bin, "adjacence_esp_bin.csv")
-write.csv2(spec_adj_weighted, "adjacence_esp_weighted.csv")
-write.csv2(spec_adj_count, "adjacence_esp_count.csv")
+# write.csv2(metabar_bin,"metabar_bin.csv")
+# write.csv2(mbf,"filtered_metabar.csv")
+# write.csv2(t(mbf),"transpose_filtered_metabar.csv")
+# write.csv2(cooccur,"cooccurrence_proba.csv")
+write.csv2(spec_adj_bin, "adjacence_esp_bin_family.csv")
+# write.csv2(spec_adj_weighted, "adjacence_esp_weighted.csv")
+# write.csv2(spec_adj_count, "adjacence_esp_count.csv")
 # -----------------------------------------------------------------------------

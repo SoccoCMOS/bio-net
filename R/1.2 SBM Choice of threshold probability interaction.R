@@ -30,13 +30,13 @@ setwd("../data")
 # data load
 # -----------------------------------------------------------------------------
 
-SBM_adj <- read.csv2("Q_33_groups.csv", h = T, sep =";", row.names = 1)
+SBM_adj <- read.csv2("../data/Q_33_groups.csv", h = T, sep =";", row.names = 1)
 rownames(SBM_adj)=colnames(SBM_adj)
 # -----------------------------------------------------------------------------
 ##### Règle de décision sur le choix de p ######
 ## Criterion 1: Keep alpha ratio of nodes (trophic groups)
-th_n=1
-max_nbintra=0
+th_n=1 ## Max tolerated loss ratio of nodes
+max_nbintra=0 ## Max accepted number of intraguild interactions
 ## Criterion 2: Keep graph connexity
 ## Criterion 3: No intraguild interactions
 # -----------------------------------------------------------------------------
@@ -55,9 +55,9 @@ densities<-vector(mode="integer",length=length(p_range)) # Graph density = nb_ed
 n=length(SBM_adj)
 
 optim_reached=FALSE
-node_preserv=TRUE
-intrag=TRUE
-connex=TRUE
+node_preserv=TRUE #Criterion 1
+intrag=TRUE # criterion 3
+connex=TRUE # criterion 2
 cpt=1
 while (!optim_reached){
   cpt=cpt+1
@@ -78,23 +78,21 @@ while (!optim_reached){
   #nodes[cpt]=vcount(g)
   #edges[cpt]=ecount(g)
   
-  # Node preservation criterion
+  # Node preservation criterion (1)
   node_preserv=(vcount(g)/n)>=th_n 
 
-  # Check for intraguild criterion
-  intra=lapply(1:length(SBM_adj),FUN=function(x) SBM_adj[x,x]>p)
+  # Check for intraguild criterion (3)
+  intra=lapply(1:length(SBM_adj_filt),FUN=function(x) SBM_adj[x,x]>p)
   n_intrag=length(which(intra==TRUE))
   intrag=n_intrag>max_nbintra
   
-  # Check for connexity criterion
+  # Check for connexity criterion (2)
   clu<-components(g)
   connex=clu$no==1
   
   if(!(node_preserv & intrag & connex)){
     optim_reached=TRUE
     p=p_range[cpt-1]
-  }else{
-    cpt=cpt+1
   }
 }
 
