@@ -25,8 +25,8 @@ input="metabar_raw.csv"
 ### Possible values of high and low: phylum, class, order, family, genus, species ###
 tax_levels=c("phylum","class","order", "family", "genus", "species")
 
-high="species"
-low="species"
+high="family"
+low="family"
 
 #################
 

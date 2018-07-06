@@ -17,6 +17,14 @@ library(ggplot2)
 ###
 # METARESEAU
 ###
+
+###NIVEAU FAMILLE
+
+
+###NIVEAU GENRE
+
+
+###NIVEAU ESPECE
 adjacence_esp_bin <- read.csv2("adjacence_esp_bin.csv", header=T, row.names=1)
 colnames(adjacence_esp_bin) <- rownames(adjacence_esp_bin) ##Uniform row and col names
 setdiff(colnames(adjacence_esp_bin), rownames(adjacence_esp_bin))
@@ -70,6 +78,7 @@ eg_nb_node <- gorder(expg) #number of nodes or vertices
 
 #Lecture fichier SBM comportant la matrice d'adjacence entre groupes à un threshold de ??
 matadjSBM <- read.csv("../filtered_sbm_adj_mat.csv", dec=",", sep=";", header=T, row.names = 1)
+
 colnames(matadjSBM) <- rownames(matadjSBM)
 matadjSBM <- as.matrix(matadjSBM)
 
@@ -101,10 +110,10 @@ plot(reseau_sbm, edge.arrow.size=.2, edge.curved =.1,
      vertex.size = 3, vertex.label=NA)
 
 
-SBM_member <- read.csv2("../data/input/label_SBM30.csv", header=T)
+SBM_member <- read.csv2("C:/Users/simoussi/ownCloud/Ma_these/bio-net/data/input/label_SBM30.csv", header=T)
 SBM_member <- SBM_member[,c("retained_tax","class", "fam", "codeFW")]
-metabar <- read.csv2("../data/input/metabar.csv", header=T)
-orig_fac <- read.csv2("../data/input/fac.csv", header = T)
+metabar <- read.csv2("C:/Users/simoussi/ownCloud/Ma_these/bio-net/data/input/metabar.csv", header=T)
+orig_fac <- read.csv2("C:/Users/simoussi/ownCloud/Ma_these/bio-net/data/input/fac.csv", header = T)
 
 # -----------------------------------------------------------------------------
 # Building SBM-groups networks

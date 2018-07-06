@@ -30,7 +30,7 @@ setwd("../data")
 # data load
 # -----------------------------------------------------------------------------
 
-SBM_adj <- read.csv2("../data/Q_33_groups.csv", h = T, sep =";", row.names = 1)
+SBM_adj <- read.csv2("../data/input/taxo_metabar/adj/sbm/species.csv", h = T, sep =";", row.names = 1)
 rownames(SBM_adj)=colnames(SBM_adj)
 # -----------------------------------------------------------------------------
 ##### Règle de décision sur le choix de p ######
@@ -115,4 +115,4 @@ condition$colSums <- colSums(SBM_adj_filt)
 condition$cond <- rowSums(condition)
 
 SBM_adj_filt <- SBM_adj_filt[condition$cond  > 0, condition$cond > 0]
-write.csv2(SBM_adj_filt,"filtered_sbm_adj_mat.csv")
+write.csv2(SBM_adj_filt,"filtered_sbm_adj_mat_species.csv")
