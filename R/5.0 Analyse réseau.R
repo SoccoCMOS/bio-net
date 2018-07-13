@@ -124,6 +124,16 @@ brown_green <- function(net,green,brown){   ### Analysis of a single network
   ### Brown/Green statistics
   comb=data.frame(source=c("brown/green"),sum=ratio(B$sum_pathsize,G$sum_pathsize), med=ratio(B$median_pathsize,G$median_pathsize),mean=ratio(B$mean_pathsize,G$mean_pathsize),sd=ratio(B$sd_pathsize,G$sd_pathsize),nbcovered=ratio(B$nbcovered_taxa,G$nbcovered_taxa))
 }
+
+brown_green_detail <- function(net,green,brown){   ### Analysis of a single network
+  B=pathways_stat(net,brown)
+  G=pathways_stat(net,green)
+  
+  ### Brown/Green statistics
+  BR=data.frame(source=c("brown"),sum=B$sum_pathsize, med=B$median_pathsize,mean=B$mean_pathsize,sd=B$sd_pathsize,nbcovered=B$nbcovered_taxa)
+  GR=data.frame(source=c("green"),sum=G$sum_pathsize, med=G$median_pathsize,mean=G$mean_pathsize,sd=G$sd_pathsize,nbcovered=G$nbcovered_taxa)
+  out=list(BR=BR,GR=GR)
+}
 #################################################### END (Brown/green pathways computing) #############################################################
 ######################################################### Params ########################################################
 
@@ -250,6 +260,9 @@ for (j in 1:(length(colu))){  ### Clustering method variation
   #### Current results
   res=list()
   
+  res$nets_plot=ntwk_list_plot
+  res$nets_point=ntwk_list_point
+  
   #### Analyse en Alpha
   res$meth=net_folders[j]
   res$tax=taxo[i]
@@ -261,11 +274,12 @@ for (j in 1:(length(colu))){  ### Clustering method variation
   green_roots[[(j-1)*3+i]]=get_green(clust,meth=method[j]) ###clust différencie family/genus/species
   
   ## Brown_green pathways stats
-  res$brg_plot=lapply(ntwk_list_plot,function(x) brown_green(x,green_roots[[(j-1)*3+i]],brown_roots[[(j-1)*3+i]]))
+  res$brg_plot$brown=lapply(ntwk_list_plot,function(x) brown_green_detail(x,green_roots[[(j-1)*3+i]],brown_roots[[(j-1)*3+i]])$BR)
+  res$brg_plot$green=lapply(ntwk_list_plot,function(x) brown_green_detail(x,green_roots[[(j-1)*3+i]],brown_roots[[(j-1)*3+i]])$GR)
   res$brg_point=lapply(ntwk_list_point,function(x) brown_green(x,green_roots[[(j-1)*3+i]],brown_roots[[(j-1)*3+i]]))
   
   #### Analyse en Beta
-  res$beta_plot=network_betadiversity(ntwk_list_plot,  bf = indice)
+  #res$beta_plot=network_betadiversity(ntwk_list_plot,  bf = indice)
   #res$beta_point=network_betadiversity(ntwk_list_point,  bf = indice)
   
   results[[(j-1)*3+i]]=res
@@ -529,6 +543,38 @@ boxplotting(bg_full$None_species,bg_full$plot,"Brown-green ratios of the sum of 
 
 
 dev.off() ##Fermer le fichier pour qu'il soit ouvrable sous Windows
+
+#############################################################################################################
+########################### Sortir la liste des espèces qui sautent dans chaque parcelle ####################
+ldiffs=list()
+cpt=0
+for(j in 1:3){
+  m=method[j]
+  for(i in 1:3){
+    tax=taxo[i]
+    k=(j-1)*3+i
+    netsij=results[[k]]$nets_plot
+    for(p1 in 1:16){
+      for(p2 in 1:16){
+        g1=netsij[[p1]]
+        g2=netsij[[p2]]
+        
+        diff12=toString(setdiff(V(g1)$name,V(g2)$name))
+        diff21=toString(setdiff(V(g2)$name,V(g1)$name))
+        
+        diffs=data.frame(Meth=m,Tax=tax,P1=names(netsij)[p1],P2=names(netsij)[p2],DiffP12=diff12,DiffP21=diff21)
+        cpt=cpt+1
+        
+        ldiffs[[cpt]]=diffs
+      }
+    }
+  }
+}
+
+D=data.frame(do.call("rbind",ldiffs))
+write.csv2(D,file="tax_compo_diff.csv")
+##############################################################################################################
+
 
 # #### Echelle PLOT ####
 # yc=c(cssg$R,cesg$R,cnsg$R,csgf$R,cegf$R,cngf$R) ## R²
