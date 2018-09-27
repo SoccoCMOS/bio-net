@@ -45,7 +45,15 @@ my_model$estimate()
 which.max(my_model$ICL)
 output.combined = readRDS("SBM_bern") 
 output.combined$estimate()
-Q = which.max(output.combined$ICL) # Optimal number of groups
+Qo = which.max(output.combined$ICL) # Optimal number of groups
+target = 0.95*max(output.combined$ICL)
+i = Qo
+while (output.combined$ICL[i] >= target){
+  i=i+1
+}
+
+Q=i
+ICLQ=output.combined$ICL[Q]
 
 # Best model
 best.model = output.combined$memberships[[Q]] #Q
