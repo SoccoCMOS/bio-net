@@ -28,6 +28,8 @@ library(Rmisc)
 library(betalink)
 library(ggplot2)
 library(dplyr)
+library(stringr)
+
 # -----------------------------------------------------------------------------
 ################################################################# FUNCTIONS  ###################################################################
 #################################################### BEGIN(Brown/green pathways) #############################################################
@@ -491,10 +493,23 @@ dev.off()
 
 ######################################################### Beta ##############################################################################
 
-pdf("Beta_analysis_0607_sbm_exp_none.pdf")
+pdf("Beta_analysis_2007WN_sbm_exp_none.pdf")
 #global_analysis("Beta analysis","point",bpn,rep("A",4032))
-global_analysis("Beta analysis","plot",bpl,rep("A",360))
+global_analysis("Beta analysis_WN","plot",bpl,rep("A",360))
 dev.off()
+
+sbmsg=lin_mod(bpl[[2]],bpl[[3]])
+sbmgf=lin_mod(bpl[[1]],bpl[[2]])
+
+expsg=lin_mod(bpl[[5]],bpl[[6]])
+expgf=lin_mod(bpl[[4]],bpl[[5]])
+
+nonesg=lin_mod(bpl[[8]],bpl[[9]])
+nonegf=lin_mod(bpl[[7]],bpl[[8]])
+
+beta_wn_rpv=rbind(ldply(sbmsg),ldply(sbmgf),ldply(expsg),ldply(expgf),ldply(nonesg),ldply(nonegf))
+combis=rep(c("sbmsg","sbmgf","expsg","expgf","nonesg","nonegf"),each=2)
+beta_wn_rpv$ids=combis
 
 ######################################################### Analyse de variance ##############################################################################
 boxplotting<-function(data,labels,t,xl="plot",yl="metric"){
@@ -574,6 +589,29 @@ for(j in 1:3){
 D=data.frame(do.call("rbind",ldiffs))
 write.csv2(D,file="tax_compo_diff.csv")
 ##############################################################################################################
+
+################# LINEAR MODEL #############
+dfs=list(length=9)
+parcel=rep(names(results[[1]]$nets_plot),each=4)
+p=matrix(unlist(strsplit(parcel,split = "\\+|\\-")), ncol=1, byrow=TRUE)
+trt=rep(rep(c("0","1"),each=4),4)
+sites=c(rep("Mons",16),rep("Lus",24),rep("Theix",24))
+
+for(combi in 1:9){
+  n=names(results[[combi]]$nets_point)
+  connectivity=clpn[[combi]]
+  sumbg=sumbglpn[[combi]]
+  df=as.data.frame(cbind(n,connectivity,sumbg))
+  parcel=rep(names(results[[1]]$nets_plot),each=4)
+  
+  df$s=sites
+  df$p=p
+  df$trt=trt
+  
+  dfs[[combi]]=df
+  
+  write.csv2(df,paste(combi,"_lmdata.csv"))
+}
 
 
 # #### Echelle PLOT ####
