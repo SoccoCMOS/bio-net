@@ -1,0 +1,26 @@
+##INSERT LIST OF EXTERNAL PACKAGES AND LIBRARIES USED
+
+#### Latent structure inference ####
+library(mixer)
+library(blockmodels)
+
+#### Clustering evaluation ####
+library(clusteval)
+library(vegan)
+
+#### Visualization ####
+library(ggplot2)
+library(corrplot)
+
+#### Math ####
+library(pracma)
+
+#### Dataframe manipulation ####
+library(reshape2)
+library(RNewsflow)
+library(Rmisc)
+library(dplyr)
+library(stringr)
+
+#### Graph library ####
+library(igraph)

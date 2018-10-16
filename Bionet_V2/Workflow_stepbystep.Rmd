@@ -1,0 +1,165 @@
+---
+title: "Metabarcoding to interaction networks workflow"
+output: html_notebook
+---
+
+
+###    BISE : Linking soil foodweb and soil functions dynamics under agricultural practices (des)intensification and different input levels
+
+********************************************************************************************************************
+                                            Setting up the environment
+
+-----------------------------------------------------------------------------
+STEP 1: Dependencies installation
+-----------------------------------------------------------------------------
+```{r}
+if(require(c("reticulate","mixer","igraph"))){
+  install.packages(c("reticulate","mixer"))
+}
+```
+
+-----------------------------------------------------------------------------
+STEP 2: Source files for helper functions
+-----------------------------------------------------------------------------
+```{r}
+mkd.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+
+### Building
+source(paste(mkd.dir,"Code/Network_inference/Metabar_retained.R",sep="/"))
+source(paste(mkd.dir,"Code/Network_inference/Network_inference.R",sep="/"))
+
+### Clustering
+source(paste(mkd.dir,"Code/Latent_structure/Soft_clustering/StochasticBlockModel.R",sep="/"))
+source(paste(mkd.dir,"Code/Latent_structure/Soft_clustering/ThresholdProbInteraction.R",sep="/"))
+
+### Projection
+source("Code/Network_analysis/Project_net.R")
+
+### Analysis
+source("")
+```
+
+********************************************************************************************************************
+                                            MetaNetwork building
+
+--------------------------------------------------------------------------------------------------------------------------
+STEP 1: Read metabarcoding output occurrence matrix - filter MOTUs identified between the desired min-max taxonomic levels
+--------------------------------------------------------------------------------------------------------------------------
+
+```{r}
+mb_mat=read.csv2(paste(mkd.dir,"Data/metabar_out.csv",sep="/"))
+metabar_ret=retained_metabar(mb_mat,"genus","genus","_name")
+```
+
+-----------------------------------------------------------------------------
+STEP 2: Read expert interaction rules
+-----------------------------------------------------------------------------
+
+```{r}
+int_rules=read.csv2(paste(mkd.dir,"Knowledge/interaction_rules.csv",sep="/"))
+```
+
+---------------------------------------------------------------------------------
+STEP 3: Infer interaction network from rules + cooccurrence + µhabitat filtering
+---------------------------------------------------------------------------------
+```{r}
+library(igraph)
+meta_adj=infer_net(metabar_ret,int_rules)
+meta_graph=graph_from_adjacency_matrix(meta_adj,mode="directed",weighted=TRUE)
+```
+
+-----------------------------------------------------------------------------
+STEP 4: Plot full network
+-----------------------------------------------------------------------------
+```{r}
+plot.igraph(meta_graph)
+```
+
+********************************************************************************************************************
+                                    Latent structure inference of the metanetwork
+
+-----------------------------------------------------------------------------
+STEP 1: Infer latent group structure of the interaction network - SBM
+-----------------------------------------------------------------------------
+```{r}
+### SBM
+mixsbm<-sbm_mixer(meta_adj,meth="variational",Qmin=1,Qmax=50,Nbiter=50, Fpnbiter=25)
+
+### Save mixture results
+save(mixsbm, file = paste(mkd.dir,"Data/Buffer/mixture.RData",sep="/"))
+
+### Load mixture - previous saved results of SBM mixture
+filepath=paste(mkd.dir,"Data/Buffer/mixture.RData",sep="/")
+attach(filepath)
+
+### Extract clustering output
+sbm_res=mixture_analysis(mixture,50,criteria="relaxed",eps=0.05,fix=50,returnicl=TRUE)
+partition=sbm_res$part
+nbgroups=dim(sbm_res$adj)[1]
+
+### group labels
+labels=unlist(lapply(1:nbgroups,function(x) paste("V",x,sep="")))
+
+meta_clust_adj=data.frame(sbm_res$adj)
+colnames(meta_clust_adj)=row.names(meta_clust_adj)=labels
+```
+
+-----------------------------------------------------------------------------
+STEP 1.5: Thresholding interaction probabilities of adjacency matrix
+-----------------------------------------------------------------------------
+```{r}
+## Optimal threshold
+th_optim=get_threshold(meta_clust_adj,th_n=1,max_nbintra=0)
+
+## Binarized adjacency matrix - force th_optim to 0 to keep all interactions, set bin to FALSE to keep probability values
+meta_clust_adj_filt=get_thresholded_mat_bin(meta_clust_adj,th_optim,TRUE)
+```
+
+-----------------------------------------------------------------------------
+STEP 2: Plot clustered metanetwork
+-----------------------------------------------------------------------------
+```{r}
+meta_clust_graph=graph_from_adjacency_matrix(as.matrix(meta_clust_adj_filt),mode="directed",weighted=TRUE)
+plot.igraph(meta_clust_graph)
+```
+
+********************************************************************************************************************
+                                 MetaNetwork projection to local point networks    
+
+-----------------------------------------------------------------------------
+STEP 1: Project unclustered metanetwork
+-----------------------------------------------------------------------------
+```{r}
+levels=list(level=paste(expdesign[,6],expdesign[,4],sep="_"))
+nopartition=data.frame(retained_taxa=colnames(meta_adj),labels=colnames(meta_adj))
+row.names(nopartition)=NULL
+list_adj_mats=project_net(net=meta_adj,mb=metabar_ret,idx_tax=269,idxs_plots=13:268,levels=levels,clust=nopartition)
+```
+
+-----------------------------------------------------------------------------
+STEP 2: Project clustered metanetwork
+-----------------------------------------------------------------------------
+```{r}
+levels=list(level=paste(expdesign[,6],expdesign[,4],sep="_"))
+partition$retained_tax=row.names(partition)
+row.names(partition)=NULL
+list_adj_mats=project_net(net=meta_clust_adj_filt,mb=metabar_ret,idx_tax=269,idxs_plots=13:268,levels=levels,clust=partition)
+```
+
+********************************************************************************************************************
+                                  Networks analysis: customized to focal study       
+
+-----------------------------------------------------------------------------
+STEP 1: Alpha intra-network analysis
+-----------------------------------------------------------------------------
+```{r}
+taxadesc=unique(metabar_ret[,c("retained_tax","broad")])
+list_metrics=lapply(list_adj_mats,FUN=topology_metrics,taxalist=taxadesc$retained_tax,taxadesc$broad)
+```
+-----------------------------------------------------------------------------
+STEP 2: Beta inter-network analysis
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+STEP 3: Effect of practices on network topology
+-----------------------------------------------------------------------------
