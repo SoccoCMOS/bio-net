@@ -1,9 +1,0 @@
-### Method 1
-Spectral clustering
-Paper reference:
-
-
-
-### Method 2
-Hierarchical clustering
-Paper reference:
