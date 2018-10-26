@@ -1,4 +1,6 @@
 ##INSERT LIST OF EXTERNAL PACKAGES AND LIBRARIES USED
+#### ir ####
+library(rgbif)
 
 #### Latent structure inference ####
 library(mixer)

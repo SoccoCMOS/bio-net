@@ -1,0 +1,811 @@
+id;root;superregnum;regnum;phylum;class;order;family;genus;species
+1;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Acidobacterium;Acidobacterium sp. pan6
+2;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Acidobacterium;uncultured Acidobacterium sp.
+3;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Acidobacterium;uncultured Acidobacterium UA3
+4;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Candidatus Koribacter;Candidatus Koribacter versatilis
+5;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Candidatus Koribacter;uncultured Candidatus Koribacter sp.
+6;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Edaphobacter;Edaphobacter dinghuensis
+7;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Edaphobacter;uncultured Edaphobacter sp.
+8;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Granulicella;Granulicella paludicola
+9;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Occallatibacter;Occallatibacter riparius
+10;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Terracidiphilus;Terracidiphilus gabretensis
+11;root;Prokaryota;Bacteria;Acidobacteria;Acidobacteriia;Acidobacteriales;Acidobacteriaceae;Terriglobus;uncultured Terriglobus sp.
+12;root;Prokaryota;Bacteria;Acidobacteria;Holophagae;Holophagales;Holophagaceae;Holophaga;Holophaga sp. oral clone CA002
+13;root;Prokaryota;Bacteria;Acidobacteria;Holophagae;Holophagales;Holophagaceae;Holophaga;uncultured Holophaga sp.
+14;root;Prokaryota;Bacteria;Acidobacteria;Solibacteres;Solibacterales;Solibacteraceae;Candidatus Solibacter;Candidatus Solibacter usitatus
+15;root;Prokaryota;Bacteria;Acidobacteria;Solibacteres;Solibacterales;Solibacteraceae;Candidatus Solibacter;Candidatus Solibacter usitatus
+16;root;Prokaryota;Bacteria;Acidobacteria;Solibacteres;Solibacterales;Solibacteraceae;Candidatus Solibacter;uncultured Candidatus Solibacter sp.
+17;root;Prokaryota;Bacteria;Acidobacteria;Solibacteres;Solibacterales;Solibacteraceae;Candidatus Solibacter;uncultured Solibacter sp.
+18;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Acidimicrobiaceae;Acidimicrobium;uncultured Acidimicrobium sp.
+19;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Acidimicrobiaceae;Aciditerrimonas;uncultured Aciditerrimonas sp.
+20;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Acidimicrobiaceae;Ferrimicrobium;uncultured Ferrimicrobium sp.
+21;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Acidimicrobiaceae;Ferrithrix;uncultured Ferrithrix sp.
+22;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Acidimicrobiaceae;Ilumatobacter;uncultured Ilumatobacter sp.
+23;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Iamiaceae;Aquihabitans;Aquihabitans daechungensis
+24;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Iamiaceae;Iamia;uncultured Iamia sp.
+25;root;Prokaryota;Bacteria;Actinobacteria;Acidimicrobiia;Acidimicrobiales;Microthrixaceae;Candidatus Microthrix;uncultured Candidatus Microthrix sp.
+26;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Acidothermales;Acidothermaceae;Acidothermus;uncultured Acidothermus sp.
+27;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Actinomycetaceae;Actinomyces;uncultured Actinomyces sp.
+28;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Catenulisporales;Actinospicaceae;Actinocrinis;Actinocrinis puniceicyclus
+29;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Catenulisporales;Catenulisporaceae;Catenulispora;Catenulispora graminis
+30;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;Mycobacterium sp. PSY065
+31;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;uncultured Mycobacterium sp.
+32;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Corynebacteriales;Nocardiaceae;Rhodococcus;uncultured Rhodococcus sp.
+33;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Frankiales;Frankiaceae;Frankia;uncultured Frankia sp.
+34;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Frankiales;Sporichthyaceae;Sporichthya;uncultured Sporichthya sp.
+35;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Geodermatophilales;Geodermatophilaceae;Blastococcus;Blastococcus sp. URHB0062
+36;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Geodermatophilales;Geodermatophilaceae;Blastococcus;Blastococcus sp. URHD0003
+37;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Geodermatophilales;Geodermatophilaceae;Geodermatophilus;Geodermatophilus sp. Z2R53
+38;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Kineosporiales;Kineosporiaceae;Angustibacter;Angustibacter luteus
+39;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Kineosporiales;Kineosporiaceae;Kineococcus;uncultured Kineococcus sp.
+40;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Kineosporiales;Kineosporiaceae;Kineosporia;uncultured Kineosporia sp.
+41;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Demequinaceae;Demequina;Demequina sp. CMS382
+42;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Demequinaceae;Demequina;uncultured Demequina sp.
+43;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Intrasporangiaceae;Janibacter;uncultured Janibacter sp.
+44;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Microbacteriaceae;Frigoribacterium;Frigoribacterium sp. B1-25c-3
+45;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Microbacteriaceae;Humibacter;Humibacter sp. Po15c
+46;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Microbacteriaceae;Leifsonia;Leifsonia sp. A5AGK
+47;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Microbacteriaceae;Salinibacterium;Salinibacterium sp. CC13L1
+48;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Micrococcaceae;Sinomonas;uncultured Sinomonas sp.
+49;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Actinocatenispora;uncultured Actinocatenispora sp.
+50;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Actinoplanes;Actinoplanes sp. IR51-RC111
+51;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Actinoplanes;uncultured Actinoplanes sp.
+52;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Catellatospora;Catellatospora sp. KC-EP-S6
+53;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Dactylosporangium;uncultured Dactylosporangium sp.
+54;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Luedemannella;Luedemannella sp. 119-1-07
+55;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Micromonosporales;Micromonosporaceae;Micromonospora;uncultured Micromonospora sp.
+56;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Nakamurellales;Nakamurellaceae;Nakamurella;Nakamurella sp. A24MTO
+57;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Aeromicrobium;Aeromicrobium panaciterrae
+58;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Aeromicrobium;Aeromicrobium sp. HJX17
+59;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Aeromicrobium;Aeromicrobium sp. RODSPM17
+60;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Kribbella;Kribbella sp. enrichment culture clone VanCtr42
+61;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Marmoricola;uncultured Marmoricola sp.
+62;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;Nocardioides sp.
+63;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;Nocardioides sp. MSL 24
+64;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;Nocardioides sp. RW28
+65;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;Nocardioides sp. SSRB28-7
+66;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;uncultured Nocardioides sp.
+67;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Propionibacteriales;Propionibacteriaceae;Microlunatus;uncultured Microlunatus sp.
+68;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Amycolatopsis;Amycolatopsis tolypomycina
+69;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Lentzea;uncultured Lentzea sp.
+70;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Pseudonocardia;uncultured Pseudonocardia sp.
+71;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptacidiphilus;Streptacidiphilus alcalitolerans
+72;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptomyces;Streptomyces abietis
+73;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptomyces;Streptomyces sp. PanSC6
+74;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptomyces;uncultured Streptomyces sp.
+75;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Streptosporangiales;Thermomonosporaceae;Actinoallomurus;uncultured Actinoallomurus sp.
+76;root;Prokaryota;Bacteria;Actinobacteria;Actinobacteria;Streptosporangiales;Thermomonosporaceae;Actinomadura;Actinomadura sp. 1g12710
+77;root;Prokaryota;Bacteria;Actinobacteria;Rubrobacteria;Gaiellales;Gaiellaceae;Gaiella;Gaiella occulta
+78;root;Prokaryota;Bacteria;Actinobacteria;Rubrobacteria;Gaiellales;Gaiellaceae;Gaiella;uncultured Gaiella sp.
+79;root;Prokaryota;Bacteria;Actinobacteria;Rubrobacteria;Rubrobacterales;Rubrobacteraceae;Rubrobacter;uncultured Rubrobacter sp.
+80;root;Prokaryota;Bacteria;Actinobacteria;Thermoleophilia;Solirubrobacterales;Conexibacteraceae;Conexibacter;uncultured Conexibacter sp.
+81;root;Prokaryota;Bacteria;Actinobacteria;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;Solirubrobacter;uncultured Solirubrobacter sp.
+82;root;Prokaryota;Bacteria;Actinobacteria;Thermoleophilia;Thermoleophilales;Thermoleophilaceae;Thermoleophilum;uncultured Thermoleophilum sp.
+83;root;Eukaryota;Protozoa;Amoebozoa;Myxogastrea;Stemonitida;Stemonitidae;Lamproderma;Lamproderma sp. SAPA:100012
+84;root;Eukaryota;Protozoa;Amoebozoa;Tubulinea;Euamoebida;Echinamoebidae;Echinamoeba;Echinamoeba exundans
+85;root;Eukaryota;Protozoa;Amoebozoa;Tubulinea;Euamoebida;Hartmannellidae;Vermamoeba;Vermamoeba vermiformis
+86;root;Eukaryota;Protozoa;Amoebozoa;Tubulinea;Leptomyxida;Leptomyxidae;Leptomyxa;Leptomyxa sp. AS-2016b
+87;root;Eukaryota;Protozoa;Amoebozoa;Tubulinea;Leptomyxida;Leptomyxidae;Leptomyxa;Leptomyxa reticulata
+88;root;Eukaryota;Plantae;Angiosperma;Asterida;Apiales;Apiaceae;Conopodium;Conopodium majus
+89;root;Eukaryota;Plantae;Angiosperma;Asterida;Asterales;Asteraceae;Achillea;Achillea millefolium
+90;root;Eukaryota;Plantae;Angiosperma;Asterida;Asterales;Asteraceae;Helianthus;Helianthus annuus
+91;root;Eukaryota;Plantae;Angiosperma;Asterida;Asterales;Asteraceae;Taraxacum;Taraxacum kok-saghyz
+92;root;Eukaryota;Plantae;Angiosperma;Asterida;Boraginales;Hydrophyllaceae;Phacelia;Phacelia tanacetifolia
+93;root;Eukaryota;Plantae;Angiosperma;Asterida;Caryophyllales;Caryophyllaceae;Cerastium;Cerastium arcticum
+94;root;Eukaryota;Plantae;Angiosperma;Asterida;Caryophyllales;Polygonaceae;Fallopia;Fallopia multiflora
+95;root;Eukaryota;Plantae;Angiosperma;Asterida;Ericales;Ericaceae;Calluna;Calluna vulgaris
+96;root;Eukaryota;Plantae;Angiosperma;Asterida;Lamiales;Lamiaceae;Salvia;Salvia nemorosa
+97;root;Eukaryota;Plantae;Angiosperma;Asterida;Lamiales;Oleaceae;Hesperelaea;Hesperelaea palmeri
+98;root;Eukaryota;Plantae;Angiosperma;Liliopsida;Asparagales;Ixioliriaceae;Ixiolirion;Ixiolirion tataricum
+99;root;Eukaryota;Plantae;Angiosperma;Liliopsida;Poales;Poaceae;Dactylis;Dactylis glomerata
+100;root;Eukaryota;Plantae;Angiosperma;Liliopsida;Poales;Poaceae;Zea;Zea mays
+101;root;Eukaryota;Plantae;Angiosperma;Rosida;Brassicales;Brassicaceae;Sinapis;Sinapis alba
+102;root;Eukaryota;Plantae;Angiosperma;Rosida;Fabales;Fabaceae;Vigna;Vigna angularis
+103;root;Eukaryota;Plantae;Angiosperma;Rosida;Fabales;Fabaceae;Canavalia;Canavalia ensiformis
+104;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Achaeta;Achaeta affinis
+105;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Achaeta;Achaeta bifollicula
+106;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Achaeta;Achaeta cf. bohemica PDW-2010
+107;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Achaeta;Achaeta unibulba
+108;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Buchholzia;Buchholzia fallax
+109;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Chamaedrilus;Chamaedrilus aff. glandulosus A SM-2014
+110;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Chamaedrilus;Chamaedrilus aff. sphagnetorum C SM-2014
+111;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytraeus;Enchytraeus albidus
+112;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytraeus;Enchytraeus buchholzi
+113;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytraeus;Enchytraeus bulbosus
+114;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytraeus;Enchytraeus christenseni
+115;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytraeus;Enchytraeus lacteus
+116;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytraeus;Enchytraeus norvegicus
+117;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Enchytronia;Enchytronia parva
+118;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia bisetosa
+119;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia christeri
+120;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia connata
+121;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia galba
+122;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia isseli
+123;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia magna
+124;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia paroniana
+125;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia ratzeli
+126;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia sohlenii
+127;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia sylvatica
+128;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Fridericia;Fridericia tuberosa
+129;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Henlea;Henlea perpusilla
+130;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Marionina;Marionina cf. minutissima PDW-2010
+131;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Marionina;Marionina clavata
+132;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Marionina;Marionina communis
+133;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Marionina;Marionina filiformis
+134;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Enchytraeidae;Marionina;Marionina sublitoralis
+135;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Eudrilidae;Eudrilus;Eudrilus eugeniae
+136;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Allolobophora;Allolobophora chlorotica
+137;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Aporrectodea;Aporrectodea caliginosa
+138;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Aporrectodea;Aporrectodea longa
+139;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Aporrectodea;Aporrectodea rosea
+140;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Octolasion;Octolasion cyaneum
+141;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Lumbricus;Lumbricus castaneus
+142;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Lumbricus;Lumbricus centralis
+143;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Lumbricus;Lumbricus friendi
+144;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Lumbricus;Lumbricus terrestris
+145;root;Eukaryota;Animalia;Annelida;Haplotaxida;Haplotaxida;Lumbricidae;Satchellius;Satchellius mammalis
+146;root;Eukaryota;Protozoa;Apusozoa;Thecomonadea;Apusomonadida;Apusomonadidae;Apusomonas;Apusomonas proboscidea
+147;root;Eukaryota;Animalia;Arthropoda;Arachnida;Araneae;Theridiidae;Robertus;Robertus neglectus
+148;root;Eukaryota;Animalia;Arthropoda;Arachnida;Astigmata;Histiostomatidae;Histiostoma;Histiostoma feroniarum
+149;root;Eukaryota;Animalia;Arthropoda;Arachnida;Endeostigmata;Alicorhagiidae;Stigmalychus;Stigmalychus sp. AD1318
+150;root;Eukaryota;Animalia;Arthropoda;Arachnida;Mesostigmata;Laelapidae;Blaberolaelaps;Blaberolaelaps sp. APGD-2010
+151;root;Eukaryota;Animalia;Arthropoda;Arachnida;Mesostigmata;Uropodidae;Uropoda;Uropoda orbicularis
+152;root;Eukaryota;Animalia;Arthropoda;Arachnida;Mesostigmata;Veigaiidae;Veigaia;Veigaia nemorensis
+153;root;Eukaryota;Animalia;Arthropoda;Arachnida;Mesostigmata;Veigaiidae;Veigaia;Veigaia sp. 2 APGD-2010
+154;root;Eukaryota;Animalia;Arthropoda;Arachnida;Oribatida;Brachychthoniidae;Liochthonius;Liochthonius sp. AD1300
+155;root;Eukaryota;Animalia;Arthropoda;Arachnida;Oribatida;Galumnidae;Pilogalumna;Pilogalumna rosauraruizae
+156;root;Eukaryota;Animalia;Arthropoda;Arachnida;Oribatida;Protoribatidae;Protoribates;Protoribates hakonensis
+157;root;Eukaryota;Animalia;Arthropoda;Arachnida;Pseudoscorpiones;Chthoniidae;Chthonius;Chthonius sp. 2 JM-2008
+158;root;Eukaryota;Animalia;Arthropoda;Arachnida;Trombidiformes;Tetranychidae;Tetranychus;Tetranychus urticae
+159;root;Eukaryota;Animalia;Arthropoda;Chilopoda;Lithobiomorpha;Lithobiidae;Lithobius;Lithobius forficatus
+160;root;Eukaryota;Animalia;Arthropoda;Chilopoda;Lithobiomorpha;Lithobiidae;Lithobius;Lithobius variegatus
+161;root;Eukaryota;Animalia;Arthropoda;Coleoptera;Insecta;Curculionidae;Barynotus;Barynotus moerens
+162;root;Eukaryota;Animalia;Arthropoda;Coleoptera;Insecta;Curculionidae;Otiorhynchus;Otiorhynchus armadillo
+163;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Lepidocyrtus;Lepidocyrtus sp. 1 FZ-2013
+164;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Orchesella;Orchesella villosa
+165;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Seira;Seira barnardi
+166;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Willowsia;Willowsia nigromaculata
+167;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Entomobrya;Entomobrya multifasciata
+168;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Entomobrya;Entomobrya sp. 9644 FZ-2013
+169;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Lepidocyrtus;Lepidocyrtus paradoxus
+170;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Entomobryidae;Willowsia;Willowsia nigromaculata
+171;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Folsomia;Folsomia candida
+172;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Isotoma;Isotoma viridis
+173;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Folsomia;Folsomia quadrioculata
+174;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Isotoma;Isotoma viridis
+175;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Isotomiella;Isotomiella minor
+176;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Tetracanthella;Tetracanthella sp. YB-2012
+177;root;Eukaryota;Animalia;Arthropoda;Collembola;Entomobryomorpha;Isotomidae;Vertagopus;Vertagopus sp. YB-2012
+178;root;Eukaryota;Animalia;Arthropoda;Collembola;Neelipleona;Neelidae;Megalothorax;Megalothorax sp. EA040003-cs17
+179;root;Eukaryota;Animalia;Arthropoda;Collembola;Neelipleona;Neelidae;Megalothorax;Megalothorax sp. EA040004-cs23
+180;root;Eukaryota;Animalia;Arthropoda;Collembola;Neelipleona;Neelidae;Megalothorax;Megalothorax sp. EA040008-cs9
+181;root;Eukaryota;Animalia;Arthropoda;Collembola;Neelipleona;Neelidae;Megalothorax;Megalothorax sp. EA040004-cs23
+182;root;Eukaryota;Animalia;Arthropoda;Collembola;Neelipleona;Neelidae;Megalothorax;Megalothorax sp. EA040008-cs9
+183;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Hypogastruridae;Ceratophysella;Ceratophysella sp. FZ-2014
+184;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Neanuridae;Friesea;Friesea grisea
+185;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Neanuridae;Crossodonthina;Crossodonthina koreana
+186;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Onychiuridae;Protaphorura;Protaphorura armata
+187;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Onychiuridae;Tetrodontophora;Tetrodontophora bielanensis
+188;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Poduridae;Podura;Podura aquatica
+189;root;Eukaryota;Animalia;Arthropoda;Collembola;Poduromorpha;Tullbergiidae;Tullbergia;Tullbergia yosii
+190;root;Eukaryota;Animalia;Arthropoda;Collembola;Symphypleona;Katiannidae;Sminthurinus;Sminthurinus bimaculatus
+191;root;Eukaryota;Animalia;Arthropoda;Collembola;Symphypleona;Sminthuridae;Sminthurus;Sminthurus viridis
+191;root;Eukaryota;Animalia;Arthropoda;Collembola;Symphypleona ;Sminthuridae;Sminthurus;Sminthurus viridis
+192;root;Eukaryota;Animalia;Arthropoda;Collembola;Symphypleona ;Sminthurididae;Sminthurides;Sminthurides aquaticus
+193;root;Eukaryota;Animalia;Arthropoda;Dermaptera;Insecta;Forficulidae;Forficula;Forficula auricularia
+194;root;Eukaryota;Animalia;Arthropoda;Diplopoda;Julida;Julidae;Cylindroiulus;Cylindroiulus caeruleocinctus
+195;root;Eukaryota;Animalia;Arthropoda;Diplopoda;Polydesmida;Polydesmidae;Polydesmus;Polydesmus coriaceus
+196;root;Eukaryota;Animalia;Arthropoda;Diplura;Diplura;Campodeidae;Campodea;Campodea fragilis
+197;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Carabidae;Notiophilus;Notiophilus rufipes
+198;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Carabidae;Trechus;Trechus obtusus
+199;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Carabidae;Trechus;Trechus quadristriatus
+200;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Curculionidae;Barynotus;Barynotus moerens
+201;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Curculionidae;Barynotus;Barynotus obscurus
+202;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Curculionidae;Sitona;Sitona lineatus
+203;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Elateridae;Agriotes;Agriotes sordidus
+204;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Leiodidae;Choleva;Choleva angustata
+205;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Scarabaeidae;Amphimallon;Amphimallon solstitiale
+206;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Scarabaeidae;Aphodius;Aphodius johnsoni
+207;root;Eukaryota;Animalia;Arthropoda;Insecta;Coleoptera;Staphylinidae;Tachyporus;Tachyporus hypnorum
+208;root;Eukaryota;Animalia;Arthropoda;Insecta;Dermaptera;Forficulidae;Forficula;Forficula auricularia
+209;root;Eukaryota;Animalia;Arthropoda;Insecta;Dermaptera;Forficulidae;Forficula;Forficula sp. NC-1995
+210;root;Eukaryota;Animalia;Arthropoda;Insecta;Diptera;Lonchopteridae;Lonchoptera;Lonchoptera lutea
+211;root;Eukaryota;Animalia;Arthropoda;Insecta;Diptera;Sciaridae;Bradysia;Bradysia subrufescens
+212;root;Eukaryota;Animalia;Arthropoda;Insecta;Diptera;Sciaridae;Peyerimhoffia;Peyerimhoffia alpina
+213;root;Eukaryota;Animalia;Arthropoda;Insecta;Diptera;Tipulidae;Tipula;Tipula abdominalis
+214;root;Eukaryota;Animalia;Arthropoda;Insecta;Diptera;Tipulidae;Tipula;Tipula cockerelliana
+215;root;Eukaryota;Animalia;Arthropoda;Insecta;Hemiptera;Aphididae;Acyrthosiphon;Acyrthosiphon pisum
+216;root;Eukaryota;Animalia;Arthropoda;Insecta;Hemiptera;Aphididae;Aulacorthum;Aulacorthum solani
+217;root;Eukaryota;Animalia;Arthropoda;Insecta;Hemiptera;Aphididae;Myzus;Myzus persicae
+218;root;Eukaryota;Animalia;Arthropoda;Insecta;Hemiptera;Aphididae;Rhopalosiphum;Rhopalosiphum padi
+219;root;Eukaryota;Animalia;Arthropoda;Insecta;Hymenoptera;Braconidae;Aphidius;Aphidius ervi
+220;root;Eukaryota;Animalia;Arthropoda;Insecta;Hymenoptera;Formicidae;Myrmica;Myrmica scabrinodis
+221;root;Eukaryota;Animalia;Arthropoda;Insecta;Lepidoptera;Noctuidae;Noctua;Noctua pronuba
+222;root;Eukaryota;Animalia;Arthropoda;Phthiraptera;Insecta;Gyropidae;Gliricola;Gliricola sp. 274
+223;root;Eukaryota;Animalia;Arthropoda;Protura;Protura;Eosentomidae;Eosentomon;Eosentomon sp. FNSA-2002
+224;root;Eukaryota;Fungi;Ascomycota;Archaeorhizomycetes;Archaeorhizomycetales;Archaeorhizomycetaceae;Archaeorhizomyces;Archaeorhizomyces borealis
+225;root;Eukaryota;Fungi;Ascomycota;Archaeorhizomycetes;Archaeorhizomycetales;Archaeorhizomycetaceae;Archaeorhizomyces;Archaeorhizomyces finlayi
+226;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Acrospermales;Acrospermaceae;Acrospermum;Acrospermum gramineum
+227;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Capnodiales;Cladosporiaceae;Cladosporium;Cladosporium sp. CB-20
+228;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Pleosporales;Cucurbitariaceae;Pyrenochaeta;Pyrenochaeta sp. GMG_PPb7
+229;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Pleosporales;Didymellaceae;Phoma;Phoma herbarum
+230;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Pleosporales;Leptosphaeriaceae;Leptosphaeria;Leptosphaeria biglobosa
+231;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Pleosporales;Periconiaceae;Periconia;Periconia macrospinosa
+232;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Pleosporales;Phaeosphaeriaceae;Sclerostagonospora;Sclerostagonospora sp. CBS 118142
+233;root;Eukaryota;Fungi;Ascomycota;Dothideomycetes;Tubeufiales;Tubeufiaceae;Tubeufia;Tubeufia helicomyces
+234;root;Eukaryota;Fungi;Ascomycota;Eurotiomycetes;Chaetothyriales;Cyphellophoraceae;Cyphellophora;Cyphellophora sessilis
+235;root;Eukaryota;Fungi;Ascomycota;Eurotiomycetes;Eurotiales;Aspergillaceae;Penicillium;Penicillium sp. D01
+236;root;Eukaryota;Fungi;Ascomycota;Eurotiomycetes;Eurotiales;Aspergillaceae;Penicillium;Penicillium sp. SDI-2014f
+237;root;Eukaryota;Fungi;Ascomycota;Laboulbeniomycetes;Pyxidiophorales;Pyxidiophoraceae;Pyxidiophora;Pyxidiophora arvernensis
+238;root;Eukaryota;Fungi;Ascomycota;Leotiomycetes;Helotiales;Helotiaceae;Bisporella;Bisporella citrina
+239;root;Eukaryota;Fungi;Ascomycota;Leotiomycetes;Helotiales;Helotiaceae;Articulospora;Articulospora proliferata
+240;root;Eukaryota;Fungi;Ascomycota;Leotiomycetes;Helotiales;Helotiaceae;Holwaya;Holwaya mucida
+241;root;Eukaryota;Fungi;Ascomycota;Leotiomycetes;Helotiales;Helotiaceae;Hymenoscyphus;Hymenoscyphus repandus
+242;root;Eukaryota;Fungi;Ascomycota;Leotiomycetes;Helotiales;Hyaloscyphaceae;Hyphodiscus;Hyphodiscus hymeniophilus
+243;root;Eukaryota;Fungi;Ascomycota;Orbiliomycetes;Orbiliales;Orbiliaceae;Brachyphoris;Brachyphoris oviparasitica
+244;root;Eukaryota;Fungi;Ascomycota;Orbiliomycetes;Orbiliales;Orbiliaceae;Hyalorbilia;Hyalorbilia sp. HOB-2016a
+245;root;Eukaryota;Fungi;Ascomycota;Orbiliomycetes;Orbiliales;Orbiliaceae;Orbilia;Orbilia sp. HOB-2016am
+246;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Ascobolaceae;Ascobolus;Ascobolus stercorarius
+247;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Ascobolaceae;Saccobolus;Saccobolus dilutellus
+248;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Ascobolaceae;Thecotheus;Thecotheus holmskjoldii
+249;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pezizaceae;Iodophanus;Iodophanus carneus
+250;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pezizaceae;Boudiera;Boudiera acanthospora
+251;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pyronemataceae;Cheilymenia;Cheilymenia stercorea
+252;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pyronemataceae;Orbicula;Orbicula parietina
+253;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pyronemataceae;Melastiza;Melastiza contorta
+254;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pyronemataceae;Stephensia;Stephensia shanorii
+255;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Pyronemataceae;Genea;Genea fragrans
+256;root;Eukaryota;Fungi;Ascomycota;Pezizomycetes;Pezizales;Tuberaceae;Tuber;Tuber sp. CBS 272 72
+257;root;Eukaryota;Fungi;Ascomycota;Saccharomycetes;Saccharomycetales;Dipodascaceae;Yarrowia;Yarrowia lipolytica
+258;root;Eukaryota;Fungi;Ascomycota;Saccharomycetes;Saccharomycetales;Dipodascaceae;Yarrowia;Yarrowia sp. 25L
+259;root;Eukaryota;Fungi;Ascomycota;Saccharomycetes;Saccharomycetales;Saccharomycetaceae;Saccharomyces;Saccharomyces cerevisiae
+260;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Chaetosphaeriales;Chaetosphaeriaceae;Chaetosphaeria;Chaetosphaeria ciliata
+261;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Diaporthales;Cryphonectriaceae;Cryphonectria;Cryphonectria parasitica
+262;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Hypocreales;Bionectriaceae;Stilbocrea;Stilbocrea macrostoma
+263;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Hypocreales;Clavicipitaceae;Metarhizium;Metarhizium anisopliae
+264;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Hypocreales;Cordycipitaceae;Cordyceps;Cordyceps cylindrica
+265;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Hypocreales;Cordycipitaceae;Cordyceps;Cordyceps memorabilis
+266;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Magnaporthales;Magnaporthaceae;Gaeumannomyces;Gaeumannomyces graminis
+267;root;Eukaryota;Fungi;Ascomycota;Sordariomycetes;Microascales;Halosphaeriaceae;Panorbis;Panorbis viscosus
+268;root;Eukaryota;Chromista;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Hantzschia;Hantzschia amphioxys
+269;root;Eukaryota;Chromista;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Nitzschia;Nitzschia pusilla
+270;root;Eukaryota;Chromista;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Pseudo-nitzschia;Pseudo-nitzschia heimii
+271;root;Eukaryota;Chromista;Bacillariophyta;Bacillariophyceae;Naviculales;Diadesmidaceae;Luticola;Luticola permuticopsis
+272;root;Eukaryota;Chromista;Bacillariophyta;Bacillariophyceae;Naviculales;Naviculaceae;Mayamaea;Mayamaea sp. KAS1111
+273;root;Prokaryota;Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;uncultured Bacteroides sp.
+274;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Chitinophaga;Chitinophaga oryziterrae
+275;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Chitinophaga;Chitinophaga pinensis
+276;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Chitinophaga;Chitinophaga sp. BN130233
+277;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Chitinophaga;uncultured Chitinophaga sp.
+278;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Ferruginibacter;Ferruginibacter paludis
+279;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Ferruginibacter;Ferruginibacter sp. WF24
+280;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Ferruginibacter;uncultured Ferruginibacter sp.
+281;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Flavisolibacter;Flavisolibacter rigui
+282;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Flavisolibacter;Flavosolibacter sp. HU1-JC5
+283;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Flavisolibacter;uncultured Flavisolibacter sp.
+284;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Lacibacter;uncultured Lacibacter sp.
+285;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Niastella;uncultured Niastella sp.
+286;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Panacibacter;Panacibacter ginsenosidivorans
+287;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Parafilimonas;Parafilimonas terrae
+288;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Sediminibacterium;Sediminibacterium aquarii
+289;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Segetibacter;uncultured Segetibacter sp.
+290;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Terrimonas;Terrimonas arctica
+291;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Terrimonas;Terrimonas sp. URHE0054
+292;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Chitinophagaceae;Terrimonas;uncultured Terrimonas sp.
+293;root;Prokaryota;Bacteria;Bacteroidetes;Chitinophagia;Chitinophagales;Saprospiraceae;Haliscomenobacter;uncultured Haliscomenobacter sp.
+294;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Candidatus Nephrothrix;uncultured Candidatus Nephrothrix sp.
+295;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Cytophaga;Cytophaga hutchinsonii
+296;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Cytophaga;uncultured Cytophaga sp.
+297;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Emticicia;Emticicia sp. KJ033
+298;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Fibrella;Fibrella sp.
+299;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Flexibacter;uncultured Flexibacter sp.
+300;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Ohtaekwangia;uncultured Ohtaekwangia sp.
+301;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Hymenobacteraceae;Adhaeribacter;uncultured Adhaeribacter sp.
+302;root;Prokaryota;Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Hymenobacteraceae;Pontibacter;Pontibacter sp. LX8
+303;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Crocinitomicaceae;Crocinitomix;uncultured Crocinitomix sp.
+304;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Crocinitomicaceae;Fluviicola;Fluviicola sp. YS 1.2.4
+305;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Crocinitomicaceae;Fluviicola;uncultured Fluviicola sp.
+306;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Crocinitomicaceae;Lishizhenia;uncultured Lishizhenia sp.
+307;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Flavobacterium;Flavobacterium hydatis
+308;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Flavobacterium;Flavobacterium sp. BF134
+309;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Flavobacterium;Flavobacterium sp. HL-17
+310;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Flavobacterium;Flavobacterium sp. PDD-32b-56
+311;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Flavobacterium;Flavobacterium sp. R-38392
+312;root;Prokaryota;Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Flavobacterium;uncultured Flavobacterium sp.
+313;root;Prokaryota;Bacteria;Bacteroidetes;NA;Bacteroidetes Order II. Incertae sedis;Rhodothermaceae;Rhodothermus;uncultured Rhodothermus sp.
+314;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;Mucilaginibacter sp. HME7565
+315;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;Mucilaginibacter sp. UA-VH0703
+316;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;uncultured Mucilaginibacter sp.
+317;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Pedobacter;Pedobacter luteus
+318;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Pedobacter;Pedobacter sp. FGR-05
+319;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Pedobacter;uncultured Pedobacter sp.
+320;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Solitalea;uncultured Solitalea sp.
+321;root;Prokaryota;Bacteria;Bacteroidetes;Sphingobacteriia;Sphingobacteriales;Sphingobacteriaceae;Sphingobacterium;Sphingobacterium sp. P-7
+322;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Bolbitiaceae;Bolbitius;Bolbitius vitellinus
+323;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Clavariaceae;Hodophilus;Hodophilus hymenocephalus
+324;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Clavariaceae;Ramariopsis;Ramariopsis kunzei
+325;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Hygrophoraceae;Hygrocybe;Hygrocybe reidii
+326;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Hygrophoraceae;Hygrophorus;Hygrophorus agathosmus
+327;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Marasmiaceae;Campanella;Campanella subdendrophora
+328;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Pluteaceae;Pluteus;Pluteus petasatus
+329;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Pluteaceae;Pluteus;Pluteus phlebophorus
+330;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Psathyrellaceae;Psathyrella;Psathyrella sp. D16
+331;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Strophariaceae;Pholiota;Pholiota squarrosa
+332;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Agaricales;Tricholomataceae;Porpoloma;Porpoloma sp. 2 MSG-2014
+333;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Boletales;Serpulaceae;Serpula;Serpula incrassata
+334;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Boletales;Stephanosporaceae;Stephanospora;Stephanospora caroticolor
+335;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Cantharellales;Ceratobasidiaceae;Rhizoctonia;Rhizoctonia solani
+336;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Cantharellales;Ceratobasidiaceae;Waitea;Waitea circinata
+337;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Cantharellales;Ceratobasidiaceae;Waitea;Waitea circinata
+338;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Cantharellales;Clavulinaceae;Multiclavula;Multiclavula mucida
+339;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Corticiales;Corticiaceae;Limonomyces;Limonomyces roseipellis
+340;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Corticiales;Corticiaceae;Hyphodontia;Hyphodontia rimosissima
+341;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Corticiales;Corticiaceae;Peniophorella;Peniophorella praetermissa
+342;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Geastrales;Geastraceae;Geastrum;Geastrum saccatum
+343;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Geastrales;Sphaerobolaceae;Sphaerobolus;Sphaerobolus stellatus
+344;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Hymenochaetales;Hymenochaetaceae;Hymenochaetopsis;Hymenochaetopsis olivacea
+345;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Polyporales;Pterulaceae;Pterula;Pterula echo
+346;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Russulales;Lachnocladiaceae;Asterostroma;Asterostroma andinum
+347;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Russulales;Stereaceae;Stereum;Stereum ostrea
+348;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Sebacinales;Sebacinaceae;Craterocolla;Craterocolla cerasi
+349;root;Eukaryota;Fungi;Basidiomycota;Agaricomycetes;Trechisporales;Hydnodontaceae;Trechispora;Trechispora farinacea
+350;root;Eukaryota;Fungi;Basidiomycota;Atractiellomycetes;Atractiellales;Hoehnelomycetaceae;Proceropycnis;Proceropycnis pinicola
+351;root;Eukaryota;Fungi;Basidiomycota;Dacrymycetes;Dacrymycetales;Dacrymycetaceae;Guepiniopsis;Guepiniopsis buccina
+352;root;Eukaryota;Fungi;Basidiomycota;Exobasidiomycetes;Entylomatales;Entylomataceae;Entyloma;Entyloma ficariae
+353;root;Eukaryota;Fungi;Basidiomycota;Malasseziomycetes;Malasseziales;Malasseziaceae;Malassezia;Malassezia globosa
+354;root;Eukaryota;Fungi;Basidiomycota;Tremellomycetes;Cystofilobasidiales;Mrakiaceae;Itersonilia;Itersonilia pannonica
+355;root;Eukaryota;Fungi;Basidiomycota;Tremellomycetes;Cystofilobasidiales;Mrakiaceae;Itersonilia;Itersonilia perplexans
+356;root;Eukaryota;Fungi;Basidiomycota;Tremellomycetes;Filobasidiales;Filobasidiaceae;Filobasidium;Filobasidium stepposum
+357;root;Eukaryota;Fungi;Basidiomycota;Tremellomycetes;Tremellales;Bulleribasidiaceae;Dioszegia;Dioszegia crocea
+358;root;Eukaryota;Fungi;Basidiomycota;Tremellomycetes;Tremellales;Cryptococcaceae;Cryptococcus;Cryptococcus amylolentus
+359;root;Eukaryota;Fungi;Basidiomycota;Tremellomycetes;Trichosporonales;Trichosporonaceae;Apiotrichum;Apiotrichum porosum
+360;root;Eukaryota;Chromista;Bigyra;Bicoecea;Bicosoecida;Bicosoecidae;Bicosoeca;Bicosoeca petiolata
+361;root;Eukaryota;Chromista;Bigyra;Bicoecea;Bicosoecida;Siluaniidae;Siluania;Siluania monomastiga
+362;root;Eukaryota;Plantae;Bryophyta;Bryopsida;Hypnales;Brachytheciaceae;Oxyrrhynchium;Oxyrrhynchium hians
+363;root;Eukaryota;Plantae;Bryophyta;Bryopsida;Pottiales;Pottiaceae;Barbula;Barbula unguiculata
+364;root;Eukaryota;Chromista;Cercozoa;Endomyxa;Vampyrellida;Leptophryidae;Platyreta;Platyreta germanica
+365;root;Eukaryota;Chromista;Cercozoa;Endomyxa;Vampyrellida;Vampyrellidae;Vampyrella;Vampyrella pendula
+366;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Euglyphida;Euglyphidae;Euglypha;Euglypha rotunda
+367;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Euglyphida;Euglyphidae;Euglypha;Euglypha tuberculata
+368;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Euglyphida;Trinematidae;Corythion;Corythion dubium
+369;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Euglyphida;Trinematidae;Trinema;Trinema enchelys
+370;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Euglyphida;Trinematidae;Trinema;Trinema lineare
+371;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Thaumatomonadida;Thaumatomastigidae;Peregrinia;Peregrinia clavideferens
+372;root;Eukaryota;Chromista;Cercozoa;Imbricatea;Thaumatomonadida;Thaumatomastigidae;Protaspis;Protaspis obliqua
+373;root;Eukaryota;Chromista;Cercozoa;Phytomyxea;Plasmodiophorida;Plasmodiophoridae;Woronina;Woronina pythii
+374;root;Eukaryota;Chromista;Cercozoa;Phytomyxea;Plasmodiophorida;Plasmodiophoridae;Polymyxa;Polymyxa graminis
+375;root;Eukaryota;Chromista;Cercozoa;Phytomyxea;Plasmodiophorida;Plasmodiophoridae;Spongospora;Spongospora sp. HH-2014
+376;root;Eukaryota;Chromista;Cercozoa;Phytomyxea;Plasmodiophorida;Plasmodiophoridae;Spongospora;Spongospora subterranea
+377;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas alexieffi
+378;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas braziliensis
+379;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas celer
+380;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas fastiga
+381;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas media
+382;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas parambigua
+383;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas parincurva
+384;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas radiata
+385;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas rapida
+386;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas sp. ATCC 50367
+387;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas sp. HFCC 905
+388;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas vacuolata
+389;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas sp. HFCC 908
+390;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas sp. HFCC 909
+391;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Massisteria;Massisteria marina
+392;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Paracercomonas;Paracercomonas astra
+393;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Paracercomonas;Paracercomonas compacta
+394;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Paracercomonas;Paracercomonas filosa
+395;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Paracercomonas;Paracercomonas paralaciniaegerens
+396;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Paracercomonas;Paracercomonas sp. HFCC 913
+397;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Cercomonadidae;Paracercomonas;Paracercomonas sp. HFCC 918
+398;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Heteromitidae;Bodomorpha;Bodomorpha sp. HFCC56
+399;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Cercomonadida;Heteromitidae;Bodomorpha;Bodomorpha sp. HFCC57
+400;root;Eukaryota;Chromista;Cercozoa;Sarcomonadea;Glissomonadida;Viridiraptoridae;Orciraptor;Orciraptor agilis
+401;root;Eukaryota;Chromista;Cercozoa;Thecofilosea;Tectofilosida;Chlamydophryidae;Capsellina;Capsellina sp. ATCC 50039
+402;root;Eukaryota;Chromista;Cercozoa;Thecofilosea;Tectofilosida;Chlamydophryidae;Rhogostoma;Rhogostoma schuessleri
+403;root;Eukaryota;Chromista;Cercozoa;Thecofilosea;Tectofilosida;Chlamydophryidae;Rhogostoma;Rhogostoma sp. CCAP 1966/4
+404;root;Prokaryota;Bacteria;Chloroflexi;Anaerolineae;Anaerolineales;Anaerolineaceae;Bellilinea;uncultured Bellilinea sp.
+405;root;Prokaryota;Bacteria;Chloroflexi;Anaerolineae;Anaerolineales;Anaerolineaceae;Levilinea;uncultured Levilinea sp.
+406;root;Prokaryota;Bacteria;Chloroflexi;Anaerolineae;Anaerolineales;Anaerolineaceae;Longilinea;uncultured Longilinea sp.
+407;root;Prokaryota;Bacteria;Chloroflexi;Caldilineae;Caldilineales;Caldilineaceae;Caldilinea;uncultured Caldilinea sp.
+408;root;Prokaryota;Bacteria;Chloroflexi;Chloroflexia;Chloroflexales;Chloroflexaceae;Chloroflexus;uncultured Chloroflexus sp.
+409;root;Prokaryota;Bacteria;Chloroflexi;Chloroflexia;Chloroflexales;Roseiflexaceae;Roseiflexus;uncultured Roseiflexus sp.
+410;root;Prokaryota;Bacteria;Chloroflexi;Dehalococcoidia;Dehalococcoidales;Dehalococcoidaceae;Dehalococcoides;uncultured Dehalococcoides sp.
+411;root;Prokaryota;Bacteria;Chloroflexi;Ktedonobacteria;Ktedonobacterales;Ktedonobacteraceae;Ktedonobacter;Ktedonobacter sp. enrichment culture clone CTBE CDB1001H01
+412;root;Prokaryota;Bacteria;Chloroflexi;Ktedonobacteria;Ktedonobacterales;Ktedonobacteraceae;Ktedonobacter;uncultured Ktedonobacter sp.
+413;root;Prokaryota;Bacteria;Chloroflexi;Thermomicrobia;Sphaerobacterales;Sphaerobacteraceae;Sphaerobacter;uncultured Sphaerobacter sp.
+414;root;Eukaryota;Plantae;Chlorophyta;Chlorophyceae;Chaetophorales;Chaetophoraceae;Jaagiella;Jaagiella alpicola
+415;root;Eukaryota;Plantae;Chlorophyta;Chlorophyceae;Chlamydomonadales;Actinochloridaceae;Actinochloris;Actinochloris sp. BCP-LG3VF20
+416;root;Eukaryota;Plantae;Chlorophyta;Chlorophyceae;Chlamydomonadales;Chlamydomonadaceae;Chlamydomonas;Chlamydomonas philotes
+417;root;Eukaryota;Plantae;Chlorophyta;Chlorophyceae;Chlamydomonadales;Chlamydomonadaceae;Chlamydomonas;Chlamydomonas reinhardtii
+418;root;Eukaryota;Plantae;Chlorophyta;Chlorophyceae;Sphaeropleales;Scenedesmaceae;Coelastrella;Coelastrella saipanensis
+419;root;Eukaryota;Plantae;Chlorophyta;Chlorophyceae;Tetrasporales;Palmellaceae;Palmellopsis;Palmellopsis sp. BCP-EM1VF1
+420;root;Eukaryota;Plantae;Chlorophyta;Trebouxiophyceae;Chlorellales;Chlorellaceae;Chlorella;Chlorella emersonii
+421;root;Eukaryota;Plantae;Chlorophyta;Trebouxiophyceae;Chlorellales;Chlorellaceae;Nannochloris;Nannochloris sp. JL 4-6
+422;root;Eukaryota;Plantae;Chlorophyta;Ulvophyceae;Bryopsidales;Caulerpaceae;Caulerpa;Caulerpa cupressoides
+423;root;Eukaryota;Protozoa;Choanozoa;Choanoflagellatea;Choanoflagellida;Salpingoecidae;Monosiga;Monosiga ovata
+424;root;Eukaryota;Protozoa;Choanozoa;Choanoflagellatea;Choanoflagellida;Salpingoecidae;Sphaeroeca;Sphaeroeca volvox
+425;root;Eukaryota;Protozoa;Choanozoa;Choanoflagellatea;Choanoflagellida;Stephanoecidae;Diaphanoeca;Diaphanoeca spiralifurca
+426;root;Eukaryota;Animalia;Chordata;Mammalia;Therapsida;Bovidae;Bos;Bos taurus
+427;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Chytridiales;Chytridiaceae;Chytridium;Chytridium polysiphoniae
+428;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Cladochytriales;Endochytriaceae;Endochytrium;Endochytrium sp. JEL 324
+429;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Rhizophlyctidales;Rhizophlyctidaceae;Rhizophlyctis;Rhizophlyctis harderi
+430;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Rhizophlyctidales;Rhizophlyctidaceae;Rhizophlyctis;Rhizophlyctis rosea
+431;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Rhizophydiales;Rhizophydiaceae;Rhizophydium;Rhizophydium planktonicum
+432;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Rhizophydiales;Rhizophydiaceae;Rhizophydium;Rhizophydium patellarium
+433;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Rhizophydiales;Rhizophydiaceae;Rhizophydium;Rhizophydium sp. JEL136
+434;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Rhizophydiales;Rhizophydiaceae;Rhizophydium;Rhizophydium sp. UGA-F16
+435;root;Eukaryota;Fungi;Chytridiomycota;Chytridiomycetes;Spizellomycetales;Spizellomycetaceae;Spizellomyces;Spizellomyces punctatus
+436;root;Eukaryota;Chromista;Ciliophora;Colpodea;Bryometopida;Bryometopidae;Bryometopus;Bryometopus sphagni
+437;root;Eukaryota;Chromista;Ciliophora;Colpodea;Bryometopida;Bryometopidae;Bryometopus pseudochilodon;Bryometopus pseudochilodon
+438;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Bardeliellidae;Bardeliella;Bardeliella pulchra
+439;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Colpodidae;Colpoda;Colpoda inflata
+440;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Colpodidae;Colpoda;Colpoda sp. MD-2011
+441;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Colpodidae;Colpoda;Colpoda sp. PRA-118
+442;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Colpodidae;Bresslaua;Bresslaua vorax
+443;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Hausmanniellidae;Bresslauides;Bresslauides discoideus
+444;root;Eukaryota;Chromista;Ciliophora;Colpodea;Colpodida;Marynidae;Maryna;Maryna ovata
+445;root;Eukaryota;Chromista;Ciliophora;Colpodea;Cyrtolophosidida;Cyrtolophosididae;Pseudocyrtolophosis;Pseudocyrtolophosis alpestris
+446;root;Eukaryota;Chromista;Ciliophora;Colpodea;Cyrtolophosidida;Platyophryidae;Platyophrya;Platyophrya bromelicola
+447;root;Eukaryota;Chromista;Ciliophora;Colpodea;Cyrtolophosidida;Platyophryidae;Platyophrya;Platyophrya vorax
+448;root;Eukaryota;Chromista;Ciliophora;Colpodea;Grossglockneriida;Grossglockneriidae;Mykophagophrys;Mykophagophrys terricola
+449;root;Eukaryota;Chromista;Ciliophora;Colpodea;Grossglockneriida;Grossglockneriidae;Pseudoplatyophrya;Pseudoplatyophrya nana
+450;root;Eukaryota;Chromista;Ciliophora;Heterotrichea;Heterotrichida;Blepharismidae;Blepharisma;Blepharisma hyalinum
+451;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Acropisthiidae;Fuscheria;Fuscheria sp. VBOEF-2011
+452;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Dileptidae;Dileptus;Dileptus microstoma
+453;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Dileptidae;Dileptus;Dileptus sp.
+454;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Dileptidae;Monilicaryon;Monilicaryon monilatum
+455;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Lacrymariidae;Lacrymaria;Lacrymaria marina
+456;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Lacrymariidae;Phialina;Phialina salinarum
+457;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Spathidiidae;Arcuospathidium;Arcuospathidium namibiense
+458;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Spathidiidae;Cultellothrix;Cultellothrix coemeterii
+459;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Spathidiidae;Cultellothrix;Cultellothrix lionotiformis
+460;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Spathidiidae;Epispathidium;Epispathidium sp. RV-2015
+461;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Spathidiidae;Epispathidium;Epispathidium terricola
+462;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Haptorida;Spathidiidae;Spathidium;Spathidium simplinucleatum
+463;root;Eukaryota;Chromista;Ciliophora;Litostomatea;Pleurostomatida;Amphileptidae;Amphileptus;Amphileptus sp. ZY-2014b
+464;root;Eukaryota;Chromista;Ciliophora;Nassophorea;Microthoracida;Microthoracidae;Leptopharynx;Leptopharynx bromelicola
+465;root;Eukaryota;Chromista;Ciliophora;Nassophorea;Nassulida;Nassulidae;Obertrumia;Obertrumia georgiana
+466;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Astomatida;Anoplophryidae;Anoplophrya;Anoplophrya marylandensis
+467;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Philasterida;Cinetochilidae;Pseudoplatynematum;Pseudoplatynematum denticulatum
+468;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Philasterida;Uronematidae;Homalogastra;Homalogastra setosa
+469;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Pleuronematida;Cyclidiidae;Protocyclidium;Protocyclidium sinica
+470;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Sessilida;Vorticellidae;Pseudovorticella;Pseudovorticella punctata
+471;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Sessilida;Vorticellidae;Pseudovorticella;Pseudovorticella sp. 5 PS-2016
+472;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Sessilida;Vorticellidae;Vorticella;Vorticella campanula
+473;root;Eukaryota;Chromista;Ciliophora;Oligohymenophorea;Sessilida;Vorticellidae;Vorticella;Vorticella sp. PPS-2011b
+474;root;Eukaryota;Chromista;Ciliophora;Phyllopharyngea;Chlamydodontida;Chilodonellidae;Pseudochilodonopsis;Pseudochilodonopsis sp. 3 WS-2013
+475;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Euplotida;Euplotidae;Euplotes;Euplotes balteatus
+476;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Euplotida;Euplotidae;Euplotes;Euplotes qatarensis
+477;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Euplotida;Euplotidae;Euplotes;Euplotes trisulcatus
+478;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Sporadotrichida;Halteriidae;Meseres;Meseres corlissi
+479;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Sporadotrichida;Oxytrichidae;Tachysoma;Tachysoma pellionellum
+480;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Sporadotrichida;Trachelostylidae;Gonostomum;Gonostomum namibiense
+481;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Sporadotrichida;Trachelostylidae;Gonostomum;Gonostomum sp. JS-2012
+482;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Sporadotrichida;Trachelostylidae;Gonostomum;Gonostomum strenuum
+483;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Stichotrichida;Amphisiellidae;Hemiamphisiella;Hemiamphisiella terricola
+484;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Stichotrichida;Spirofilidae;Pseudouroleptus;Pseudouroleptus sp. ALT-2014
+485;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Urostylida;Holostichidae;Anteholosticha;Anteholosticha gracilis
+486;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Urostylida;Holostichidae;Anteholosticha;Anteholosticha monilata
+487;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Urostylida;Holostichidae;Anteholosticha;Anteholosticha rectangula
+488;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Urostylida;Urostylidae;Caudiholosticha;Caudiholosticha sp. Zlv-2015
+489;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Urostylida;Urostylidae;Caudiholosticha;Caudiholosticha sylvatica
+490;root;Eukaryota;Chromista;Ciliophora;Spirotrichea;Urostylida;Urostylidae;Urostyla;Urostyla grandis
+491;root;Prokaryota;Bacteria;Elusimicrobia;Elusimicrobia;Elusimicrobiales;Elusimicrobiaceae;Elusimicrobium;uncultured Elusimicrobium sp.
+492;root;Eukaryota;Protozoa;Euglenozoa;Kinetoplastida;Kinetoplastida;Bodonidae;Neobodo;Neobodo designis
+493;root;Prokaryota;Archaea;Euryarchaeota;Thermoplasmata;Methanomassiliicoccales;Methanomassiliicoccaceae;Methanomassiliicoccus;Methanomassiliicoccus sp. 138
+494;root;Prokaryota;Archaea;Euryarchaeota;Thermoplasmata;Methanomassiliicoccales;Methanomassiliicoccaceae;Methanomassiliicoccus;Methanomassiliicoccus sp. 142
+495;root;Prokaryota;Archaea;Euryarchaeota;Thermoplasmata;Methanomassiliicoccales;Methanomassiliicoccaceae;Methanomassiliicoccus;Methanomassiliicoccus sp. P27
+496;root;Prokaryota;Bacteria;Fibrobacteres;Fibrobacteria;Fibrobacterales;Fibrobacteraceae;Fibrobacter;uncultured Fibrobacter sp.
+497;root;Prokaryota;Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus;uncultured Bacillus sp.
+498;root;Prokaryota;Bacteria;Firmicutes;Bacilli;Bacillales;Paenibacillaceae;Saccharibacillus;uncultured Saccharibacillus sp.
+499;root;Prokaryota;Bacteria;Firmicutes;Bacilli;Bacillales;Pasteuriaceae;Pasteuria;uncultured Pasteuria sp.
+500;root;Prokaryota;Bacteria;Firmicutes;Bacilli;Bacillales;Thermoactinomycetaceae;Thermoflavimicrobium;uncultured Thermoflavimicrobium sp.
+501;root;Prokaryota;Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiales Family XVII. Incertae Sedis;Thermaerobacter;uncultured Thermaerobacter sp.
+502;root;Prokaryota;Bacteria;Firmicutes;Clostridia;Clostridiales;Peptococcaceae;Desulfitobacterium;uncultured Desulfitobacterium sp.
+503;root;Prokaryota;Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermoanaerobacteraceae;Moorella;uncultured Moorella sp.
+504;root;Prokaryota;Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermoanaerobacteraceae;Thermoanaerobacter;uncultured Thermoanaerobacter sp.
+505;root;Prokaryota;Bacteria;Fusobacteria;Fusobacteriia;Fusobacteriales;Fusobacteriaceae;Fusobacterium;uncultured Fusobacterium sp.
+506;root;Prokaryota;Bacteria;Gemmatimonadetes;Gemmatimonadetes;Gemmatimonadales;Gemmatimonadaceae;Gemmatimonas;uncultured Gemmatimonas sp.
+507;root;Eukaryota;Chromista;Heliozoa;Centrohelea;Centrohelida;Heterophryidae;Heterophrys;Heterophrys sp. Oxford1
+508;root;Prokaryota;Bacteria;Ignavibacteriae;Ignavibacteria;Ignavibacteriales;Ignavibacteriaceae;Ignavibacterium;uncultured Ignavibacterium sp.
+509;root;Eukaryota;Plantae;Marchantiophyta;Jungermanniopsida;Pleuroziales;Pleuroziaceae;Pleurozia;Pleurozia purpurea
+510;root;Eukaryota;Fungi;Mucoromycota;Endogonomycetes;Endogonales;Endogonaceae;Endogone;Endogone sp. OSC T14506
+511;root;Eukaryota;Fungi;Mucoromycota;Endogonomycetes;Endogonales;Endogonaceae;Endogone;Endogone sp. W5994
+512;root;Eukaryota;Fungi;Mucoromycota;Endogonomycetes;Endogonales;Endogonaceae;Endogone;Endogone lactiflua
+513;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Archaeosporales;Ambisporaceae;Ambispora;Ambispora fennica
+514;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Archaeosporales;Ambisporaceae;Ambispora;Ambispora gerdemannii
+515;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Archaeosporales;Archaeosporaceae;Archaeospora;Archaeospora sp. PODO7.3
+516;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Archaeosporales;Archaeosporaceae;Archaeospora;Archaeospora trappei
+517;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Archaeosporales;Archaeosporaceae;Palaeospora;Palaeospora spainiae
+518;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Diversisporales;Acaulosporaceae;Acaulospora;Acaulospora laevis
+519;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Diversisporales;Diversisporaceae;Diversispora;Diversispora varaderana
+520;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Diversisporales;Gigasporaceae;Cetraspora;Cetraspora nodosa
+521;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Diversisporales;Gigasporaceae;Scutellospora;Scutellospora alterata
+522;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Glomerales;Claroideoglomeraceae;Claroideoglomus;Claroideoglomus claroideum
+523;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Glomerales;Glomeraceae;Funneliformis;Funneliformis mosseae
+524;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Glomerales;Glomeraceae;Glomus;Glomus invermaium
+525;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Glomerales;Glomeraceae;Glomus;Glomus sp. 9 SUN-2011
+526;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Glomerales;Glomeraceae;Rhizophagus;Rhizophagus intraradices
+527;root;Eukaryota;Fungi;Mucoromycota;Glomeromycetes;Paraglomerales;Paraglomeraceae;Paraglomus;Paraglomus brasilianum
+528;root;Eukaryota;Fungi;Mucoromycota;Mortierellomycetes;Mortierellales;Mortierellaceae;Dissophora;Dissophora decumbens
+529;root;Eukaryota;Fungi;Mucoromycota;Mortierellomycetes;Mortierellales;Mortierellaceae;Mortierella;Mortierella sp. MS-6
+530;root;Eukaryota;Fungi;Mucoromycota;Mucoromycetes;Mucorales;Cunninghamellaceae;Absidia;Absidia glauca
+531;root;Eukaryota;Fungi;Mucoromycota;Mucoromycetes;Mucorales;Cunninghamellaceae;Gongronella;Gongronella butleri
+532;root;Eukaryota;Fungi;Mucoromycota;Mucoromycetes;Mucorales;Cunninghamellaceae;Halteromyces;Halteromyces radiatus
+533;root;Eukaryota;Chromista;Myzozoa;Conoidasida;Eugregarinorida;Monocystidae;Monocystis;Monocystis agilis
+534;root;Eukaryota;Chromista;Myzozoa;Conoidasida;Neogregarinorida;Syncystidae;Syncystis;Syncystis mirabilis
+535;root;Eukaryota;Chromista;Myzozoa;Dinophyceae;Peridiniales;Peridiniaceae;Pentapharsodinium;Pentapharsodinium tyrrhenicum
+536;root;Eukaryota;Animalia;Nematoda;Chromadorea;Araeolaimida;Plectidae;Plectus;Plectus aquatilis
+537;root;Eukaryota;Animalia;Nematoda;Chromadorea;Desmodorida;Microlaimidae;Prodesmodora;Prodesmodora circulata
+538;root;Eukaryota;Animalia;Nematoda;Chromadorea;Diplogasterida;Diplogasteroididae;Diplogasteroides;Diplogasteroides magnus
+539;root;Eukaryota;Animalia;Nematoda;Chromadorea;Rhabditida;Cephalobidae;Acrobeles;Acrobeles sp.
+540;root;Eukaryota;Animalia;Nematoda;Chromadorea;Rhabditida;Cephalobidae;Cephalobus;Cephalobus persegnis
+541;root;Eukaryota;Animalia;Nematoda;Chromadorea;Rhabditida;Cephalobidae;Eucephalobus;Eucephalobus striatus
+542;root;Eukaryota;Animalia;Nematoda;Chromadorea;Rhabditida;Panagrolaimidae;Panagrolaimus;Panagrolaimus sp. PS443
+543;root;Eukaryota;Animalia;Nematoda;Chromadorea;Rhabditida;Rhabditidae;Mesorhabditis;Mesorhabditis sp. 334Meso1
+544;root;Eukaryota;Animalia;Nematoda;Chromadorea;Rhabditida;Teratocephalidae;Teratocephalus;Teratocephalus terrestris
+545;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Anguinidae;Ditylenchus;Ditylenchus dipsaci
+546;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Aphelenchidae;Aphelenchus;Aphelenchus avenae
+547;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Aphelenchidae;Seinura;Seinura demani
+548;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Aphelenchoididae;Aphelenchoides;Aphelenchoides sp. 2137
+549;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Hoplolaimidae;Helicotylenchus;Helicotylenchus varicaudatus
+550;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Hoplolaimidae;Rotylenchulus;Rotylenchulus borealis
+551;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Hoplolaimidae;Rotylenchulus;Rotylenchulus reniformis
+552;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Hoplolaimidae;Rotylenchus;Rotylenchus vitis
+553;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Meloidogynidae;Meloidogyne;Meloidogyne naasi
+554;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Merliniidae;Amplimerlinius;Amplimerlinius icarus
+555;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Merliniidae;Merlinius;Merlinius brevidens
+556;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Merliniidae;Merlinius;Merlinius cf. microdorus TSH-2005
+557;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Merliniidae;Merlinius;Merlinius joctus
+558;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Merliniidae;Pratylenchoides;Pratylenchoides ritteri
+559;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Tylenchidae;Tylenchus;Tylenchus arcuatus
+560;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Tylenchidae;Boleodorus;Boleodorus volutus
+561;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Tylenchidae;Neopsilenchus;Neopsilenchus magnidens
+562;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Tylenchulidae;Paratylenchus;Paratylenchus cf. neoamblicephalus
+563;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Tylenchulidae;Paratylenchus;Paratylenchus microdorus
+564;root;Eukaryota;Animalia;Nematoda;Chromadorea;Tylenchida;Tylenchulidae;Paratylenchus;Paratylenchus similis
+565;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Aporcelaimidae;Aporcelaimellus;Aporcelaimellus sp. 2010_050
+566;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Dorylaimidae;Mesodorylaimus;Mesodorylaimus cf. nigritulus AV-2005
+567;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Longidoridae;Longidorus;Longidorus raskii
+568;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Longidoridae;Longidorus;Longidorus vinearum
+569;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Longidoridae;Xiphinema;Xiphinema diversicaudatum
+570;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Nordiidae;Pungentus;Pungentus sp. PDL-2005
+571;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Nygolaimidae;Nygolaimus;Nygolaimus cf. brachyuris JH-2004
+572;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Qudsianematidae;Discolaimus;Discolaimus cf. major HHBM-2007a
+573;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Qudsianematidae;Prodorylaimus;Prodorylaimus sp. HHBM-2007a
+574;root;Eukaryota;Animalia;Nematoda;Enoplea;Dorylaimida;Tylencholaimidae;Tylencholaimus;Tylencholaimus sp. PDL-2005
+575;root;Eukaryota;Animalia;Nematoda;Enoplea;Enoplida;Alaimidae;Amphidelus;Amphidelus cf. pusillus 9 Mile 3-17 LP-02
+576;root;Eukaryota;Animalia;Nematoda;Enoplea;Enoplida;Oxystominidae;Bastiania;Bastiania gracilis
+577;root;Eukaryota;Animalia;Nematoda;Enoplea;Isolaimida;Isolaimiidae;Isolaimium;Isolaimium multistriatum
+578;root;Eukaryota;Animalia;Nematoda;Enoplea;Mermithida;Mermithidae;Romanomermis;Romanomermis sichuanensis
+579;root;Eukaryota;Animalia;Nematoda;Enoplea;Mononchida;Anatonchidae;Anatonchus;Anatonchus tridentatus
+580;root;Eukaryota;Animalia;Nematoda;Enoplea;Triplonchida;Prismatolaimidae;Prismatolaimus;Prismatolaimus cf. dolichurus JH-2004
+581;root;Prokaryota;Bacteria;Nitrospirae;Nitrospira;Nitrospirales;Nitrospiraceae;Nitrospira;Nitrospira marina
+582;root;Prokaryota;Bacteria;Nitrospirae;Nitrospira;Nitrospirales;Nitrospiraceae;Nitrospira;uncultured Nitrospira sp.
+583;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Ochromonas;Ochromonas sp. CCMP2761
+584;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella sp. 37G
+585;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella sp. CH3
+586;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella sp. SpiG
+587;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella vulgaris
+588;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Ochromonas;Ochromonas vasocystis
+589;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella lacusvadosi
+590;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella sp. 37G
+591;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Chromulinaceae;Spumella;Spumella sp. SpiG
+592;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Dinobryaceae;Epipyxis;Epipyxis pulchra
+593;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Oikomonadaceae;Oikomonas;Oikomonas sp. SA-2.1
+594;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Chromulinales;Paraphysomonadaceae;Paraphysomonas;Paraphysomonas sp. 22 JMS-2012
+595;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Hibberdiales;Hibberdiaceae;Hibberdia;Hibberdia magna
+596;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Ochromonadales;Ochromonadaceae;Poterioochromonas;Poterioochromonas malhamensis
+597;root;Eukaryota;Chromista;Ochrophyta;Chrysophyceae;Ochromonadales;Ochromonadaceae;Poterioochromonas;Poterioochromonas stipitata
+598;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Mischococcales;Botryochloridaceae;Botryochloris;Botryochloris sp. SiM-2003
+599;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Mischococcales;Botryochloridaceae;Chlorellidium;Chlorellidium tetrabotrys
+600;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Mischococcales;Mischococcaceae;Mischococcus;Mischococcus sphaerocephalus
+601;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Mischococcales;Pleurochloridaceae;Pleurochloris;Pleurochloris meiringensis
+602;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Mischococcales;Pleurochloridaceae;Pseudopleurochloris;Pseudopleurochloris antarctica
+603;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Rhizochloridales;Myxochloridaceae;Chlamydomyxa;Chlamydomyxa labyrinthuloides
+604;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Tribonematales;Heteropediaceae;Heterococcus;Heterococcus caespitosus
+605;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Tribonematales;Xanthonemataceae;Xanthonema;Xanthonema bristolianum
+606;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Tribonematales;Xanthonemataceae;Xanthonema;Xanthonema sp. 735
+607;root;Eukaryota;Chromista;Ochrophyta;Xanthophyceae;Vaucheriales;Vaucheriaceae;Vaucheria;Vaucheria terrestris
+608;root;Eukaryota;Fungi;Olpidiomyceta;Olpidiomycetes;Olpidiales;Olpidiaceae;Olpidium;Olpidium bornovanus
+609;root;Eukaryota;Fungi;Olpidiomyceta;Olpidiomycetes;Olpidiales;Olpidiaceae;Olpidium;Olpidium brassicae
+610;root;Eukaryota;Chromista;Oomycota;Hyphochytrea;Hyphochytriales;Hyphochytriaceae;Hyphochytrium;Hyphochytrium catenoides
+611;root;Eukaryota;Chromista;Oomycota;Peronosporea;Pythiales;Pythiaceae;Pythium;Pythium rostratifingens
+612;root;Eukaryota;Chromista;Oomycota;Peronosporea;Pythiales;Pythiaceae;Pythium;Pythium monospermum
+613;root;Prokaryota;Bacteria;Planctomycetes;Phycisphaerae;Phycisphaerales;Phycisphaeraceae;Phycisphaera;Phycisphaera mikurensis
+614;root;Prokaryota;Bacteria;Planctomycetes;Phycisphaerae;Tepidisphaerales;Tepidisphaeraceae;Tepidisphaera;Tepidisphaera mucosa
+615;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Gemmataceae;Gemmata;Gemmata obscuriglobus
+616;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Gemmataceae;Gemmata;Gemmata sp. Fl1-1
+617;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Gemmataceae;Gemmata;uncultured Gemmata sp.
+618;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Gemmataceae;Zavarzinella;uncultured Zavarzinella sp.
+619;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Isosphaeraceae;Isosphaera;uncultured Isosphaera sp.
+620;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Isosphaeraceae;Singulisphaera;Singulisphaera rosea
+621;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Isosphaeraceae;Singulisphaera;uncultured Singulisphaera sp.
+622;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Planctomycetaceae;Pirellula;Pirellula sp.
+623;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Planctomycetaceae;Pirellula;Pirellula staleyi
+624;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Planctomycetaceae;Pirellula;uncultured Pirellula sp.
+625;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Planctomycetaceae;Planctomyces;Planctomyces sp.
+626;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Planctomycetaceae;Planctomyces;uncultured Planctomyces sp.
+627;root;Prokaryota;Bacteria;Planctomycetes;Planctomycetia;Planctomycetales;Planctomycetaceae;Rhodopirellula;uncultured Rhodopirellula sp.
+628;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Caulobacter;Caulobacter fusiformis
+629;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Caulobacter;Caulobacter profundus
+630;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Caulobacter;uncultured Caulobacter sp.
+631;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;Phenylobacterium lituiforme
+632;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;Phenylobacterium sp. B6.10-61
+633;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;Phenylobacterium sp. enrichment culture clone LplF-80
+634;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;Phenylobacterium sp. URHA0004
+635;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;uncultured Phenylobacterium sp.
+636;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Woodsholea;uncultured Woodsholea sp.
+637;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Micropepsales;Micropepsaceae;Rhizomicrobium;Rhizomicrobium sp. URHE0053
+638;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Micropepsales;Micropepsaceae;Rhizomicrobium;uncultured Rhizomicrobium sp.
+639;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Aurantimonadaceae;Martelella;Martelella endophytica
+640;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Methylocapsa;uncultured Methylocapsa sp.
+641;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Methylocella;uncultured Methylocella sp.
+642;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Bradyrhizobium;Bradyrhizobium sp. Shinshu-th2
+643;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Bradyrhizobium;Bradyrhizobium sp. URHC0015
+644;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Bradyrhizobium;uncultured Bradyrhizobium sp.
+645;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Rhodopseudomonas;uncultured Rhodopseudomonas sp.
+646;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Variibacter;Variibacter gotjawalensis
+647;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Mycoplana;Mycoplana sp. HP12Q
+648;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Ochrobactrum;Ochrobactrum anthropi
+649;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Blastochloris;uncultured Blastochloris sp.
+650;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Devosia;Devosia sp. P-37
+651;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Hyphomicrobium;uncultured Hyphomicrobium sp.
+652;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Pedomicrobium;uncultured Pedomicrobium sp.
+653;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Prosthecomicrobium;uncultured Prosthecomicrobium sp.
+654;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Rhodomicrobium;uncultured Rhodomicrobium sp.
+655;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Rhodoplanes;Rhodoplanes sp. Z2-YC6860
+656;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Rhodoplanes;uncultured Rhodoplanes sp.
+657;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Methylobacteriaceae;Microvirga;uncultured Microvirga sp.
+658;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Methylocystaceae;Methylosinus;Methylosinus sporium
+659;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Methylocystaceae;Methylosinus;Methylosinus trichosporium
+660;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Methylocystaceae;Methylosinus;uncultured Methylosinus sp.
+661;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Phyllobacteriaceae;Aminobacter;uncultured Aminobacter sp.
+662;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Phyllobacteriaceae;Mesorhizobium;uncultured Mesorhizobium sp.
+663;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Phyllobacteriaceae;Nitratireductor;uncultured Nitratireductor sp.
+664;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Phyllobacteriaceae;Oricola;Oricola cellulosilytica
+665;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae;Rhizobium;uncultured Rhizobium sp.
+666;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhodobiaceae;Rhodobium;uncultured Rhodobium sp.
+667;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Roseiarcaceae;Roseiarcus;Roseiarcus fermentans
+668;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Pseudolabrys;uncultured Pseudolabrys sp.
+669;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Acetobacteraceae;Acidisphaera;uncultured Acidisphaera sp.
+670;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Acetobacteraceae;Rhodopila;Rhodopila globiformis
+671;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Acetobacteraceae;Stella;uncultured Stella sp.
+672;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Azospirillum;Azospirillum sp. T2-YC6788
+673;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Dechlorospirillum;Dechlorospirillum sp. SN1
+674;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Dongia;Dongia sp. CB 286422
+675;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Dongia;uncultured Dongia sp.
+676;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Skermanella;uncultured Skermanella sp.
+677;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Erythrobacteraceae;Altererythrobacter;Altererythrobacter buctense
+678;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Erythrobacteraceae;Altererythrobacter;Altererythrobacter sp. 100921-2
+679;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Erythrobacteraceae;Altererythrobacter;uncultured Altererythrobacter sp.
+680;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Erythrobacteraceae;Erythrobacter;uncultured Erythrobacter sp.
+681;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Novosphingobium;Novosphingobium sp.
+682;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Novosphingobium;uncultured Novosphingobium sp.
+683;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingobium;Sphingobium olei
+684;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingobium;uncultured Sphingobium sp.
+685;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas changbaiensis
+686;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas fennica
+687;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. 52NP12
+688;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. C0503
+689;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. DB-II-12
+690;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. LP105
+691;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. ML1
+692;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. NCCP-1295
+693;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;Sphingomonas sp. THG-DN7.10
+694;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;uncultured Sphingomonas sp.
+695;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingosinicella;Sphingosinicella sp. YJ22
+696;root;Prokaryota;Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingosinicella;uncultured Sphingosinicella sp.
+697;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Alcaligenaceae;Derxia;uncultured Derxia sp.
+698;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia;Burkholderia cepacia
+699;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia;uncultured Burkholderia sp.
+700;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Burkholderiaceae;Cupriavidus;uncultured Cupriavidus sp.
+701;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Burkholderiaceae;Paucimonas;Paucimonas lemoignei
+702;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Burkholderiaceae;Ralstonia;Ralstonia solanacearum
+703;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Burkholderiaceae;Ralstonia;Ralstonia sp. JOS55-1
+704;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Acidovorax;uncultured Acidovorax sp.
+705;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Caenimonas;Caenimonas sp. TSX9-5
+706;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Comamonas;uncultured Comamonas sp.
+707;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Curvibacter;uncultured Curvibacter sp.
+708;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Diaphorobacter;Diaphorobacter sp. NPG-14
+709;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Hydrogenophaga;uncultured Hydrogenophaga sp.
+710;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Pelomonas;Pelomonas sp. CR2
+711;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Pelomonas;Pelomonas sp. K89
+712;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Polaromonas;uncultured Polaromonas sp.
+713;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Comamonadaceae;Rhodoferax;uncultured Rhodoferax sp.
+714;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Oxalobacteraceae;Duganella;Duganella sp. 2M1lan
+715;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Oxalobacteraceae;Duganella;Duganella sp. JPPB B33
+716;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Oxalobacteraceae;Herbaspirillum;uncultured Herbaspirillum sp.
+717;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Oxalobacteraceae;Herminiimonas;uncultured Herminiimonas sp.
+718;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Oxalobacteraceae;Massilia;uncultured Massilia sp.
+719;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Hydrogenophilales;Hydrogenophilaceae;Thiobacillus;uncultured Thiobacillus sp.
+720;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Methylophilales;Methylophilaceae;Methylobacillus;uncultured Methylobacillus sp.
+721;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Methylophilales;Methylophilaceae;Methylophilus;uncultured Methylophilus sp.
+722;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Nitrosomonadales;Nitrosomonadaceae;Nitrosospira;uncultured Nitrosospira sp.
+723;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Rhodocyclales;Rhodocyclaceae;Denitratisoma;uncultured Denitratisoma sp.
+724;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Rhodocyclales;Rhodocyclaceae;Ferribacterium;uncultured Ferribacterium sp.
+725;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Rhodocyclales;Rhodocyclaceae;Georgfuchsia;Georgfuchsia toluolica
+726;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Rhodocyclales;Rhodocyclaceae;Georgfuchsia;uncultured Georgfuchsia sp.
+727;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Rhodocyclales;Rhodocyclaceae;Propionivibrio;uncultured Propionivibrio sp.
+728;root;Prokaryota;Bacteria;Proteobacteria;Betaproteobacteria;Rhodocyclales;Rhodocyclaceae;Sterolibacterium;uncultured Sterolibacterium sp.
+729;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Bdellovibrionales;Bacteriovoracaceae;Bacteriovorax;Bacteriovorax sp. PNEc1
+730;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Bdellovibrionales;Bdellovibrionaceae;Bdellovibrio;Bdellovibrio exovorus
+731;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Bdellovibrionales;Bdellovibrionaceae;Bdellovibrio;Bdellovibrio exovorus
+732;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Bdellovibrionales;Bdellovibrionaceae;Bdellovibrio;uncultured Bdellovibrio sp.
+733;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfobacterales;Desulfobulbaceae;Desulfotalea;uncultured Desulfotalea sp.
+734;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfovibrionales;Desulfovibrionaceae;Desulfovibrio;uncultured Desulfovibrio sp.
+735;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Desulfuromonadaceae;Desulfuromonas;uncultured Desulfuromonas sp.
+736;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Desulfuromonadaceae;Malonomonas;uncultured Malonomonas sp.
+737;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Desulfuromonadaceae;Pelobacter;uncultured Pelobacter sp.
+738;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Geobacteraceae;Geoalkalibacter;uncultured Geoalkalibacter sp.
+739;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Geobacteraceae;Geobacter;Geobacter anodireducens
+740;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Geobacteraceae;Geobacter;Geobacter sp. enrichment culture clone VanCtr1
+741;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Geobacteraceae;Geobacter;uncultured Geobacter sp.
+742;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Desulfuromonadales;Geobacteraceae;Geothermobacter;uncultured Geothermobacter sp.
+743;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Anaeromyxobacteraceae;Anaeromyxobacter;uncultured Anaeromyxobacter sp.
+744;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Archangiaceae;Cystobacter;uncultured Cystobacter sp.
+745;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Kofleriaceae;Haliangium;uncultured Haliangium sp.
+746;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Kofleriaceae;Kofleria;uncultured Kofleria sp.
+747;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Myxococcaceae;Aggregicoccus;Aggregicoccus edonensis
+748;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Nannocystaceae;Nannocystis;uncultured Nannocystis sp.
+749;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Phaselicystidaceae;Phaselicystis;uncultured Phaselicystis sp.
+750;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Polyangiaceae;Byssovorax;uncultured Byssovorax sp.
+751;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Polyangiaceae;Chondromyces;uncultured Chondromyces sp.
+752;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Polyangiaceae;Polyangium;uncultured Polyangium sp.
+753;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Polyangiaceae;Sorangium;Sorangium cellulosum
+754;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Vulgatibacteraceae;Vulgatibacter;Vulgatibacter incomptus
+755;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Syntrophobacterales;Syntrophaceae;Syntrophus;uncultured Syntrophus sp.
+756;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Syntrophobacterales;Syntrophobacteraceae;Desulfovirga;uncultured Desulfovirga sp.
+757;root;Prokaryota;Bacteria;Proteobacteria;Deltaproteobacteria;Syntrophobacterales;Syntrophobacteraceae;Syntrophobacter;uncultured Syntrophobacter sp.
+758;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Saccharophagus;uncultured Saccharophagus sp.
+759;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Halieaceae;Haliea;uncultured Haliea sp.
+760;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales;Chromatiaceae;Nitrosococcus;uncultured Nitrosococcus sp.
+761;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales;Ectothiorhodospiraceae;Thiohalospira;uncultured Thiohalospira sp.
+762;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales;Ectothiorhodospiraceae;Thiorhodospira;uncultured Thiorhodospira sp.
+763;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales;Legionellaceae;Legionella;Legionella lytica
+764;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales;Legionellaceae;Legionella;uncultured Legionella sp.
+765;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Nevskiales;Sinobacteraceae;Steroidobacter;uncultured Steroidobacter sp.
+766;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Moraxellaceae;Moraxella;Moraxella osloensis
+767;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;uncultured Pseudomonas sp.
+768;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Dokdonella;Dokdonella ginsengisoli
+769;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Dokdonella;uncultured Dokdonella sp.
+770;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Dyella;uncultured Dyella sp.
+771;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Rhodanobacter;Rhodanobacter sp. D47
+772;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Rudaea;Rudaea cellulosilytica
+773;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Rudaea;Rudaea sp. URHD0100
+774;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Arenimonas;Arenimonas daechungensis
+775;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Arenimonas;Arenimonas sp. HMF3017
+776;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Arenimonas;uncultured Arenimonas sp.
+777;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Luteimonas;Luteimonas aestuarii
+778;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Lysobacter;Lysobacter sp. MS6Y-8-7
+779;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Lysobacter;Lysobacter sp. RHLT3-4
+780;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Lysobacter;Lysobacter sp. YS-37
+781;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Lysobacter;uncultured Lysobacter sp.
+782;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Thermomonas;uncultured Thermomonas sp.
+783;root;Prokaryota;Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Xanthomonas;uncultured Xanthomonas sp.
+784;root;Prokaryota;Bacteria;Proteobacteria;Oligoflexia;Oligoflexales;Oligoflexaceae;Oligoflexus;Oligoflexus tunisiensis
+790;root;Eukaryota;Animalia;Rotifera;Bdelloidea;Adinetida;Adinetidae;Adineta;Adineta vaga
+791;root;Eukaryota;Animalia;Rotifera;Monogononta;Ploima;Brachionidae;Notholca;Notholca acuminata
+792;root;Eukaryota;Animalia;Rotifera;Monogononta;Ploima;Trichocercidae;Trichocerca;Trichocerca rattus
+793;root;Prokaryota;Bacteria;Spirochaetes;Spirochaetia;Leptospirales;Leptospiraceae;Turneriella;uncultured Turneriella sp.
+794;root;Eukaryota;Animalia;Tardigrada;Eutardigrada;Parachela;Hypsibiidae;Hypsibius;Hypsibius convergens
+795;root;Prokaryota;Archaea;Thaumarchaeota;NA;Cenarchaeales;Cenarchaeaceae;Cenarchaeum;Cenarchaeum symbiosum
+796;root;Prokaryota;Archaea;Thaumarchaeota;NA;Nitrosopumilales;Nitrosopumilaceae;Nitrosopumilus;uncultured Candidatus Nitrosopumilus sp.
+797;root;Prokaryota;Archaea;Thaumarchaeota;Nitrososphaeria;Nitrososphaerales;Nitrososphaeraceae;Nitrososphaera;Candidatus Nitrososphaera gargensis
+798;root;Prokaryota;Archaea;Thaumarchaeota;Nitrososphaeria;Nitrososphaerales;Nitrososphaeraceae;Nitrososphaera;uncultured Nitrososphaera sp.
+799;root;Eukaryota;Plantae;Tracheophyta;Pinopsida;Pinales;Pinaceae;Picea;Picea abies
+800;root;Prokaryota;Bacteria;Verrucomicrobia;Opitutae;Opitutales;Opitutaceae;Opitutus;uncultured Opitutus sp.
+801;root;Prokaryota;Bacteria;Verrucomicrobia;Spartobacteria;Chthoniobacterales;Chthoniobacteraceae;Chthoniobacter;Chthoniobacter flavus
+802;root;Prokaryota;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Verrucomicrobia subdivision 3;Pedosphaera;Pedosphaera parvula
+803;root;Prokaryota;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Verrucomicrobia subdivision 3;Pedosphaera;uncultured Pedosphaera sp.
+804;root;Prokaryota;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Verrucomicrobiaceae;Luteolibacter;uncultured Luteolibacter sp.
+805;root;Prokaryota;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Verrucomicrobiaceae;Prosthecobacter;uncultured Prosthecobacter sp.
+806;root;Prokaryota;Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Verrucomicrobiaceae;Verrucomicrobium;uncultured Verrucomicrobium sp.
+807;root;Eukaryota;Fungi;Zoopagomycota;Entomophthoromycetes;Entomophthorales;Ancylistaceae;Conidiobolus;Conidiobolus coronatus
+808;root;Eukaryota;Fungi;Zoopagomycota;Entomophthoromycetes;Entomophthorales;Ancylistaceae;Conidiobolus;Conidiobolus firmipilleus
+809;root;Eukaryota;Fungi;Zoopagomycota;Entomophthoromycetes;Entomophthorales;Ancylistaceae;Conidiobolus;Conidiobolus lamprauges
+810;root;Eukaryota;Fungi;Zoopagomycota;Zoopagomycetes;Zoopagales;Cochlonemataceae;Cochlonema;Cochlonema euryblastum
+811;root;Eukaryota;Fungi;Zoopagomycota;Zoopagomycetes;Zoopagales;Piptocephalidaceae;Kuzuhaea;Kuzuhaea moniliformis
+812;root;Eukaryota;Fungi;Zoopagomycota;Zoopagomycetes;Zoopagales;Piptocephalidaceae;Piptocephalis;Piptocephalis graefenhanii
+813;root;Eukaryota;Fungi;Zoopagomycota;Zoopagomycetes;Zoopagales;Piptocephalidaceae;Syncephalis;Syncephalis depressa
+814;root;Eukaryota;Fungi;Zoopagomycota;Zoopagomycetes;Zoopagales;Piptocephalidaceae;Syncephalis;Syncephalis fuscata
