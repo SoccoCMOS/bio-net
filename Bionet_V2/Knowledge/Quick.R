@@ -5,7 +5,7 @@ library(miscTools)
 ########### Knowledge graph ###################
 
 ###0. Taxonomy 
-names<-read.csv2("0.full_gbif_normalized_names.csv")
+names<-read.csv2("0.Completed_taxa_list.csv")
 names$occurrenceId<-1:dim(names)[1]
 
 taxo_levels<-c("kingdom","phylum","class","order","family","genus","species")
@@ -22,18 +22,18 @@ names_tree$pathString <- paste("root2",
                                sep = "/")
 
 ###1. Trophic properties
-troph<-read.csv2("1.full_interactions_list.csv")
+troph<-read.csv2("1.interactions_list.csv",stringsAsFactors = FALSE)
 
-###Add names to taxa
-nm=names[c("key","verbatimScientificName")]
-nm_cons=troph[c("consumer_gbif_key","consumer_name")]
-colnames(nm_cons)=c("key","verbatimScientificName")
-nm_res=troph[c("resource_gbif_key","resource_name")]
-colnames(nm_res)=c("key","verbatimScientificName")
-nm_troph=rbind(nm_cons,nm_res)
-
-###Check for conflictual associations
-key_names=unique(rbind(nm,nm_troph))
+# ###Add names to taxa
+# nm=names[c("key","verbatimScientificName")]
+# nm_cons=troph[c("consumer_gbif_key","consumer_name")]
+# colnames(nm_cons)=c("key","verbatimScientificName")
+# nm_res=troph[c("resource_gbif_key","resource_name")]
+# colnames(nm_res)=c("key","verbatimScientificName")
+# nm_troph=rbind(nm_cons,nm_res)
+# 
+# ###Check for conflictual associations
+key_names=names[c("key","verbatimScientificName")]
 
 ###2. µhabitat
 agg<-function(x){
@@ -211,7 +211,7 @@ Get_Name<-function(k){
 edf$consumer_name=lapply(edf$consumer,Get_Name)
 edf$resource_name=lapply(edf$resource,Get_Name)
 
-keys=as.integer(rownames(mhdf_agg))
+keys=as.character(rownames(mhdf_agg))
 habs=data.frame(mhdf_agg,row.names = keys)
 colnames(habs)=c("surf","subsurf","soil")
 habs$key=row.names(habs)
@@ -225,4 +225,4 @@ edf$cons_subsurf=habs[edf$consumer,2]
 edf$cons_soil=habs[edf$consumer,3]
 
 saveRDS(edf,"full_interactions")
-saveRDS(taxonomy,"knowl edge_graph")
+saveRDS(taxonomy,"knowledge_graph")
