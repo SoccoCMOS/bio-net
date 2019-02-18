@@ -1,12 +1,14 @@
 library(igraph)
 library(data.tree)
 library(miscTools)
+library(parallel)
 
 ########### Knowledge graph ###################
 
 ###0. Taxonomy 
-names<-read.csv2("0.Completed_taxa_list.csv")
+names<-read.csv2("0.taxonomy_augmented.csv")
 names$occurrenceId<-1:dim(names)[1]
+names$key=as.character(names$key)
 
 taxo_levels<-c("kingdom","phylum","class","order","family","genus","species")
 
@@ -21,8 +23,10 @@ names_tree$pathString <- paste("root2",
                                names$species,
                                sep = "/")
 
+names_tree$key=as.character(names_tree$key)
+
 ###1. Trophic properties
-troph<-read.csv2("1.interactions_list.csv",stringsAsFactors = FALSE)
+troph<-read.csv("1.prior_interactions.csv",stringsAsFactors = FALSE)
 
 # ###Add names to taxa
 # nm=names[c("key","verbatimScientificName")]
@@ -33,7 +37,7 @@ troph<-read.csv2("1.interactions_list.csv",stringsAsFactors = FALSE)
 # nm_troph=rbind(nm_cons,nm_res)
 # 
 # ###Check for conflictual associations
-key_names=names[c("key","verbatimScientificName")]
+key_names=names[c("key","verbatimScientificName","rank")]
 
 ###2. µhabitat
 agg<-function(x){
@@ -42,15 +46,16 @@ agg<-function(x){
   }else
     return(any(x))
 }
-micro_hab<-read.csv2("3.micro_hab.csv")
+micro_hab<-read.csv("3.prior_micro_hab.csv")
 micro_hab_merg<-unique(merge(key_names,micro_hab,by.x="verbatimScientificName",by.y="scientific_name","join"))
-micro_habit<-aggregate(micro_hab_merg[,c(1,3:5)],by=list(key=micro_hab_merg[,2]),FUN = agg)
+micro_habit<-aggregate(micro_hab_merg[,c(1,3:6)],by=list(key=micro_hab_merg[,2]),FUN = agg)
 
 ###3. Filling strict consumer and resource list
 get_out<-function(k,type="eats"){
   res=subset(troph,consumer_gbif_key==k & interaction_type==type)$resource_gbif_key
   return(res[!is.na(res)])
-}
+
+  }
 
 get_in<-function(k,type="eats"){
   res=subset(troph,resource_gbif_key==k & interaction_type==type)$consumer_gbif_key
@@ -93,21 +98,32 @@ UpMicroHab<-function(node){
   }  
 }
 
-mhdf=matrix(ncol = 3, nrow = 0)
-
+#mhdf=matrix(ncol = 3, nrow = 0)
 for(node in trav){
   node$microhab=UpMicroHab(node)
-  if(!is.null(node$key)) mhdf=insertRow(m=mhdf,r=nrow(mhdf)+1,v=node$microhab,rName = as.character(node$key))
+  # if(!is.null(node$key)){
+  #   #if(node$name=="Bacteria") print("here i am")
+  #   mhdf=insertRow(m=mhdf,r=nrow(mhdf)+1,v=node$microhab,rName = as.character(node$key))
+  # }
 }
 
 ###We update unknown microhabitats with info from closest parent
 taxonomy$Do(function(node){
   node$microhab=node$parent$microhab
-  if(!is.null(node$key)) mhdf<<-insertRow(mhdf,nrow(mhdf)+1,node$microhab,rName=as.character(node$key))},filterFun = function(x) all(x$microhab==c(0,0,0)),traversal = "pre-order")
+  #if(!is.null(node$key)) mhdf<<-insertRow(mhdf,nrow(mhdf)+1,node$microhab,rName=as.character(node$key))
+  },
+  filterFun = function(x) all(x$microhab==c(0,0,0)),traversal = "pre-order")
 
-mhdf_agg=rowsum(mhdf,row.names(mhdf))>0
+#mhdf_agg=rowsum(mhdf,row.names(mhdf))>0
+print(taxonomy,"key","microhab",limit=40)
 
-print(taxonomy,"key","microhab",limit=20)
+n=taxonomy$Get("name")
+k=as.character(taxonomy$Get("key"))
+habs=data.frame(t(taxonomy$Get("microhab")))
+colnames(habs)=c("surf","subsurf","soil")
+rownames(habs)<-1:nrow(habs)
+habs$verbatimScientificName=n
+habs$key=k
 
 ###6. Complete  trophic lists with info inherited from parents
 Complete_troph<-function(node){  
@@ -198,7 +214,9 @@ Generate_Edges<-function(nodes){
 edf=Generate_Edges(nodes)
 edf=unique(edf)
 
-Get_Name<-function(k){
+write.csv2(edf,"OUT.raw_augmented_edges.csv")  ### Backup before testing parallel computations
+
+Get_Name<-function(k,key_names){
   opt=subset(key_names,key==k)$verbatimScientificName
   # if(length(opt)>1){
   #   print(k)
@@ -208,21 +226,67 @@ Get_Name<-function(k){
   return(name)
 }
 
-edf$consumer_name=lapply(edf$consumer,Get_Name)
-edf$resource_name=lapply(edf$resource,Get_Name)
+Get_Rank<-function(k,key_names){
+  opt=subset(key_names,key==k)$rank
+  # if(length(opt)>1){
+  #   print(k)
+  #   print("Warning possible conflicting keys")
+  # }
+  rank=as.character(opt[1])
+  return(rank)
+}
 
-keys=as.character(rownames(mhdf_agg))
-habs=data.frame(mhdf_agg,row.names = keys)
-colnames(habs)=c("surf","subsurf","soil")
-habs$key=row.names(habs)
+install.packages("doParallel")
+install.packages("foreach")
+install.packages("iterators")
 
-edf$res_surf=habs[edf$resource,1]
-edf$res_subsurf=habs[edf$resource,2]
-edf$res_soil=habs[edf$resource,3]
+library(doParallel)
+numCores=detectCores()
+cl <- makeCluster(numCores, type='PSOCK')
+registerDoParallel(cl)
 
-edf$cons_surf=habs[edf$consumer,1]
-edf$cons_subsurf=habs[edf$consumer,2]
-edf$cons_soil=habs[edf$consumer,3]
+edf$consumer_name=parLapply(cl,edf$consumer,Get_Name,key_names)
+edf$resource_name=parLapply(cl,edf$resource,Get_Name,key_names)
 
-saveRDS(edf,"full_interactions")
-saveRDS(taxonomy,"knowledge_graph")
+edf$consumer_rank=parLapply(cl,edf$consumer,Get_Rank,key_names)
+edf$resource_rank=parLapply(cl,edf$resource,Get_Rank,key_names)
+
+# turn parallel processing off and run sequentially again:
+registerDoSEQ()
+
+### Save edge list without habitat filtering
+edf_str=apply(edf,2,as.character)
+write.csv2(edf_str,"Out.full_augmented_edge_nofilt.csv")
+
+# keys=as.character(rownames(mhdf_agg))
+# habs=data.frame(mhdf_agg,row.names = keys)
+# colnames(habs)=c("surf","subsurf","soil")
+# habs$key=row.names(habs)
+
+habs=habs[!is.na(habs$key),]
+rownames(habs)=habs$key
+edf$res_surf=as.numeric(habs[as.character(edf$resource),1])
+edf$res_subsurf=as.numeric(habs[as.character(edf$resource),2])
+edf$res_soil=as.numeric(habs[as.character(edf$resource),3])
+
+edf$cons_surf=as.numeric(habs[as.character(edf$consumer),1])
+edf$cons_subsurf=as.numeric(habs[as.character(edf$consumer),2])
+edf$cons_soil=as.numeric(habs[as.character(edf$consumer),3])
+
+saveRDS(edf,"full_interactions_habit")
+#saveRDS(taxonomy,"knowledge_graph")
+
+###Filter interactions by µhabitat
+install.packages("pracma")
+library(pracma)
+edf$cooccur=rowSums(as.matrix(edf[,c("res_surf","res_subsurf","res_soil")])*as.matrix(edf[,c("cons_surf","cons_subsurf","cons_soil")]))/3
+write.csv2(edf,"TrophParasInteractions.csv",row.names = FALSE, dec = ".")
+h=hist(edf$cooccur,4)
+
+######Check if some habitats are uknown
+nohb_res=data.frame(unique(subset(edf,is.na(res_surf))[c("resource","resource_name")]))
+nohb_cons=data.frame(unique(subset(edf,is.na(cons_surf))[c("consumer","consumer_name")]))
+
+colnames(nohb_cons)=colnames(nohb_res)=c("key","name")
+nohb=rbind(nohb_cons,nohb_res)
+
